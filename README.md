@@ -22,3 +22,17 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Data Structure
+
+```$xslt
+- Question[]
+-- ID
+-- Text
+
+- Party[]
+-- Name
+-- Response[]
+--- Question.ID
+--- Response
+```
