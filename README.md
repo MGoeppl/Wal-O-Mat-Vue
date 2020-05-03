@@ -36,3 +36,6 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 --- Question.ID
 --- Response
 ```
+
+### Translations
+https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-vue-app-with-vue-i18n

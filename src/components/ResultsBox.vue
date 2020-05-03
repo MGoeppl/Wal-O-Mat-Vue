@@ -40,7 +40,20 @@
 
 
                     </b-tab>
-                    <b-tab title="By Question" disabled><p>I'm Not Yet Done</p></b-tab>
+                    <b-tab title="By Question">
+                        <div v-for="question in questions" v-bind:key="question.q_id">
+                            <QuestionCard
+                                    :results="results"
+                                    :parties="parties"
+                                    :question="question"
+                                    :answers="answers"
+
+                            />
+                            <br>
+                            <!--                            REPLACE BR WITH PADDING-->
+                        </div>
+
+                    </b-tab>
                 </b-tabs>
             </div>
         </b-jumbotron>
@@ -49,9 +62,10 @@
 
 <script>
     import PartyCard from "@/components/PartyCard";
+    import QuestionCard from "@/components/QuestionCard";
     export default {
         name: "ResultsBox",
-        components: {PartyCard},
+        components: {QuestionCard, PartyCard},
         props:{
             results: Array,
             parties: Array,
