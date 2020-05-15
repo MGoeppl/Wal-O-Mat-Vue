@@ -4,7 +4,7 @@
             dismissible
             variant="warning"
 
-            v-if="results.filter(x=>x===null||x===undefined)!==[]"
+            v-if="results.filter(x=>undefined!==x).length!==results.length"
     >Some questions have been skipped, these shall be interpreted as neutral <hr> TODO: Change the behaviour to better interpret skips</b-alert>
 </template>
 

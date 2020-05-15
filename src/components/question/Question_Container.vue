@@ -67,7 +67,8 @@
             }
         },
         created(){
-            this.set_results_length(this.questions.length)
+            console.log(this.user_results.length)
+            if(this.user_results.length===0)this.set_results_length(this.questions.length)
         }
     }
 </script>
