@@ -13,6 +13,8 @@
 
                         :party="party"
                         :question="question"
+                        :answers="answers"
+                        :number2answer="userNumber2Agree"
                 />
             </b-list-group>
         </b-card>

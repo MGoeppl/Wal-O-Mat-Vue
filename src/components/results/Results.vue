@@ -1,5 +1,8 @@
 <template>
     <div id = jumbotron-results>
+        <User_Has_Skipped_Question_Alert :results="results"></User_Has_Skipped_Question_Alert>
+
+
         <b-jumbotron header="Results">
 
             <template v-slot:lead>
@@ -20,6 +23,7 @@
                                     :answers="answers"
 
                             />
+                            <br>
                         </div>
 
                         <br>
@@ -50,14 +54,20 @@
 <script>
     import Results_By_Question from "@/components/results/Results_By_Question";
     import Results_By_Party from "@/components/results/Results_By_Party";
+    import User_Has_Skipped_Question_Alert from "@/components/results/User_Has_Skipped_Question_Alert";
     export default {
         name: "Results",
-        components: {Results_By_Party, Results_By_Question},
+        components: {User_Has_Skipped_Question_Alert, Results_By_Party, Results_By_Question},
         props:{
             year_data: Object,
             answers: Array,
             results: Array,
             set_scene: Function
+        },
+        computed:{
+            stripped_results(){
+                return this.results.filter(x=>!(x===null||x===undefined))
+            }
         },
 
         methods:{

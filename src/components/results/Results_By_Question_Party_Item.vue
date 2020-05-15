@@ -5,8 +5,8 @@
             @click="visible = !visible"
             aria-controls="collapse-0"
     >
-        {{party.name}}
-        <br>
+        <h4>{{party.name}}</h4>
+        <i>{{partyNumber2Agree(party.answers[question.q_id].answer_level)}}</i>
 
         <b-collapse id="collapse-0" v-model="visible" class="mt-2">
             {{party.answers[question.q_id].answer}}
@@ -21,13 +21,19 @@
         name: "Results_By_Question_Party_Item",
         props:{
             party: Object,
-            question: Object
+            question: Object,
+            answers: Array,
         },
         data(){
             return{
                 visible: false
             }
         },
+        methods:{
+            partyNumber2Agree: function(number) {
+                return number===-1 ? "Disagree" : (number===0 ? "Neutral" : (number===1 ? "Agree" : "Error. Please report this to the dev"))
+            },
+        }
     }
 </script>
 

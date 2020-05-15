@@ -55,10 +55,6 @@
         data(){
             return {
                 year: this.getYear(),
-                //DEPRECATED
-                archive_override: false,
-                //DEPRECATED
-                show_results: false,
                 current_scene: "welcome",
                 user_results: [],
                 answers: [{val: -2, txt:"Strongly Disagree"}, {val:-1, txt:"Somewhat Disagree"}, {val:0, txt:"Neutral"}, {val:1, txt:"Somewhat Agree"}, {val:2, txt:"Strongly Agree"}],
@@ -66,13 +62,6 @@
         },
 
         methods:{
-            toggle_archive(){
-                this.archive_override=!this.toggle_archive
-                this.user_results=[]
-            },
-            toggle_results(){
-                this.show_results=!this.show_results
-            },
             set_results_length(i){
                 this.user_results=new Array(i)
             },
@@ -114,19 +103,6 @@
                     r[i] = Complete_Info[i].year
                 }
                 return r
-            },
-            is_hsw_in_past(){
-                let today = new Date()
-                let largest_date = new Date("2000-01-01")
-                for(let i = 0; i<Complete_Info.length;i++){
-                    //I'm pretty sure this particular bit of code doesn't scale well :S
-                    let list_date = new Date(Complete_Info[i].date)
-                    list_date.setDate(list_date.getDate() + 1)
-                    // console.log(list_date)
-                    if(list_date>largest_date)largest_date=list_date
-                }
-                // console.log(today>largest_date)
-                return today>largest_date
             }
         }
     }

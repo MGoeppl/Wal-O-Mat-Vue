@@ -4,6 +4,9 @@
         <b-jumbotron>
             <template slot="lead">
                 {{questions[index].question}}
+                <Question_Progress_Bar
+                    :user_results="user_results"
+                />
             </template>
 
             <hr class="my-4"/>
@@ -35,10 +38,11 @@
 </template>
 
 <script>
+    import Question_Progress_Bar from "@/components/question/Question_Progress_Bar";
     export default {
 
         name: "Question_Container",
-
+        components: {Question_Progress_Bar},
         props:{
             questions: Array,
             answers: Array,
