@@ -18,7 +18,7 @@
 
 <script>
     export default {
-        name: "QuestionCardPartyElement",
+        name: "Results_By_Question_Party_Item",
         props:{
             party: Object,
             question: Object

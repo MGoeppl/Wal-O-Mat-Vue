@@ -3,14 +3,15 @@
         <b-card no-body>
             <b-card-header>
                 <h3>{{party.name}}</h3>
-                <PartyProgressBar
-                    :party="party"
-                    :results="results"
-                    />
+                {{results}}
+                <Results_By_Party_Progress_Bar
+                        :party="party"
+                        :results="results"
+                />
 
             </b-card-header>
             <b-list-group>
-                <PartyQuestionElementVariant
+                <Result_By_Party_Question_Item
                         v-for="question in questions"
                         :key="question.q_id"
 
@@ -26,11 +27,11 @@
 </template>
 
 <script>
-    import PartyQuestionElementVariant from "@/components/PartyQuestionElementVariant";
-    import PartyProgressBar from "@/components/PartyProgressBar";
+    import Results_By_Party_Progress_Bar from "@/components/results/Results_By_Party_Progress_Bar";
+    import Result_By_Party_Question_Item from "@/components/results/Results_By_Party_Question_Item";
     export default {
-        name: "PartyCard",
-        components: {PartyProgressBar, PartyQuestionElementVariant},
+        name: "Results_By_Party",
+        components: {Result_By_Party_Question_Item, Results_By_Party_Progress_Bar},
         props:{
             party: Object,
             results: Array,

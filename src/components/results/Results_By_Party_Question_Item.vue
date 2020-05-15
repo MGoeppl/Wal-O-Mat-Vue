@@ -1,26 +1,26 @@
 <template>
-            <b-list-group-item
-                    :class="visible ? null : 'collapsed'"
-                    :aria-expanded="visible ? 'true' : 'false'"
-                    @click="visible = !visible"
-                    aria-controls="collapse-0"
-            >
-                {{question.question}} | {{partyNumber2Agree(party.answers[question.q_id].answer_level)}}
+    <b-list-group-item
+            :class="visible ? null : 'collapsed'"
+            :aria-expanded="visible ? 'true' : 'false'"
+            @click="visible = !visible"
+            aria-controls="collapse-0"
+    >
+        {{question.question}} | {{partyNumber2Agree(party.answers[question.q_id].answer_level)}}
 
-                <br>
+        <br>
 
-                <b-collapse id="collapse-0" v-model="visible" class="mt-2">
-                    You Selected: {{userNumber2Agree(result)}}
-                    <br>
-                    {{party.answers[question.q_id].answer}}
-                </b-collapse>
-            </b-list-group-item>
+        <b-collapse id="collapse-0" v-model="visible" class="mt-2">
+            You Selected: {{userNumber2Agree(result)}}
+            <br>
+            {{party.answers[question.q_id].answer}}
+        </b-collapse>
+    </b-list-group-item>
 
 </template>
 
 <script>
     export default {
-        name: "PartyQuestionElement",
+        name: "Result_By_Party_Question_Item",
         props:{
             question: Object,
             party: Object,
@@ -40,7 +40,7 @@
                 for(let i = 0; i<this.answers.length;i++){
                     if(this.answers[i].val===number) return this.answers[i].txt
                 }
-                return "Error"
+                return "No Answer"
             }
 
         }

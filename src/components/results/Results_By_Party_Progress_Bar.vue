@@ -8,7 +8,7 @@
 
 <script>
     export default {
-        name: "PartyProgressBar",
+        name: "Results_By_Party_Progress_Bar",
         props:{
             party: Object,
             results: Array
@@ -20,11 +20,11 @@
                 disagree: 0
             }
         },
-        // created: function(){
-        //     this.processResults(this.results)
-        // },
-        watch:{
-            results: function () {
+        created: function(){
+            this.process_results(this.results)
+        },
+        methods:{
+            process_results: function () {
                 this.agree=0
                 this.slightly_disagree=0
                 this.disagree=0
@@ -53,7 +53,7 @@
                     }
                 }
             }
-        }
+        },
     }
 </script>
 

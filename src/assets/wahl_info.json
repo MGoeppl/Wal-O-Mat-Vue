@@ -1,0 +1,99 @@
+
+[
+  {
+    "year": 2019,
+    "date": "2019-07-07",
+    "parties": [
+      {
+        "name": "The Party",
+        "website": "tp.com",
+        "answers": [
+          {
+            "q_id": 0,
+            "answer_level": 0,
+            "answer": "Bacon ipsum dolor amet swine drumstick shoulder kielbasa. Capicola pork chop prosciutto meatball. Porchetta pastrami shankle bacon pork belly. Ball tip alcatra sausage pancetta pork chop pork belly salami spare ribs landjaeger prosciutto turkey venison pig."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "Bacon ipsum dolor amet swine drumstick shoulder kielbasa. Capicola pork chop prosciutto meatball. Porchetta pastrami shankle bacon pork belly. Ball tip alcatra sausage pancetta pork chop pork belly salami spare ribs landjaeger prosciutto turkey venison pig."
+          },
+          {
+            "q_id": 2,
+            "answer_level": -1,
+            "answer": "Bacon ipsum dolor amet swine drumstick shoulder kielbasa. Capicola pork chop prosciutto meatball. Porchetta pastrami shankle bacon pork belly. Ball tip alcatra sausage pancetta pork chop pork belly salami spare ribs landjaeger prosciutto turkey venison pig."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 0,
+            "answer": "Bacon ipsum dolor amet swine drumstick shoulder kielbasa. Capicola pork chop prosciutto meatball. Porchetta pastrami shankle bacon pork belly. Ball tip alcatra sausage pancetta pork chop pork belly salami spare ribs landjaeger prosciutto turkey venison pig."
+          }
+        ]
+      },
+      {
+        "name": "The New Party",
+        "website": "TNP.com",
+        "answers": [
+          {
+            "q_id": 0,
+            "answer_level": 1,
+            "answer": "Here be an answer to the 0th question"
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "Here be an answer to the 1st question"
+          },
+          {
+            "q_id": 2,
+            "answer_level": -1,
+            "answer": "Here be an answer to the 2nd question"
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "Here be an answer to the 3rd question"
+          }
+        ]
+      }
+    ],
+    "questions":[
+      {"q_id": 0, "question":"This is my first Question"},
+      {"q_id": 1, "question":"This is my second question"},
+      {"q_id": 2, "question":"This is my third question"},
+      {"q_id": 3, "question":"This is my last question"}
+    ]
+  },
+  {
+    "year": 2018,
+    "date": "2018-02-02",
+    "parties": [
+      {
+        "name": "The Party of 2018",
+        "website": "tp.com",
+        "answers": [
+          {
+            "q_id": 0,
+            "answer_level": 0,
+            "answer": "2018"
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "Bacon ipsum dolor amet swine drumstick shoulder kielbasa. Capicola pork chop prosciutto meatball. Porchetta pastrami shankle bacon pork belly. Ball tip alcatra sausage pancetta pork chop pork belly salami spare ribs landjaeger prosciutto turkey venison pig."
+          },
+          {
+            "q_id": 2,
+            "answer_level": -1,
+            "answer": "Bacon ipsum dolor amet swine drumstick shoulder kielbasa. Capicola pork chop prosciutto meatball. Porchetta pastrami shankle bacon pork belly. Ball tip alcatra sausage pancetta pork chop pork belly salami spare ribs landjaeger prosciutto turkey venison pig."
+          }
+        ]
+      }
+    ],
+    "questions":[
+      {"q_id": 0, "question":"This is my first Question of 2018"},
+      {"q_id": 1, "question":"This is my second question of 2018"},
+      {"q_id": 2, "question":"This is my third question of 2018"}
+    ]
+  }
+]
