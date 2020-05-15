@@ -1,7 +1,9 @@
 <template>
-    <b-alert show variant="warning" v-if="archive_override">
-        <div id="DivBcAlertsCantBeClicked" @click="toggle_archive()">
-            You are viewing the archive of {{year}}. Click text to go back
+    <b-alert show dismissible variant="warning">
+        <div id="DivBcAlertsCantBeClicked">
+            You are viewing the archive of {{year}}. Refresh the page to select another year.
+            <hr>
+            TODO: Think about changing this to a click to trigger refresh (reset quiz)
         </div>
     </b-alert>
 </template>
@@ -10,9 +12,7 @@
     export default {
         name: "Archive_Banner",
         props:{
-            archive_override: Boolean,
-            toggle_archive: Function,
-            year: String,
+            year: Number,
 
         }
     }

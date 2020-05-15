@@ -8,9 +8,14 @@
                 :year_list="listOfAllYears()"
                 :set_scene="set_scene"
                 :year="year"
+                :get_date="get_date"
         />
 
+        <Archive_Banner
+            v-if="(current_scene==='question'||current_scene==='result')&&year!==getYear()"
 
+            :year="year"
+        />
         <Question_Container
                 v-if="current_scene==='question'"
 
@@ -19,10 +24,10 @@
                 :update_results="this.update_results"
                 :user_results="user_results"
                 :set_scene="set_scene"
+                :set_results_length="set_results_length"
         />
 
 
-        <!--        IF SHOW_RESULTS===TRUE-->
         <Results
                 v-if="current_scene==='result'"
 
@@ -41,10 +46,11 @@
     import Results from "@/components/results/Results";
     import Vue from "vue"
     import Welcome from "@/components/welcome/Welcome";
+    import Archive_Banner from "@/components/archive/Archive_Banner";
 
     export default {
         name: "Selector",
-        components: {Welcome, Results, Question_Container},
+        components: {Archive_Banner, Welcome, Results, Question_Container},
 
         data(){
             return {
@@ -67,6 +73,18 @@
             toggle_results(){
                 this.show_results=!this.show_results
             },
+            set_results_length(i){
+                this.user_results=new Array(i)
+            },
+            get_date(year){
+                for(const c in Complete_Info){
+                    console.log(Complete_Info[c])
+                    if(Complete_Info[c].year===year){
+                        return Complete_Info[c].date
+                    }
+                }
+                return null
+            },
             set_scene(scene){
                 this.current_scene=scene
             },
@@ -80,7 +98,7 @@
             },
             getYearData(year){
                 for(let i = 0; i<Complete_Info.length;i++){
-                    console.log(Complete_Info[i].year)
+                    // console.log(Complete_Info[i].year)
 
                     if(Complete_Info[i].year===year) return Complete_Info[i]
                 }
@@ -104,10 +122,10 @@
                     //I'm pretty sure this particular bit of code doesn't scale well :S
                     let list_date = new Date(Complete_Info[i].date)
                     list_date.setDate(list_date.getDate() + 1)
-                    console.log(list_date)
+                    // console.log(list_date)
                     if(list_date>largest_date)largest_date=list_date
                 }
-                console.log(today>largest_date)
+                // console.log(today>largest_date)
                 return today>largest_date
             }
         }

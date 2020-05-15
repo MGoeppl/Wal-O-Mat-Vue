@@ -32,7 +32,7 @@
                 for (let i = 0; i<this.results.length; i++){
                     let answer_level = this.party.answers[i].answer_level
                     let result_simplified = this.results[i]===0 ? 0 : (this.results[i]>0 ? 1 : -1)
-                    console.log("Answer: "+answer_level+" | Simplified: "+result_simplified)
+                    // console.log("Answer: "+answer_level+" | Simplified: "+result_simplified)
                     switch (Math.abs(answer_level-result_simplified)) {
                         case 0: {
                             this.agree++

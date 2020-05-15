@@ -1,5 +1,6 @@
 <template>
     <div class = "question-box-div">
+
         <b-jumbotron>
             <template slot="lead">
                 {{questions[index].question}}
@@ -44,6 +45,7 @@
             update_results: Function,
             user_results: Array,
             set_scene: Function,
+            set_results_length: Function,
         },
 
         data(){
@@ -59,6 +61,9 @@
             back: function(){
                 this.index--
             }
+        },
+        created(){
+            this.set_results_length(this.questions.length)
         }
     }
 </script>

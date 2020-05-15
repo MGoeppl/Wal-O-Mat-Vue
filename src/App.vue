@@ -45,7 +45,7 @@
       },
       getYearData(year){
         for(let i = 0; i<Complete_Info.length;i++){
-          console.log(Complete_Info[i].year)
+          // console.log(Complete_Info[i].year)
 
           if(Complete_Info[i].year===year) return Complete_Info[i]
         }

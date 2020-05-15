@@ -1,9 +1,9 @@
 <template>
     <div>
-        <b-nav tabs>
-            <b-nav-item disabled><b>Quiz</b></b-nav-item>
-            <b-nav-item disabled>Question: {{index}}</b-nav-item>
-        </b-nav>
+<!--        <b-nav tabs>-->
+<!--            <b-nav-item disabled><b>Quiz</b></b-nav-item>-->
+<!--            <b-nav-item disabled>Question: {{index}}</b-nav-item>-->
+<!--        </b-nav>-->
     </div>
 </template>
 
