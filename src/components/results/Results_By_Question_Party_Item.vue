@@ -5,8 +5,7 @@
             @click="visible = !visible"
             aria-controls="collapse-0"
     >
-        <h4>{{party.name}}</h4>
-        <i>{{partyNumber2Agree(party.answers[question.q_id].answer_level)}}</i>
+        <h6>{{partyNumber2Agree(party.answers[question.q_id].answer_level)}} | {{party.name}}</h6>
 
         <b-collapse id="collapse-0" v-model="visible" class="mt-2">
             {{party.answers[question.q_id].answer}}

@@ -5,13 +5,12 @@
             @click="visible = !visible"
             aria-controls="collapse-0"
     >
-        {{question.question}} | {{partyNumber2Agree(party.answers[question.q_id].answer_level)}}
-
-        <br>
+        <h6>{{partyNumber2Agree(party.answers[question.q_id].answer_level)}} | {{question.question}}</h6>
 
         <b-collapse id="collapse-0" v-model="visible" class="mt-2">
-            You Selected: {{userNumber2Agree(result)}}
-            <br>
+            <i>You Answered: {{userNumber2Agree(result)}}</i>
+            <hr class="my-4"/>
+
             {{party.answers[question.q_id].answer}}
         </b-collapse>
     </b-list-group-item>
