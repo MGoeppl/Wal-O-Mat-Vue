@@ -57,7 +57,13 @@
                 year: this.getYear(),
                 current_scene: "welcome",
                 user_results: [],
-                answers: [{val: -2, txt:"Strongly Disagree"}, {val:-1, txt:"Somewhat Disagree"}, {val:0, txt:"Neutral"}, {val:1, txt:"Somewhat Agree"}, {val:2, txt:"Strongly Agree"}],
+                answers: [
+                    // {val: -2, txt:"Strongly Disagree"},
+                    {val:-1, txt:"Disagree"},
+                    {val:0, txt:"Neutral"},
+                    {val:1, txt:"Agree"},
+                    // {val:2, txt:"Strongly Agree"}
+                ],
             }
         },
 
