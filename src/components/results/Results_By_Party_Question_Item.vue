@@ -9,18 +9,22 @@
 
         <div id = "title" class = "d-flex justify-content-left align-items-stretch align-content-stretch">
 
-            <div class = "flex-grow-1" style="text-align:justify">
+            <div class = "flex-grow-1" style="text-align:left">
                 <h5>{{question.question}}</h5>
             </div>
 
-            <div id = "badgesparty" style="text-align: right">
+            <div id = "badgesparty" style="text-align: center">
 
-                <b-badge v-if="party.answers[question.q_id].answer_level===-1" pill variant="danger">Party: Disagree</b-badge>
-                <b-badge v-if="party.answers[question.q_id].answer_level===0 || party.answers[question.q_id].answer_level===undefined" pill variant="warning">Party: Neutral</b-badge>
-                <b-badge v-if="party.answers[question.q_id].answer_level===1" pill variant="success">Party: Agree</b-badge>
+                <b-badge class="party" v-if="party.answers[question.q_id].answer_level===-1" pill variant="danger">Disagree</b-badge>
+                <b-badge class="party" v-if="party.answers[question.q_id].answer_level===0 || party.answers[question.q_id].answer_level===undefined" pill variant="warning">Neutral</b-badge>
+                <b-badge class="party" v-if="party.answers[question.q_id].answer_level===1" pill variant="success">Agree</b-badge>
 
+                <br v-if="!starred">
+                <b-badge v-if="starred" pill variant="info">🟊</b-badge>
                 <br v-if="starred">
-                <b-badge v-if="starred" pill variant="info">Important</b-badge>
+                <b-badge class="you" v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
+                <b-badge class="you" v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
+                <b-badge class="you" v-if="result===1" pill variant="success">You: Agree</b-badge>
             </div>
 
         </div>
@@ -28,9 +32,6 @@
 
             <div id = "badgesuser" >
 
-                <b-badge v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
-                <b-badge v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
-                <b-badge v-if="result===1" pill variant="success">You: Agree</b-badge>
             </div>
 
             <hr>
@@ -71,7 +72,15 @@
 </script>
 
 <style scoped>
+    .badge.you{
+        width: 100px;
+    }
+    .badge.party{
+         width: 65px;
+     }
+
     .badge{
-        margin-left: 15px;
+        margin-left: 3px;
+        margin-right: 3px;
     }
 </style>

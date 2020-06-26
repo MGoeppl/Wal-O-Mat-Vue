@@ -4,8 +4,13 @@
             dismissible
             variant="warning"
 
-            v-if="results.filter(x=>undefined!==x).length!==results.length"
-    >Some questions have been skipped, these shall be interpreted as neutral <hr> TODO: Change the behaviour to better interpret skips</b-alert>
+            v-if="results.filter(x=>undefined!==x).length!==results.length">
+
+
+        <h4 class="alert-heading">Skipped Answers</h4>
+        <hr>
+        Some questions have been skipped, these shall be interpreted as neutral
+    </b-alert>
 </template>
 
 <script>

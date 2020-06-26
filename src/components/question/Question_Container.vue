@@ -27,7 +27,7 @@
             <b-button v-if="index===0" disabled>Back</b-button>
             <b-button v-else @click="back">Back</b-button>
             <!--                Forward Button-->
-            <b-button v-if="questions.length-1===index" @click="set_scene('star')" >Submit</b-button>
+            <b-button v-if="questions.length-1===index" @click="set_scene('star')" >Continue</b-button>
             <b-button v-else @click="next">Next</b-button>
 
 
@@ -80,8 +80,9 @@
         margin-bottom: 15px;
     }
     .btn {
-        margin: 0 10px;
-        width: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100px;
     }
     .list-group-item:hover:not(.active) {
         background: lightgrey;

@@ -22,7 +22,7 @@
                         :starred="star_array[question.q_id]"
                 />
             </b-list-group>
-            <b-card-footer>For More Info Regarding the Party, you can visit {{party.website}}</b-card-footer>
+            <b-card-footer>For More Info Regarding the Party, you can visit <a v-bind:href="party.website">{{party.website}}</a></b-card-footer>
         </b-card>
     </div>
 </template>

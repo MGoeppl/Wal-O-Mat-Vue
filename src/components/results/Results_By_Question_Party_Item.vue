@@ -53,5 +53,8 @@
 </script>
 
 <style scoped>
-
+    .badge{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 </style>

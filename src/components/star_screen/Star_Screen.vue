@@ -4,7 +4,83 @@
             <template v-slot:lead>
                 Select the questions that you find important. These shall be weighed more heavily :)
             </template>
-            <hr>
+
+
+                <hr>
+            <b-alert
+                    show
+                    dismissible
+                    variant="warning"
+            >
+                This will be Removed Eventually, it's here for debugging
+                <hr>
+                Scoring Table normal:
+                <table border="0" cellspacing="0"><colgroup span="4" width="85"></colgroup>
+                    <tbody>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="left" height="17">&nbsp;</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">0</td>
+                        <td style="border: 1px solid #000000;" align="right">1</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="right" height="17">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">1</td>
+                        <td style="border: 1px solid #000000;" align="right">0</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="right" height="17">0</td>
+                        <td style="border: 1px solid #000000;" align="right">0</td>
+                        <td style="border: 1px solid #000000;" align="right">1</td>
+                        <td style="border: 1px solid #000000;" align="right">0</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="right" height="17">1</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">0</td>
+                        <td style="border: 1px solid #000000;" align="right">1</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>&nbsp;</p>
+
+                <!-- DivTable.com -->
+                <p>&nbsp;</p>
+
+                Scoring Table: Important
+                <table border="0" cellspacing="0"><colgroup span="4" width="85"></colgroup>
+                    <tbody>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="left" height="17">&nbsp;</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">0</td>
+                        <td style="border: 1px solid #000000;" align="right">1</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="right" height="17">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">2</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">2</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="right" height="17">0</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">2</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid #000000;" align="right" height="17">1</td>
+                        <td style="border: 1px solid #000000;" align="right">-2</td>
+                        <td style="border: 1px solid #000000;" align="right">-1</td>
+                        <td style="border: 1px solid #000000;" align="right">-2</td>
+                    </tr>
+                    </tbody>
+                </table>
+                <p>&nbsp;</p>
+
+            </b-alert>
+            <User_Has_Skipped_Question_Alert :results="results"/>
             <b-list-group>
                 <b-list-group-item
                         v-for="q in questions"
@@ -13,7 +89,7 @@
                         :class="[star_array[q.q_id]?'active':''] +' d-flex justify-content-between align-items-center'"
 
                 >
-                    {{q.question}}
+                    <div style="text-align: left"> {{q.question}}</div>
 
                     <b-badge v-if="results[q.q_id]===-1" pill variant="danger">Disagree</b-badge>
                     <b-badge v-if="results[q.q_id]===0 || results[q.q_id]===undefined" pill variant="warning">Neutral</b-badge>
@@ -24,14 +100,15 @@
             <hr>
 
             <b-button @click="set_scene('question')" >Back</b-button>
-            <b-button @click="set_scene('result')" >Results</b-button>
+            <b-button @click="set_scene('result')">Results</b-button>
 
         </b-jumbotron>
     </div>
 </template>
 <script>
+    import User_Has_Skipped_Question_Alert from "@/components/results/User_Has_Skipped_Question_Alert";
     export default {
-        components: {},
+        components: {User_Has_Skipped_Question_Alert},
 
         name: "Star_Screen",
         data() {
@@ -115,7 +192,8 @@
 
 <style scoped>
     .btn {
-        margin: 0 10px;
-        width: 75px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 100px;
     }
 </style>

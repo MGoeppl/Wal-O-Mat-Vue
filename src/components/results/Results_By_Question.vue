@@ -10,7 +10,7 @@
                     <b-badge v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
                     <b-badge v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
                     <b-badge v-if="result===1" pill variant="success">You: Agree</b-badge>
-                    <b-badge v-if="star_array[question.q_id]" pill variant="info">Important</b-badge>
+                    <b-badge v-if="star_array[question.q_id]" pill variant="info">🟊</b-badge>
                 </div>
             </b-card-header>
             <b-list-group>
@@ -53,5 +53,8 @@
 </script>
 
 <style scoped>
-
+    .badge{
+        margin-left: 3px;
+        margin-right: 3px;
+    }
 </style>

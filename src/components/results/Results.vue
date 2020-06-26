@@ -14,13 +14,15 @@
             </div>
             <hr class="my-4">
             <div id="Tabular">
-                <b-tabs content-class="mt-3">
+                <b-tabs content-class="mt-3" >
                     <b-tab title="By Party" active>
+
 
                         <b-alert show variant="info" dismissible>
                             <h4 class="alert-heading">Explanation (By Party)</h4>
                             <hr>
                             If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation.
+                            Oh and the star means the question was important for you
                         </b-alert>
 
 
@@ -41,6 +43,7 @@
                         <br>
                     </b-tab>
                     <b-tab title="By Question">
+
 
                         <b-alert show variant="info" dismissible>
                             <h4 class="alert-heading">Explanation (By Question)</h4>
@@ -120,7 +123,12 @@
                             user_response *= -1
                         }
                         if (user_response === 1) {
-                            l_points = 2*user_response
+                            if(party_response === 0){
+                                l_points=-1
+                            }
+                            else{
+                                l_points = 2*user_response
+                            }
                         }
                     }
                     else{
