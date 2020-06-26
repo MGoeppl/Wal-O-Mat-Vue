@@ -3,7 +3,7 @@
         <b-card no-body>
             <b-card-header>
                 <h3>{{party.name}}</h3>
-                {{results}}
+                <p id = "Debug">{{results}}</p>
                 <Results_By_Party_Progress_Bar
                         :party="party"
                         :results="results"
@@ -19,6 +19,7 @@
                         :party="party"
                         :result="results[question.q_id]"
                         :answers="answers"
+                        :starred="star_array[question.q_id]"
                 />
             </b-list-group>
             <b-card-footer>For More Info Regarding the Party, you can visit {{party.website}}</b-card-footer>
@@ -36,7 +37,8 @@
             party: Object,
             results: Array,
             questions: Array,
-            answers: Array
+            answers: Array,
+            star_array: Array
         }
     }
 </script>

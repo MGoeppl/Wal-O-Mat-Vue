@@ -1,11 +1,11 @@
 <template>
     <div class = "question-box-div">
 
-        <b-jumbotron>
+        <b-jumbotron header="Questions">
             <template slot="lead">
                 {{questions[index].question}}
                 <Question_Progress_Bar
-                    :user_results="user_results"
+                        :user_results="user_results"
                 />
             </template>
 
@@ -22,15 +22,17 @@
                 </b-list-group-item>
             </b-list-group>
 
-            {{user_results}}
-
+            <hr>
             <!--                Back Button -->
             <b-button v-if="index===0" disabled>Back</b-button>
             <b-button v-else @click="back">Back</b-button>
             <!--                Forward Button-->
-            <b-button v-if="questions.length-1===index" @click="set_scene('result')" >Submit</b-button>
+            <b-button v-if="questions.length-1===index" @click="set_scene('star')" >Submit</b-button>
             <b-button v-else @click="next">Next</b-button>
 
+
+
+            <p id = "debug">{{user_results}}</p>
 
         </b-jumbotron>
 

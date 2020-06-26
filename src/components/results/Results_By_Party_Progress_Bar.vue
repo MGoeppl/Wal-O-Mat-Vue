@@ -34,7 +34,7 @@
                 for (let i = 0; i<this.results.length; i++) {
                     let answer_level = this.party.answers[i].answer_level
                     let result = this.results[i]
-                    console.log("Answer: "+answer_level+" | Simplified: "+result)
+                    console.log(`Answer: ${answer_level}\nResult: ${result}\nDiff: ${Math.abs(answer_level-result)}`)
                     switch (Math.abs(answer_level-result)) {
                         case 0: {
                             this.agree++
