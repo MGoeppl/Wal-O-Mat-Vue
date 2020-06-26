@@ -3,14 +3,21 @@
         <b-card no-body>
             <b-card-header>
                 <h3>{{question.question}}</h3>
-                <i>You Answered: {{userNumber2Agree(results[question.q_id])}}</i>
 
+
+                <div id = "badges">
+
+                    <b-badge v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
+                    <b-badge v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
+                    <b-badge v-if="result===1" pill variant="success">You: Agree</b-badge>
+                    <b-badge v-if="star_array[question.q_id]" pill variant="info">Important</b-badge>
+                </div>
             </b-card-header>
             <b-list-group>
                 <Results_By_Question_Party_Item
                         v-for="party in parties"
                         :key="party.name"
-
+                        :starred = star_array[question.q_id]
                         :party="party"
                         :question="question"
                         :answers="answers"
@@ -31,7 +38,8 @@
             question: Object,
             parties: Array,
             results: Array,
-            answers: Array
+            answers: Array,
+            star_array: Array
         },
         methods:{
             userNumber2Agree: function(number) {

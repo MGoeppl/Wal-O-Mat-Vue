@@ -1,6 +1,6 @@
 <template>
     <div id = "Star">
-        <b-jumbotron header="Stars">
+        <b-jumbotron header="Important Questions">
             <template v-slot:lead>
                 Select the questions that you find important. These shall be weighed more heavily :)
             </template>

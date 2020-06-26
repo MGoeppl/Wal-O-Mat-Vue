@@ -1,23 +1,39 @@
 <template>
     <b-list-group-item
-            :class="visible ? null : 'collapsed'"
+            :class="visible ? '' : 'collapsed'"
             :aria-expanded="visible ? 'true' : 'false'"
             @click="visible = !visible"
             aria-controls="collapse-0"
     >
-        <h6 v-if="starred"><b>{{partyNumber2Agree(party.answers[question.q_id].answer_level)}} | {{question.question}}</b></h6>
-        <h6 v-else>{{partyNumber2Agree(party.answers[question.q_id].answer_level)}} | {{question.question}}</h6>
 
+
+        <div id = "title" class = "d-flex justify-content-left align-items-stretch align-content-stretch">
+
+            <div class = "flex-grow-1" style="text-align:justify">
+                <h5>{{question.question}}</h5>
+            </div>
+
+            <div id = "badgesparty" style="text-align: right">
+
+                <b-badge v-if="party.answers[question.q_id].answer_level===-1" pill variant="danger">Party: Disagree</b-badge>
+                <b-badge v-if="party.answers[question.q_id].answer_level===0 || party.answers[question.q_id].answer_level===undefined" pill variant="warning">Party: Neutral</b-badge>
+                <b-badge v-if="party.answers[question.q_id].answer_level===1" pill variant="success">Party: Agree</b-badge>
+
+                <br v-if="starred">
+                <b-badge v-if="starred" pill variant="info">Important</b-badge>
+            </div>
+
+        </div>
         <b-collapse id="collapse-0" v-model="visible" class="mt-2">
-<!--            <<i>You Answered: {{userNumber2Agree(result)}}</i>>-->
-            <b-badge v-if="starred" pill variant="info">Important</b-badge>
-<!--            <b-badge pill variant="warning">{{result}}You: {{userNumber2Agree(result)}}</b-badge>-->
 
-            <b-badge v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
-            <b-badge v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
-            <b-badge v-if="result===1" pill variant="success">You: Agree</b-badge>
-            <hr class="my-4"/>
+            <div id = "badgesuser" >
 
+                <b-badge v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
+                <b-badge v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
+                <b-badge v-if="result===1" pill variant="success">You: Agree</b-badge>
+            </div>
+
+            <hr>
             {{party.answers[question.q_id].answer}}
         </b-collapse>
     </b-list-group-item>
@@ -55,7 +71,7 @@
 </script>
 
 <style scoped>
-.badge{
-    margin: 5px 5px
-}
+    .badge{
+        margin-left: 15px;
+    }
 </style>
