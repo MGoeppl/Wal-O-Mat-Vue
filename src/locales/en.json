@@ -1,0 +1,59 @@
+{
+  "welcome":{
+    "title": "Wal-O-Mat",
+    "description": "to the Walomat! We can help you inform yourself regarding the upcoming university elections.",
+    "date": "The next university election shall take place on the {date}",
+    "dateunknown": "We don't know when the next university election is taking place :(",
+    "lang": "Change Language",
+    "archive": "Archived Years",
+    "postal": "You can also vote by post. Applications can be done here."
+  },
+  "questions":{
+    "title": "Questions",
+    "bar": "Answered"
+  },
+  "button": {
+    "back": "Back",
+    "start": "Start",
+    "next": "Next",
+    "done": "Done",
+    "show_results": "Results",
+    "change": "Change Answers"
+  },
+  "badge": {
+    "you": "You:",
+    "disagree": "Disagree",
+    "agree": "Agree",
+    "neutral": "Neutral"
+  },
+  "star":{
+    "title": "Important Questions",
+    "description": "Are particular important for you? Select them below and we will make sure they are counted extra.",
+    "algorithm": "If you are interested in the algorithm, please click here.",
+    "skip":{
+    "title": "Skipped Answers",
+    "text": "Some questions have been skipped, these shall be interpreted as neutral"
+    }
+  },
+  "results":{
+    "title": "Results",
+    "recommendation": "We believe that the party {party} is thes best choice for you! | We believe that the parties {party} are the best choice for you!",
+    "party_website": "For more info regarding {party}, you can visit {website}.",
+    "expanation":{
+      "party":{
+      "title": "Explanation (By Party)",
+      "text":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
+      },
+      "question":{
+        "title": "Explanation (By Question)",
+        "question":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you"
+      }
+
+    },
+    "archive":{
+      "todo":"todo"
+    }
+  }
+
+
+}

@@ -1,15 +1,10 @@
 <template>
-    <b-alert
-            show
-            dismissible
-            variant="warning"
-
+    <b-alert show dismissible variant="warning"
             v-if="results.filter(x=>undefined!==x).length!==results.length">
 
-
-        <h4 class="alert-heading">Skipped Answers</h4>
+        <h4 class="alert-heading">{{$t('star.skip.title')}}</h4>
         <hr>
-        Some questions have been skipped, these shall be interpreted as neutral
+        <p>{{$t('star.skip.text')}}</p>
     </b-alert>
 </template>
 

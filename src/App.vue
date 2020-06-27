@@ -35,7 +35,6 @@
     data(){
       return {
         year: this.getYear(),
-        answers: [{val: -2, txt:"Strongly Disagree"}, {val:-1, txt:"Somewhat Disagree"}, {val:0, txt:"Neutral"}, {val:1, txt:"Somewhat Agree"}, {val:2, txt:"Strongly Agree"}],
       }
     },
 
@@ -77,8 +76,5 @@
     color: #2c3e50;
     margin-top: 60px;
     background: lightblue;
-  }
-  .jumbotron{
-    /*background: lightskyblue;*/
   }
 </style>

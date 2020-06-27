@@ -1,0 +1,57 @@
+{
+  "welcome":{
+    "title": "Wal-O-Mat - Auch in Deutsch <3",
+    "description": "Hi, dat Ding ist so 'nen Wahl-O-Mat. Der tut Sachen empfehlen per Algorithmen, Cloud und KI (kein Blockchain leider)",
+    "date": "Die nächste Hochschulwahl ist am {date}",
+    "dateunknown": "Leider wissen wir nicht wann die nächste HSW ist :(",
+    "lang": "Sprache ändern",
+    "archive": "Archivierte Jahren",
+    "postal": "Man kann auch per Briefwahl wählen :)"
+  },
+  "questions":{
+    "title": "Fragen",
+    "bar": "Beantwortet"
+  },
+  "button": {
+    "back": "Zurück",
+    "start": "Start",
+    "next": "Weiter",
+    "done": "Fertig",
+    "show_results": "Resultate",
+    "change": "Antwort Ändern"
+  },
+  "badge": {
+    "you": "Du:",
+    "disagree": "Ablehnen",
+    "agree": "Zustimmen",
+    "neutral": "Neutral"
+  },
+  "star":{
+    "title": "Wichtige Fragen",
+    "description": "Ist eine Frage ganz wichtig für dich? Wähl es aus und es wird extra bewertet :).",
+    "algorithm": "Falls du Bock auf Algorithmen hast, kannst du hier klicken!.",
+    "skip": {
+      "title": "Skipped Answers",
+      "text": "Some questions have been skipped, these shall be interpreted as neutral"
+    }
+  },
+
+  "results": {
+    "title": "Resultate",
+    "recommendation": "Wir glauben, dass die Liste {party} die beste Wahl für dich ist! | Wir glauben, dass die Listen {party} die beste Wahl für dich sind!",
+    "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
+    "expanation": {
+      "party": {
+        "title": "Erklaerung (Liste)",
+        "text": "Langer Text der erklärt wie das ganze hier Funktioniert. Ich hab kein Bock und es ist 1 Uhr Morgens. Sorry"
+      },
+      "question": {
+        "title": "Erklaerung (Frage)",
+        "question": "Bla Bla Bla, siehe Explanation.Party "
+      }
+    }
+  },
+  "archive":{
+    "todo":"todo"
+  }
+}

@@ -1,8 +1,8 @@
 <template>
     <div id = "Star">
-        <b-jumbotron header="Important Questions">
+        <b-jumbotron v-bind:header="$t('star.title')">
             <template v-slot:lead>
-                Select the questions that you find important. These shall be weighed more heavily :)
+                {{$t('star.description')}}
             </template>
 
 

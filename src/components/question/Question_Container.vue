@@ -1,7 +1,6 @@
 <template>
     <div class = "question-box-div">
-
-        <b-jumbotron header="Questions">
+        <b-jumbotron v-bind:header="$t('questions.title')">
             <template slot="lead">
                 {{questions[index].question}}
                 <Question_Progress_Bar
@@ -24,11 +23,11 @@
 
             <hr>
             <!--                Back Button -->
-            <b-button v-if="index===0" disabled>Back</b-button>
-            <b-button v-else @click="back">Back</b-button>
+            <b-button v-if="index===0" disabled>{{$t('button.back')}}</b-button>
+            <b-button v-else @click="back">{{$t('button.back')}}</b-button>
             <!--                Forward Button-->
-            <b-button v-if="questions.length-1===index" @click="set_scene('star')" >Continue</b-button>
-            <b-button v-else @click="next">Next</b-button>
+            <b-button v-if="questions.length-1===index" @click="set_scene('star')" >{{$t('button.done')}}</b-button>
+            <b-button v-else @click="next">{{$t('button.next')}}</b-button>
 
 
 

@@ -7,6 +7,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import i18n from './i18n'
 
 library.add(faStar)
 
@@ -17,5 +18,6 @@ Vue.use(BootstrapVue)
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  i18n,
+  render: h => h(App)
 }).$mount('#app')

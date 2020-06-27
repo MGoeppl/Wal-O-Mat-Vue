@@ -87,7 +87,7 @@
       {"q_id": 0, "question":"This is my first Question. It is pretty short."},
       {"q_id": 1, "question":"This is my second question. My lack of creativity is showing"},
       {"q_id": 2, "question":"Turns out I need a third longer question to test formatting #smart"},
-      {"q_id": 3, "question":"This is my last question. I added another sentence to test out things that are even long, because formatting CSS is hard."}
+      {"q_id": 3, "question":"This is my last question. it should be even longer! So I added another sentence to test out things that are multiple lines long, because formatting CSS is hard."}
     ]
   },
   {
