@@ -111,12 +111,6 @@
         components: {User_Has_Skipped_Question_Alert},
 
         name: "Star_Screen",
-        data() {
-            return {
-                // filled: true
-                fields: ["question", "result", "star"]
-            }
-        },
         props: {
             results: Array,
             questions: Array,
@@ -131,10 +125,9 @@
                 this.flip_star(i)
             }
         },
-        created(){
-            this.set_star_array_length(this.questions.length)
-
-        }
+        // created(){
+        //     this.set_star_array_length(this.questions.length)
+        // }
     }
 </script>
 

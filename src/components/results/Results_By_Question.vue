@@ -6,10 +6,9 @@
 
 
                 <div id = "badges">
-
-                    <b-badge v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
-                    <b-badge v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
-                    <b-badge v-if="result===1" pill variant="success">You: Agree</b-badge>
+                    <b-badge v-if="results[question.q_id]===-1" pill variant="danger">You: Disagree</b-badge>
+                    <b-badge v-if="results[question.q_id]===0 || results[question.q_id]===undefined" pill variant="warning">You: Neutral</b-badge>
+                    <b-badge v-if="results[question.q_id]===1" pill variant="success">You: Agree</b-badge>
                     <b-badge v-if="star_array[question.q_id]" pill variant="info">🟊</b-badge>
                 </div>
             </b-card-header>
