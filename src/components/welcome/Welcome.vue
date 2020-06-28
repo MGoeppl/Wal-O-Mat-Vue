@@ -40,4 +40,9 @@
 </script>
 
 <style scoped>
+    .btn {
+        margin-left: 10px;
+        margin-right: 10px;
+        /*width: 100px;*/
+    }
 </style>
