@@ -22,7 +22,10 @@
                         :starred="star_array[question.q_id]"
                 />
             </b-list-group>
-            <b-card-footer>For More Info Regarding the Party, you can visit <a v-bind:href="party.website">{{party.website}}</a></b-card-footer>
+            <b-card-footer @click="goTo(party.website)">
+                {{$t('results.party_website', {party: party.name})}}
+<!--                For More Info Regarding the Party, you can visit <a v-bind:href="party.website" rel="noopener noreferrer" target="_blank">{{party.website}}</a>-->
+            </b-card-footer>
         </b-card>
     </div>
 </template>
@@ -39,10 +42,23 @@
             questions: Array,
             answers: Array,
             star_array: Array
+        },
+        methods:{
+            goTo(url){
+                // window.location.href=url
+                window.open(url, "_blank", "noreferrer noopener")
+            }
         }
     }
 </script>
 
 <style scoped>
+    .card-footer:hover:not(.active) {
+        background: lightgrey;
+        cursor: pointer;
+    }
 
+    .card{
+        margin: 1rem 1rem
+    }
 </style>

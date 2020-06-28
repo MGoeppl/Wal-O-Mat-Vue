@@ -57,4 +57,8 @@
         margin-left: 3px;
         margin-right: 3px;
     }
+    .list-group-item:hover:not(.active) {
+        background: lightgrey;
+        cursor: pointer;
+    }
 </style>

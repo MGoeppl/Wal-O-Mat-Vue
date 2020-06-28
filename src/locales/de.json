@@ -40,7 +40,7 @@
     "title": "Resultate",
     "recommendation": "Wir glauben, dass die Liste {party} die beste Wahl für dich ist! | Wir glauben, dass die Listen {party} die beste Wahl für dich sind!",
     "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
-    "expanation": {
+    "explanation": {
       "party": {
         "title": "Erklaerung (Liste)",
         "text": "Langer Text der erklärt wie das ganze hier Funktioniert. Ich hab kein Bock und es ist 1 Uhr Morgens. Sorry"

@@ -1,6 +1,8 @@
 <template>
     <div class = "question-box-div">
         <b-jumbotron v-bind:header="$t('questions.title')">
+
+
             <template slot="lead">
                 {{questions[index].question}}
                 <Question_Progress_Bar

@@ -20,7 +20,7 @@
                 <b-badge class="party" v-if="party.answers[question.q_id].answer_level===1" pill variant="success">Agree</b-badge>
 
                 <br v-if="!starred">
-                <b-badge v-if="starred" pill variant="info">🟊</b-badge>
+                <b-badge v-if="starred" pill variant="info">★</b-badge>
                 <br v-if="starred">
                 <b-badge class="you" v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
                 <b-badge class="you" v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
@@ -82,5 +82,9 @@
     .badge{
         margin-left: 3px;
         margin-right: 3px;
+    }
+    .list-group-item:hover:not(.active) {
+        background: lightgrey;
+        cursor: pointer;
     }
 </style>

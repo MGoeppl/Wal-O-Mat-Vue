@@ -1,7 +1,7 @@
 {
   "welcome":{
     "title": "Wal-O-Mat",
-    "description": "to the Walomat! We can help you inform yourself regarding the upcoming university elections.",
+    "description": "Welcome to the Walomat! We can help you inform yourself regarding the upcoming university elections.",
     "date": "The next university election shall take place on the {date}",
     "dateunknown": "We don't know when the next university election is taking place :(",
     "lang": "Change Language",
@@ -10,7 +10,11 @@
   },
   "questions":{
     "title": "Questions",
-    "bar": "Answered"
+    "bar":{
+      "answered": "Answered",
+      "unanswered": "Unanswered",
+      "weight": "Weighting"
+    }
   },
   "button": {
     "back": "Back",
@@ -18,7 +22,8 @@
     "next": "Next",
     "done": "Done",
     "show_results": "Results",
-    "change": "Change Answers"
+    "change_answers": "Change Answers",
+    "change_weight": "Change Weighting"
   },
   "badge": {
     "you": "You:",
@@ -37,16 +42,16 @@
   },
   "results":{
     "title": "Results",
-    "recommendation": "We believe that the party {party} is thes best choice for you! | We believe that the parties {party} are the best choice for you!",
-    "party_website": "For more info regarding {party}, you can visit {website}.",
-    "expanation":{
+    "recommendation": "We find that you have similar opinions to {party}! TODO: Check this string",
+    "party_website": "Tap here to go to {party}'s Website",
+    "explanation":{
       "party":{
       "title": "Explanation (By Party)",
       "text":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
       },
       "question":{
         "title": "Explanation (By Question)",
-        "question":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you"
+        "text":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you"
       }
 
     },

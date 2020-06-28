@@ -8,65 +8,54 @@
                 We Believe that {{partyArray(stripped_results, year_data.parties)[0].party}} is the best choice for you!
             </template>
 
-          <p id = "Debug">{{partyArray(stripped_results, year_data.parties)}}</p>
-            <div id="go_back">
-                <b-button @click="set_scene('question')">Change Answers</b-button>
+            <p id = "Debug">{{partyArray(stripped_results, year_data.parties)}}</p>
+            <div id=buttons>
+                <b-button @click="set_scene('question')">{{$t('button.change_answers')}}</b-button>
+                <b-button @click="set_scene('star')">{{$t('button.change_weight')}}</b-button>
             </div>
             <hr class="my-4">
-            <div id="Tabular">
-                <b-tabs content-class="mt-3" >
-                    <b-tab title="By Party" active>
+            <b-card no-body>
+                <div id="Tabular">
+                    <b-tabs content-class="mt-3" >
+                        <b-tab title="By Party" active>
+                            <b-alert show variant="info" dismissible>
+                                <h4 class="alert-heading">{{$t("results.explanation.party.title")}}</h4>
+                                <hr>
+                                {{$t("results.explanation.party.text")}}
+                            </b-alert>
+
+                            <div v-for="party in year_data.parties" v-bind:key="party.q_id">
+                                <Results_By_Party
+                                        :results="stripped_results"
+                                        :party="party"
+                                        :questions="year_data.questions"
+                                        :answers="answers"
+                                        :star_array="star_array"
+                                />
+                            </div>
+                        </b-tab>
+                        <b-tab title="By Question">
+                            <b-alert show variant="info" dismissible>
+                                <h4 class="alert-heading">
+                                    {{$t("results.explanation.question.title")}}</h4>
+                                <hr>
+                                {{$t("results.explanation.question.text")}}
+                            </b-alert>
 
 
-                        <b-alert show variant="info" dismissible>
-                            <h4 class="alert-heading">Explanation (By Party)</h4>
-                            <hr>
-                            If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation.
-                            Oh and the star means the question was important for you
-                        </b-alert>
+                            <div v-for="question in year_data.questions" v-bind:key="question.q_id">
+                                <Results_By_Question
+                                        :results="stripped_results"
+                                        :parties="year_data.parties"
+                                        :question="question"
+                                        :answers="answers"
+                                        :star_array="star_array"/>
+                            </div>
+                        </b-tab>
+                    </b-tabs>
+                </div>
 
-
-
-
-                        <br/>
-                        <div v-for="party in year_data.parties" v-bind:key="party.q_id">
-                            <Results_By_Party
-                                    :results="stripped_results"
-                                    :party="party"
-                                    :questions="year_data.questions"
-                                    :answers="answers"
-                                    :star_array="star_array"
-                            />
-                            <br>
-                        </div>
-
-                        <br>
-                    </b-tab>
-                    <b-tab title="By Question">
-
-
-                        <b-alert show variant="info" dismissible>
-                            <h4 class="alert-heading">Explanation (By Question)</h4>
-                            <hr>
-                            If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation.
-                        </b-alert>
-
-
-                        <div v-for="question in year_data.questions" v-bind:key="question.q_id">
-                            <Results_By_Question
-                                    :results="stripped_results"
-                                    :parties="year_data.parties"
-                                    :question="question"
-                                    :answers="answers"
-
-                                    :star_array="star_array"
-                            />
-                            <br>
-                        </div>
-
-                    </b-tab>
-                </b-tabs>
-            </div>
+            </b-card>
         </b-jumbotron>
     </div>
 </template>
@@ -74,6 +63,7 @@
 <script>
     import Results_By_Question from "@/components/results/Results_By_Question";
     import Results_By_Party from "@/components/results/Results_By_Party";
+
     export default {
         name: "Results",
         components: {Results_By_Party, Results_By_Question},
@@ -167,5 +157,12 @@
 </script>
 
 <style scoped>
-
+    .btn {
+        margin-left: 10px;
+        margin-right: 10px;
+        /*width: 100px;*/
+    }
+    .alert{
+        margin: 1rem 1rem
+    }
 </style>
