@@ -2,13 +2,16 @@
     <div id = jumbotron-results>
 
 
-        <b-jumbotron header="Results">
+        <b-jumbotron header="Results" header-level="3">
 
             <template v-slot:lead>
-                We Believe that {{partyArray(stripped_results, year_data.parties)[0].party}} is the best choice for you!
+
+                {{$t('results.recommendation', {party: party2string(partyArray(stripped_results, year_data.parties))})}}
+                <!--                We Believe that {{partyArray(stripped_results, year_data.parties)[0].party}} is the best choice for you!-->
             </template>
 
             <p id = "Debug">{{partyArray(stripped_results, year_data.parties)}}</p>
+            <p id = "Debug">{{year_data.party}}</p>
             <div id=buttons>
                 <b-button @click="set_scene('question')">{{$t('button.change_answers')}}</b-button>
                 <b-button @click="set_scene('star')">{{$t('button.change_weight')}}</b-button>
@@ -17,11 +20,11 @@
             <b-card no-body>
                 <div id="Tabular">
                     <b-tabs content-class="mt-3" >
-                        <b-tab title="By Party" active>
+                        <b-tab v-bind:title="$t('results.tab.party.title')" active>
                             <b-alert show variant="info" dismissible>
-                                <h4 class="alert-heading">{{$t("results.explanation.party.title")}}</h4>
+                                <h4 class="alert-heading">{{$t("results.tab.party.explanation_title")}}</h4>
                                 <hr>
-                                {{$t("results.explanation.party.text")}}
+                                {{$t("results.tab.party.explanation")}}
                             </b-alert>
 
                             <div v-for="party in year_data.parties" v-bind:key="party.q_id">
@@ -34,12 +37,12 @@
                                 />
                             </div>
                         </b-tab>
-                        <b-tab title="By Question">
+                        <b-tab v-bind:title="$t('results.tab.question.title')">
                             <b-alert show variant="info" dismissible>
                                 <h4 class="alert-heading">
-                                    {{$t("results.explanation.question.title")}}</h4>
+                                    {{$t("results.tab.question.explanation_title")}}</h4>
                                 <hr>
-                                {{$t("results.explanation.question.text")}}
+                                {{$t("results.tab.question.explanation")}}
                             </b-alert>
 
 
@@ -97,42 +100,54 @@
              */
             partyPoints: function(results, party){
                 let points = 0;
-
+                console.log(party.name)
+                console.log("[User, Party, Important, Points]")
                 for(let i = 0; i<results.length; i++){
                     let party_response = party.answers[i].answer_level;
                     let user_response = results[i];
                     let l_points = 0
+
                     if(this.star_array[i]) {
                         if (user_response === 0) {
-                            console.log("Neutral User Answer")
-                            if (party_response === 0) l_points = 2
-                            else l_points = -1
+                            //Neutral Important
+                            if(party_response===-1) l_points =  -1
+                            if(party_response=== 0) l_points =   0
+                            if(party_response=== 1) l_points =  -1
                         }
                         if (user_response === -1) {
-                            party_response *= -1
-                            user_response *= -1
+                            //Disagree Important
+                            if(party_response===-1) l_points =   2
+                            if(party_response=== 0) l_points =  -1
+                            if(party_response=== 1) l_points =  -2
                         }
                         if (user_response === 1) {
-                            if(party_response === 0){
-                                l_points=-1
-                            }
-                            else{
-                                l_points = 2*user_response
-                            }
+                            //Agree Important
+                            if(party_response===-1) l_points = -2
+                            if(party_response=== 0) l_points = -1
+                            if(party_response=== 1) l_points =  2
                         }
+                        console.log("["+user_response+","+party_response+","+true+","+l_points+"]")
                     }
                     else{
                         if(user_response === 0){
-                            console.log("Neutral User Answer")
-                            if(party_response === 0) l_points = 1
+                            //Neutral
+                            if(party_response===-1) l_points = 0
+                            if(party_response=== 0) l_points = 1
+                            if(party_response=== 1) l_points = 0
                         }
                         if(user_response === -1){
-                            party_response *= -1
-                            user_response  *= -1
+                            //Disagree
+                            if(party_response===-1) l_points =  1
+                            if(party_response=== 0) l_points =  0
+                            if(party_response=== 1) l_points = -1
                         }
                         if(user_response === 1){
-                            l_points = user_response
+                            //Agree
+                            if(party_response===-1) l_points =  -1
+                            if(party_response=== 0) l_points =   0
+                            if(party_response=== 1) l_points =   1
                         }
+                        console.log("["+user_response+","+party_response+","+false+","+l_points+"]")
                     }
 
 
@@ -152,6 +167,20 @@
                 }
                 return ret.sort(function(a, b){return b.points-a.points});
             },
+            party2string(party_array){
+                let returnString = party_array[0].party
+                for(let i = 1; i<party_array.length;i++){
+                    let prev = party_array[i-1].points
+                    let next = party_array[i].points
+                    if(!(prev===next)){
+                        break;
+                    }
+                    else{
+                        returnString+= (" & "+party_array[i].party)
+                    }
+                }
+                return returnString
+            }
         }
     }
 </script>

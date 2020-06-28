@@ -1,6 +1,6 @@
 <template>
     <div class = "question-box-div">
-        <b-jumbotron v-bind:header="$t('questions.title')">
+        <b-jumbotron header-level="4" v-bind:header="$t('questions.title')">
 
 
             <template slot="lead">

@@ -44,14 +44,16 @@
     "title": "Results",
     "recommendation": "We find that you have similar opinions to {party}! TODO: Check this string",
     "party_website": "Tap here to go to {party}'s Website",
-    "explanation":{
+    "tab":{
       "party":{
-      "title": "Explanation (By Party)",
-      "text":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
+        "title": "By Party",
+        "explanation_title": "Explanation (By Party)",
+      "explanation":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
       },
       "question":{
-        "title": "Explanation (By Question)",
-        "text":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you"
+        "explanation_title": "Explanation (By Question)",
+        "title": "By Question",
+        "explanation":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you"
       }
 
     },

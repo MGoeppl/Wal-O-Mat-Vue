@@ -1,6 +1,6 @@
 <template>
     <div id = "Star">
-        <b-jumbotron v-bind:header="$t('star.title')">
+        <b-jumbotron header-level="4" v-bind:header="$t('star.title')">
             <template v-slot:lead>
                 {{$t('star.description')}}
             </template>
@@ -99,8 +99,8 @@
 
             <hr>
 
-            <b-button @click="set_scene('question')" >Back</b-button>
-            <b-button @click="set_scene('result')">Results</b-button>
+            <b-button @click="set_scene('question')" >{{$t('button.back')}}</b-button>
+            <b-button @click="set_scene('result')">{{$t('button.show_results')}}</b-button>
 
         </b-jumbotron>
     </div>

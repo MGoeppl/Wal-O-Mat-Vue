@@ -18,7 +18,8 @@
     "next": "Weiter",
     "done": "Fertig",
     "show_results": "Resultate",
-    "change": "Antwort Ändern"
+    "change_answers": "Antwort Ändern",
+    "change_weight": "Gewichtung Ändern"
   },
   "badge": {
     "you": "Du:",
@@ -38,16 +39,18 @@
 
   "results": {
     "title": "Resultate",
-    "recommendation": "Wir glauben, dass die Liste {party} die beste Wahl für dich ist! | Wir glauben, dass die Listen {party} die beste Wahl für dich sind!",
+    "recommendation": "Wir glauben, dass die Liste {party} die beste Wahl für dich ist!",
     "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
-    "explanation": {
+    "tab": {
       "party": {
-        "title": "Erklaerung (Liste)",
-        "text": "Langer Text der erklärt wie das ganze hier Funktioniert. Ich hab kein Bock und es ist 1 Uhr Morgens. Sorry"
+        "title": "Nach Liste",
+        "explanation_title": "Erklaerung (Liste)",
+        "explanation": "Langer Text der erklärt wie das ganze hier Funktioniert. Ich hab kein Bock und es ist 1 Uhr Morgens. Sorry"
       },
       "question": {
-        "title": "Erklaerung (Frage)",
-        "question": "Bla Bla Bla, siehe Explanation.Party "
+        "title": "Nach Frage",
+        "explanation_title": "Erklaerung (Frage)",
+        "explanation": "Bla Bla Bla, siehe Explanation.Party "
       }
     }
   },
