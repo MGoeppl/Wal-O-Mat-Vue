@@ -1,19 +1,19 @@
 {
   "welcome":{
-    "title": "Wal-O-Mat - Auch in Deutsch <3",
-    "description": "Hi, dat Ding ist so 'nen Wahl-O-Mat. Der tut Sachen empfehlen per Algorithmen, Cloud und KI (kein Blockchain leider)",
+    "title": "Wal-O-Mat",
+    "description": "Herzlich Wilkommen beim Wal-O-Mat! Hier helfen wir Dir, Dich über die kommende Hochschulwahl zu informieren.",
     "date": "Die nächste Hochschulwahl ist am {date}",
     "dateunknown": "Leider wissen wir nicht wann die nächste HSW ist :(",
     "lang": "Sprache ändern",
     "archive": "Archive",
-    "postal": "Man kann auch per Briefwahl wählen :)"
+    "postal": "Es gibt die Möglichkeit per Briefwahl zu wählen. Infos dazu findest du hier."
   },
   "questions":{
     "title": "Fragen",
     "bar":{
       "answered": "Beantwortet",
       "unanswered": "Unbeantwortet",
-      "weight": "Gewichtung"
+      "weight": "Gewichtet"
     }
   },
   "button": {
@@ -21,40 +21,40 @@
     "start": "Start",
     "next": "Weiter",
     "done": "Fertig",
-    "show_results": "Resultate",
-    "change_answers": "Antwort Ändern",
-    "change_weight": "Gewichtung Ändern"
+    "show_results": "Ergebnisse",
+    "change_answers": "Antwort ändern",
+    "change_weight": "Gewichtung ändern"
   },
   "badge": {
-    "you": "Du",
+    "you": "Du:",
     "disagree": "Ablehnen",
     "agree": "Zustimmen",
     "neutral": "Neutral"
   },
   "star":{
     "title": "Wichtige Fragen",
-    "description": "Ist eine Frage ganz wichtig für dich? Wähl es aus und es wird extra bewertet :).",
-    "algorithm": "Falls du Bock auf Algorithmen hast, kannst du hier klicken!.",
+    "description": "Ist eine Frage besonders wichtig für Dich? Wähle sie aus und sie wird besonders beachtet.",
+    "algorithm": "Falls Dich der Algorithmus interessiert, kannst du hier klicken!.",
     "skip": {
-      "title": "Übersprungene Fragen",
-      "text": "Some questions have been skipped, these shall be interpreted as neutral"
+      "title": "Übersprungene Antworten",
+      "text": "Manche Fragen wurden übersprungen, die Antworten auf diese Fragen werden als neutral gewertet."
     }
   },
 
   "results": {
     "title": "Resultate",
-    "recommendation": "Wir glauben, dass die Liste {party} die beste Wahl für dich ist!",
+    "recommendation": "Du hast die höchste Übereinstimmung mit der Liste {party}!",
     "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
     "tab": {
       "party": {
         "title": "Nach Liste",
-        "explanation_title": "Erklaerung (Liste)",
-        "explanation": "Per Party, se what they answered. Also mention color coding --> Green Completely Agree, Yellow Slightly, Red strongly"
+        "explanation_title": "Begründung (sortiert nach Liste)",
+        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Ah, und der Stern bedeutet, dass diese Frage dir wichtig war."
       },
       "question": {
         "title": "Nach Frage",
-        "explanation_title": "Erklaerung (Frage)",
-        "explanation": "Per question, see what each party  "
+        "explanation_title": "Begründung (sortiert nach Frage)",
+        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Ah, und der Stern bedeutet, dass diese Frage dir wichtig war."
       }
     }
   },
