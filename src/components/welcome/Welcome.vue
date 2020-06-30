@@ -17,17 +17,21 @@
 
         <b-button v-if="year_list.includes(this.year)" @click="set_scene('question')">Start</b-button>
         <b-button v-else disabled>Start</b-button>
-        <Set_Year_Dropdown :set_year="set_year" :year_list="year_list"/>
 
+        <hr class="my-4"/>
+        <bottom-bar
+            :year_list="year_list"
+            :set_year="set_year"
+        />
     </b-jumbotron>
 </template>
 
 <script>
     import Flag from "@/components/welcome/Flag";
-    import Set_Year_Dropdown from "@/components/archive/Set_Year_Dropdown";
+    import BottomBar from "@/components/welcome/BottomBar";
     export default {
         name: "Welcome",
-        components: {Set_Year_Dropdown, Flag},
+        components: {BottomBar, Flag},
         props:{
             year_list: Array,
             set_year: Function,

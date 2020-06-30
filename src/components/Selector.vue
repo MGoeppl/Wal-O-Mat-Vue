@@ -54,7 +54,7 @@
 
 <script>
     import Question_Container from "@/components/question/Question_Container";
-    import Complete_Info from "@/assets/wahl_info.json";
+    import Complete_Info from "@/assets/wahl_de.json";
     import Results from "@/components/results/Results";
     import Vue from "vue"
     import Welcome from "@/components/welcome/Welcome";

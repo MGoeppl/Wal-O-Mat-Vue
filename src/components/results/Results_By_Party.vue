@@ -3,7 +3,7 @@
         <b-card no-body>
             <b-card-header>
                 <h3>{{party.name}}</h3>
-                <p id = "Debug">{{results}}</p>
+<!--                <p id = "Debug">{{results}}</p>-->
                 <Results_By_Party_Progress_Bar
                         :party="party"
                         :results="results"

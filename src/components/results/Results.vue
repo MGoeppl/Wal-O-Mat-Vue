@@ -10,8 +10,8 @@
                 <!--                We Believe that {{partyArray(stripped_results, year_data.parties)[0].party}} is the best choice for you!-->
             </template>
 
-            <p id = "Debug">{{partyArray(stripped_results, year_data.parties)}}</p>
-            <p id = "Debug">{{year_data.party}}</p>
+<!--            <p id = "Debug">{{partyArray(stripped_results, year_data.parties)}}</p>-->
+<!--            <p id = "Debug">{{year_data.party}}</p>-->
             <div id=buttons>
                 <b-button @click="set_scene('question')">{{$t('button.change_answers')}}</b-button>
                 <b-button @click="set_scene('star')">{{$t('button.change_weight')}}</b-button>

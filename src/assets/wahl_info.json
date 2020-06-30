@@ -97,6 +97,53 @@
         ]
       },
       {
+        "name": "RCDS-TUM",
+        "website": "rcds-tum.de",
+        "program": "rcds-bayern.de/tu-muenchen/hochschulwahl",
+        "answers":[
+          {
+            "q_id": 0,
+            "answer_level": 1,
+            "answer": "We want to give students the unique opportunity to improve and learn from possible mistakes on their first passed attempt. The willingness to deal with the module again should be rewarded."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "The maximum duration of studies should continue to be limited in order to keep degrees comparable within the meaning of the Bologna Agreement."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 1,
+            "answer": "A greater freedom of choice in the main study period (from the 4th semester) enables students to specialise more and to deepen their own interests. Thus, interdisciplinary courses of study can also be improved. Freedom of choice should remain restricted in the basic study period, as this is where the foundations for further education are laid."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "With growing student numbers and dwindling library space, it is absolutely essential to expand the number of places available for learning. Additional learning rooms for groups can be created at short notice."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "We remain committed to ensuring that studying at the TUM is free of tuition fees and thus possible for everyone."
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "The Student Council should continue to work only on student issues and not on general policy. The main task of the Student Council is and will remain the commitment to the interests of the students and the improvement of study conditions."
+          },
+          {
+            "q_id": 6,
+            "answer_level": 0,
+            "answer": "The RCDS-TUM is of the opinion that coordination with the university management is not generally necessary, but often makes sense in order to achieve common goals."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "It is important that students are informed about university policy issues. Only in this way can they be given the opportunity to participate constructively in the opinion-forming process."
+          }
+        ]
+      },
+      {
         "name": "Character Tester Party",
         "website": "https://www.ctp.de",
         "answers": [

@@ -33,7 +33,7 @@
 
 
 
-            <p id = "debug">{{user_results}}</p>
+<!--            <p id = "debug">{{user_results}}</p>-->
 
         </b-jumbotron>
 

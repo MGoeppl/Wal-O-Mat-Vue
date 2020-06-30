@@ -5,7 +5,7 @@
     "date": "Die nächste Hochschulwahl ist am {date}",
     "dateunknown": "Leider wissen wir nicht wann die nächste HSW ist :(",
     "lang": "Sprache ändern",
-    "archive": "Archivierte Jahren",
+    "archive": "Archive",
     "postal": "Man kann auch per Briefwahl wählen :)"
   },
   "questions":{
@@ -45,12 +45,12 @@
       "party": {
         "title": "Nach Liste",
         "explanation_title": "Erklaerung (Liste)",
-        "explanation": "Langer Text der erklärt wie das ganze hier Funktioniert. Ich hab kein Bock und es ist 1 Uhr Morgens. Sorry"
+        "explanation": "Per Party, se what they answered. Also mention color coding --> Green Completely Agree, Yellow Slightly, Red strongly"
       },
       "question": {
         "title": "Nach Frage",
         "explanation_title": "Erklaerung (Frage)",
-        "explanation": "Bla Bla Bla, siehe Explanation.Party "
+        "explanation": "Per question, see what each party  "
       }
     }
   },
