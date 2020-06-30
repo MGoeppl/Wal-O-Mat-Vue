@@ -19,3 +19,7 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+
+/src/assets/wahl_en.json
+/src/assets/wahl_de.json
