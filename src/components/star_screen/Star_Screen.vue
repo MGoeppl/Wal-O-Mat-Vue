@@ -4,82 +4,8 @@
             <template v-slot:lead>
                 {{$t('star.description')}}
             </template>
-
-
                 <hr>
-            <b-alert
-                    show
-                    dismissible
-                    variant="warning"
-            >
-                This will be Removed Eventually, it's here for debugging
-                <hr>
-                Scoring Table normal:
-                <table border="0" cellspacing="0"><colgroup span="4" width="85"></colgroup>
-                    <tbody>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="left" height="17">&nbsp;</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">0</td>
-                        <td style="border: 1px solid #000000;" align="right">1</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="right" height="17">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">1</td>
-                        <td style="border: 1px solid #000000;" align="right">0</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="right" height="17">0</td>
-                        <td style="border: 1px solid #000000;" align="right">0</td>
-                        <td style="border: 1px solid #000000;" align="right">1</td>
-                        <td style="border: 1px solid #000000;" align="right">0</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="right" height="17">1</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">0</td>
-                        <td style="border: 1px solid #000000;" align="right">1</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <p>&nbsp;</p>
 
-                <!-- DivTable.com -->
-                <p>&nbsp;</p>
-
-                Scoring Table: Important
-                <table border="0" cellspacing="0"><colgroup span="4" width="85"></colgroup>
-                    <tbody>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="left" height="17">&nbsp;</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">0</td>
-                        <td style="border: 1px solid #000000;" align="right">1</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="right" height="17">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">2</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">2</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="right" height="17">0</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">2</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                    </tr>
-                    <tr>
-                        <td style="border: 1px solid #000000;" align="right" height="17">1</td>
-                        <td style="border: 1px solid #000000;" align="right">-2</td>
-                        <td style="border: 1px solid #000000;" align="right">-1</td>
-                        <td style="border: 1px solid #000000;" align="right">-2</td>
-                    </tr>
-                    </tbody>
-                </table>
-                <p>&nbsp;</p>
-
-            </b-alert>
             <User_Has_Skipped_Question_Alert :results="results"/>
 
 

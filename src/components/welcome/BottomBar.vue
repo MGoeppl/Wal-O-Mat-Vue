@@ -8,7 +8,6 @@
 <!--                <b-col><Set_Year_Dropdown :set_year="set_year" :year_list="year_list"/></b-col>-->
 <!--            </b-row>-->
 <!--        </b-container>-->
-        <modal></modal>
     <b-button-group class="mx-1">
         <b-button @click="goTo('https://www.sv.tum.de/fp-sv/datenschutz/')">Datenschutz</b-button>
         <b-button @click="goTo('https://www.sv.tum.de/fp-sv/impressum/')">Impressum</b-button>
