@@ -20,7 +20,6 @@
                         :party="party"
                         :question="question"
                         :answers="answers"
-                        :number2answer="userNumber2Agree"
                 />
             </b-list-group>
         </b-card>
@@ -41,12 +40,20 @@
             star_array: Array
         },
         methods:{
-            userNumber2Agree: function(number) {
-                for(let i = 0; i<this.answers.length;i++){
-                    if(this.answers[i].val===number) return this.answers[i].txt
+            num2level(i){
+                switch (i) {
+                    case -1: return this.$t('badge.disagree')
+                    case 0: return this.$t('badge.neutral')
+                    case 1: return this.$t('badge.agree')
+                    default: return "Error"
                 }
-                return "No Answer"
-            }
+            },
+            // userNumber2Agree: function(number) {
+            //     for(let i = 0; i<this.answers.length;i++){
+            //         if(this.answers[i].val===number) return this.num2level(this.answers[i].val)
+            //     }
+            //     return "No Answer"
+            // }
         }
     }
 </script>

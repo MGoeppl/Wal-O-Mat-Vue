@@ -10,7 +10,11 @@
   },
   "questions":{
     "title": "Fragen",
-    "bar": "Beantwortet"
+    "bar":{
+      "answered": "Beantwortet",
+      "unanswered": "Unbeantwortet",
+      "weight": "Gewichtung"
+    }
   },
   "button": {
     "back": "Zurück",
@@ -22,7 +26,7 @@
     "change_weight": "Gewichtung Ändern"
   },
   "badge": {
-    "you": "Du:",
+    "you": "Du",
     "disagree": "Ablehnen",
     "agree": "Zustimmen",
     "neutral": "Neutral"
@@ -32,7 +36,7 @@
     "description": "Ist eine Frage ganz wichtig für dich? Wähl es aus und es wird extra bewertet :).",
     "algorithm": "Falls du Bock auf Algorithmen hast, kannst du hier klicken!.",
     "skip": {
-      "title": "Skipped Answers",
+      "title": "Übersprungene Fragen",
       "text": "Some questions have been skipped, these shall be interpreted as neutral"
     }
   },

@@ -14,12 +14,12 @@
             <b-list-group>
                 <b-list-group-item
                         v-for="answer in answers"
-                        :key="answer.val"
-                        @click="update_results(index, answer.val)"
-                        :class="[user_results[index]===answer.val?'active':'']"
+                        :key="answer"
+                        @click="update_results(index, answer)"
+                        :class="[user_results[index]===answer?'active':'']"
                 >
 
-                    {{answer.txt}}
+                    {{num2level(answer)}}
                 </b-list-group-item>
             </b-list-group>
 
@@ -62,6 +62,14 @@
         },
 
         methods:{
+            num2level(i){
+                switch (i) {
+                    case -1: return this.$t('badge.disagree')
+                    case 0: return this.$t('badge.neutral')
+                    case 1: return this.$t('badge.agree')
+                    default: return "Error"
+                }
+            },
             next: function(){
                 this.index++
             },

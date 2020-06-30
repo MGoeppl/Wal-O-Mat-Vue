@@ -12,8 +12,6 @@
     <b-button-group class="mx-1">
         <b-button v-b-modal.datenschutz>Datenschutz</b-button>
         <b-button v-b-modal.impressum>Impressum</b-button>
-
-        <datenschutz/>
         <Set_Year_Dropdown :set_year="set_year" :year_list="year_list"/>
     </b-button-group>
 

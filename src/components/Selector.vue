@@ -54,7 +54,7 @@
 
 <script>
     import Question_Container from "@/components/question/Question_Container";
-    import Complete_Info from "@/assets/wahl_de.json";
+    // import Complete_Info from "@/assets/wahl_de.json";
     import Results from "@/components/results/Results";
     import Vue from "vue"
     import Welcome from "@/components/welcome/Welcome";
@@ -64,18 +64,19 @@
     export default {
         name: "Selector",
         components: {Star_Screen, Archive_Banner, Welcome, Results, Question_Container},
-
+        props:{
+            Complete_Info: Array
+        },
         data(){
             return {
                 year: this.getYear(),
                 current_scene: "welcome",
                 user_results: [],
                 answers: [
-                    // {val: -2, txt:"Strongly Disagree"},
-                    {val:-1, txt:"Disagree"},
-                    {val:0, txt:"Neutral"},
-                    {val:1, txt:"Agree"},
-                    // {val:2, txt:"Strongly Agree"}
+                    -1,0,1
+                    // {val:-1, txt:"Disagree"},
+                    // {val:0, txt:"Neutral"},
+                    // {val:1, txt:"Agree"},
                 ],
                 star_array: [],
             }
@@ -95,10 +96,10 @@
                 }
             },
             get_date(year){
-                for(const c in Complete_Info){
-                    console.log(Complete_Info[c])
-                    if(Complete_Info[c].year===year){
-                        return Complete_Info[c].date
+                for(const c in this.Complete_Info){
+                    console.log(this.Complete_Info[c])
+                    if(this.Complete_Info[c].year===year){
+                        return this.Complete_Info[c].date
                     }
                 }
                 return null
@@ -118,10 +119,10 @@
                 return new Date().getFullYear()
             },
             getYearData(year){
-                for(let i = 0; i<Complete_Info.length;i++){
+                for(let i = 0; i<this.Complete_Info.length;i++){
                     // console.log(Complete_Info[i].year)
 
-                    if(Complete_Info[i].year===year) return Complete_Info[i]
+                    if(this.Complete_Info[i].year===year) return this.Complete_Info[i]
                 }
                 return null
             },
@@ -131,8 +132,8 @@
             },
             listOfAllYears(){
                 let r = []
-                for(let i = 0; i < Complete_Info.length; i++){
-                    r[i] = Complete_Info[i].year
+                for(let i = 0; i < this.Complete_Info.length; i++){
+                    r[i] = this.Complete_Info[i].year
                 }
                 return r
             }

@@ -26,7 +26,7 @@
     "change_weight": "Change Weighting"
   },
   "badge": {
-    "you": "You:",
+    "you": "You",
     "disagree": "Disagree",
     "agree": "Agree",
     "neutral": "Neutral"
@@ -36,8 +36,8 @@
     "description": "Are particular important for you? Select them below and we will make sure they are counted extra.",
     "algorithm": "If you are interested in the algorithm, please click here.",
     "skip":{
-    "title": "Skipped Answers",
-    "text": "Some questions have been skipped, these shall be interpreted as neutral"
+      "title": "Skipped Answers",
+      "text": "Some questions have been skipped, these shall be interpreted as neutral"
     }
   },
   "results":{
@@ -48,7 +48,7 @@
       "party":{
         "title": "By Party",
         "explanation_title": "Explanation (By Party)",
-      "explanation":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
+        "explanation":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
       },
       "question":{
         "explanation_title": "Explanation (By Question)",

@@ -22,9 +22,9 @@
                 <br v-if="!starred">
                 <b-badge v-if="starred" pill variant="info">★</b-badge>
                 <br v-if="starred">
-                <b-badge class="you" v-if="result===-1" pill variant="danger">You: Disagree</b-badge>
-                <b-badge class="you" v-if="result===0 || result===undefined" pill variant="warning">You: Neutral</b-badge>
-                <b-badge class="you" v-if="result===1" pill variant="success">You: Agree</b-badge>
+                <b-badge class="you" v-if="result===-1" pill variant="danger">{{$t('badge.you')}}: Disagree</b-badge>
+                <b-badge class="you" v-if="result===0 || result===undefined" pill variant="warning">{{$t('badge.you')}}: Neutral</b-badge>
+                <b-badge class="you" v-if="result===1" pill variant="success">{{$t('badge.you')}}: Agree</b-badge>
             </div>
 
         </div>
@@ -57,15 +57,23 @@
             }
         },
         methods:{
+            num2level(i){
+                switch (i) {
+                    case -1: return this.$t('badge.disagree')
+                    case 0: return this.$t('badge.neutral')
+                    case 1: return this.$t('badge.agree')
+                    default: return "Error"
+                }
+            },
             partyNumber2Agree: function(number) {
                 return number===-1 ? "Disagree" : (number===0 ? "Neutral" : (number===1 ? "Agree" : "Error. Please report this to the dev"))
             },
-            userNumber2Agree: function(number) {
-                for(let i = 0; i<this.answers.length;i++){
-                    if(this.answers[i].val===number) return this.answers[i].txt
-                }
-                return "No Answer"
-            }
+            // userNumber2Agree: function(number) {
+            //     for(let i = 0; i<this.answers.length;i++){
+            //         if(this.answers[i].val===number) return this.num2level(this.answers[i].val)
+            //     }
+            //     return "No Answer"
+            // }
 
         }
     }

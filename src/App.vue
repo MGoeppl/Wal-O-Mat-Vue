@@ -29,36 +29,16 @@
     components: {
       Selector,
       Header
-
-    },
-
-    data(){
-      return {
-        year: this.getYear(),
-      }
     },
 
     methods:{
-      getYear(){
-        return new Date().getFullYear()
-      },
-      getYearData(year){
-        for(let i = 0; i<Complete_Info.length;i++){
-          // console.log(Complete_Info[i].year)
-
-          if(Complete_Info[i].year===year) return Complete_Info[i]
+      getJSON(){
+        console.log("Locale: "+this.$i18n.locale)
+        switch(this.$i18n.locale){
+          case "de": return de
+          case "en": return en
+          default: return Complete_Info
         }
-        return null
-      },
-      setYear(i){
-        this.year=i
-      },
-      listOfAllYears(){
-        let r = []
-        for(let i = 0; i < Complete_Info.length; i++){
-          r[i] = Complete_Info[i].year
-        }
-        return r
       }
     }
   }

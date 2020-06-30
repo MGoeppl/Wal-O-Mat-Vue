@@ -2,7 +2,7 @@
     <div id = jumbotron-results>
 
 
-        <b-jumbotron header="Results" header-level="3">
+        <b-jumbotron v-bind:header="$t('results.title')" header-level="3">
 
             <template v-slot:lead>
 
