@@ -7,7 +7,7 @@
     <b-container>
       <b-row>
         <b-col md="6" offset-md="3">
-          <Selector></Selector>
+          <Selector :json="getJSON()"></Selector>
 
         </b-col>
       </b-row>
@@ -21,6 +21,8 @@
 
   import Header from "@/components/Header";
   import Complete_Info from "@/assets/wahl_info.json"
+  import de from "@/assets/wahl_de.json"
+  import en from "@/assets/wahl_en.json"
   import Selector from "@/components/Selector";
 
   export default {

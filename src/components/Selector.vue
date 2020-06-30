@@ -54,7 +54,6 @@
 
 <script>
     import Question_Container from "@/components/question/Question_Container";
-    // import Complete_Info from "@/assets/wahl_de.json";
     import Results from "@/components/results/Results";
     import Vue from "vue"
     import Welcome from "@/components/welcome/Welcome";
@@ -65,7 +64,7 @@
         name: "Selector",
         components: {Star_Screen, Archive_Banner, Welcome, Results, Question_Container},
         props:{
-            Complete_Info: Array
+            json: Array
         },
         data(){
             return {
@@ -74,9 +73,6 @@
                 user_results: [],
                 answers: [
                     -1,0,1
-                    // {val:-1, txt:"Disagree"},
-                    // {val:0, txt:"Neutral"},
-                    // {val:1, txt:"Agree"},
                 ],
                 star_array: [],
             }
@@ -96,10 +92,10 @@
                 }
             },
             get_date(year){
-                for(const c in this.Complete_Info){
-                    console.log(this.Complete_Info[c])
-                    if(this.Complete_Info[c].year===year){
-                        return this.Complete_Info[c].date
+                for(const c in this.json){
+                    console.log(this.json[c])
+                    if(this.json[c].year===year){
+                        return this.json[c].date
                     }
                 }
                 return null
@@ -119,10 +115,10 @@
                 return new Date().getFullYear()
             },
             getYearData(year){
-                for(let i = 0; i<this.Complete_Info.length;i++){
+                for(let i = 0; i<this.json.length; i++){
                     // console.log(Complete_Info[i].year)
 
-                    if(this.Complete_Info[i].year===year) return this.Complete_Info[i]
+                    if(this.json[i].year===year) return this.json[i]
                 }
                 return null
             },
@@ -132,8 +128,8 @@
             },
             listOfAllYears(){
                 let r = []
-                for(let i = 0; i < this.Complete_Info.length; i++){
-                    r[i] = this.Complete_Info[i].year
+                for(let i = 0; i < this.json.length; i++){
+                    r[i] = this.json[i].year
                 }
                 return r
             }
