@@ -134,7 +134,272 @@
             "answer": "We see the TUM here in the duty to provide access to information concerning financial and health aid programs, especially multilingual."
           }
         ]
+      },
+      {
+        "name": "Liste eurer Fachschaften (LitFaS)",
+        "website": "https://www.litfas.fs.tum.de/",
+        "program": "https://www.litfas.fs.tum.de/wahlprogramm/",
+        "answers":[
+          {
+            "q_id": 0,
+            "answer_level": 0,
+            "answer": "Having the possibility to repeat each exam to improve your grade, might open the door for diligence to play a greater role in students’ final grade. Should I repeat an exam five times to get a 1.0 at the end or do I perhaps not have the time or motivation and stick to my 3.3? Likewise, the comparability of the grades would no longer be a factor. It must therefore be ensured that all students have the same chances to achieve a good grade in an exam."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "The maximum duration of studies has already been extended so that every student can complete their studies during that time frame. For unforeseen circumstances or individual cases of particular hardship, plenty of options like a semester of leave or individual help through the examination board exist. The credit hurdles are thus a much more flexible solution than having a limited number of attempts for exams."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 0,
+            "answer": "All students should get to know the basics of their respective subject in their Bachelor's degree and also have the opportunity to deepen their knowledge in a specific field. However, this must be approached on a program- and faculty-specific basis, as not all courses and faculties can be covered by a general regulation."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "As long as the university chairs do not use the seminar rooms for research and teaching in any other way, they should be made available to students as study rooms. However, special attention must be paid to the appropriate use of the rooms. They should be used as study rooms, but not as a residence or party location."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "We are committed to ensuring that studying at TUM is possible for people from all social and economic backgrounds. Tuition fees are a big stumbling block in the path of many students, especially if they are first-time academics. We are also explicitly against tuition fees, which only one groupd of students has to pay. We firmly reject the often favored concept of tuition fees for EU foreigners."
+          },
+          {
+            "q_id": 5,
+            "answer_level": 1,
+            "answer": "The Student Representation represents the professional, economic and social interests, promotes intellectual, musical, cultural and sporting interests and cultivates the relationship between German and international students. The fields of the Student Representation’s work are stated in the BayHSchG(Bavaria Higher Education Law). The student representation should keep the option to speak out on any topic. However, whether the student representation speaks out must always be a topic-related decision and cannot be answered generally."
+          },
+          {
+            "q_id": 6,
+            "answer_level": -1,
+            "answer": "There are many topics and areas which the student representation can and should work on without the influence of the university management. In this case, there is no point in making agreements with the university management regarding a statement’s content. Especially if a stand is taken against the university management in a public statement, a consultation for publication can even be counterproductive. However, if the Student Representation develops and publishes positions together with the university management, an agreement is necessary and useful."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "The Student Representation regularily provides public information about its work in university policy. Further efforts in this direction are very welcome."
+          },
+          {
+            "q_id": 8,
+            "answer_level": -1,
+            "answer": "The Council of Student Representatives is a form of representative democracy. Due to the size of the TUM and the given structures, a student parliament would present a double structure to the elected student councils and compete with them. Therefore, we are against introducing a student parliament."
+          },
+          {
+            "q_id": 9,
+            "answer_level": 1,
+            "answer": "A constituted student body would make things easier. The original justification for the abolition in the 1970s 'to drain the left swamp at the universities' is flimsy. The democratically elected student councils do not have to represent the interests of the majority of the ruling parties in order to effectively work for the students."
+          },
+          {
+            "q_id": 10,
+            "answer_level": -1,
+            "answer": "The Student Representation comprises the entirety of the student councils, the Council of Student Representatives and the AStA. A reduction of their activities to these two big events and not the actual day-to-day business of the student representation is to be avoided. Nevertheless, promoting the cultural interests of students is one of the tasks of the student representation. The work in all areas of student representation is voluntary, which is why it is impossible to assign dedicated students to areas. Everyone is involved in the area that he/she enjoys"
+          },
+          {
+            "q_id": 11,
+            "answer_level": 1,
+            "answer": "Student representatives should be compensated in some way. Sometimes more than 40 hours per week are spent for work in the Senate or AStA, which serves the well-being of all students. However, whether this should be financial compensation or a relaxation of the credit hurdles is part of an ongoing discussion with the university management. The student representatives in North Rhine-Westphalia, for example, receive an expense allowance during their term of office in the amount of the BAföG full funding rate."
+          },
+          {
+            "q_id": 12,
+            "answer_level": 1,
+            "answer": "The student representation supports the goals of Fridays for Future without supporting any organization in particular. The goals of sustainability and climate protection are incredibly important and are pursued in the Student Representation by a separate environmental department. We also achieved the establishment of the Office for Sustainability at the TUM."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 1,
+            "answer": "Student assistants and tutors are students. Since the student representation, according to BayHSchG (Bavarian Higher Education Law), supports students in their economic interests (among other things) it is essential to listen to their concerns. Especially with the TUM as an employer, the student representation can make a meaningful contribution."
+          },
+          {
+            "q_id": 14,
+            "answer_level": 1,
+            "answer": "We welcome an expansion of the range of meals offered in university canteens."
+          },
+          {
+            "q_id": 15,
+            "answer_level": 1,
+            "answer": "We stand up for environmental protection and sustainability at TUM. Solar panels should be installed on all suitable buildings at TUM. However, it should not stop there, we must think further and more sustainable. The TUM campuses are growing steadily and we expect them to meet the demands of climate change and sustainability during this growth process."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 1,
+            "answer": "The TUM benefits enormously by providing the economy with the scientific findings. The money from the private sector enables more and deeper research, which would not be possible with state funding alone. However, we also want to make it clear that not every funder is a good sponsor. We therefore call for the introduction of rules for financing by industry. Particular attention should be paid to the transparent handling of financing."
+          },
+          {
+            "q_id": 17,
+            "answer_level": -1,
+            "answer": "Proctorio is not only an American company but is also strongly criticized as a means of examination surveillance because it encroaches on the fundamental right to inviolability of the home. There are some TUM internal tools that are more suitable for conducting an exam online. In addition, if students do not wish to take part in an online exam, for whatever reason, a simultaneous on-site exam must be offered for each exam offered online."
+          },
+          {
+            "q_id": 18,
+            "answer_level": -1,
+            "answer": "The only viable alternative for students who do not wish to take part in exams that are questionable from a data protection point of view is a simultaneous on-site exam. In any other solution, students have to weigh up their data protection concerns against ECTS and the progress of their studies, which cannot happen."
+          },
+          {
+            "q_id": 19,
+            "answer_level": 1,
+            "answer": "We should acknowledge the fact that lectures snd tutorials took place during the summer semester at TUM. This would not have been possible without the quick and easy solution Zoom has provided. Nevertheless, the TUM has to switch to self-hosted services as soon as possible in order to offer a more sensible alternative to Zoom in terms of data protection."
+          },
+          {
+            "q_id": 20,
+            "answer_level": -1,
+            "answer": "TUM should switch to self-hosted services as soon as possible. This is especially important in order to not exclude students with privacy concerns regarding Zoom from attending classes for another semester."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 0,
+            "answer": "We understand the question as follows: The lecturer decides whether the lecture or the internship takes place exclusively online. The students then only have the possibility to participate online or not. There are big differences between practical courses and lectures. In most cases, practical courses require some form of classroom teaching and it is difficult to teach them online. However, even before Corona there were lectures that took place completely online and a didactically meaningful concept was developed for them. Of course this should be allowed to continue to exist! Likewise, recordings of classroom teaching should continue to be enabled and supported."
+          },
+          {
+            "q_id": 22,
+            "answer_level": 1,
+            "answer": "We understand the question as follows: The lecturer decides if the exam is digital. The students then only have the possibility to participate digitally or to not particpiate at all. We think that digital exams have potential and can expand the teaching portfolio. However, we explicitly demand that exams are not monitored with Proctorio or a similar video system for the detection of cheating. Depending on the format, a digital exam can be useful or not. Programming tasks and multiple choice exams can probably be depicted very well, some other formats are easier to handle in presence."
+          },
+          {
+            "q_id": 23,
+            "answer_level": -1,
+            "answer": "We understand the question as follows: In the future, every university election will automatically be carried out in such a way that every eligible voter will automatically receive election documents by mail, only on application can the election be held on site. We consider an election in attendance with the option of a postal vote to be the right solution for the coming years. If students are on site, it is much easier to draw attention to the election. The postal vote is also not an adequate means to increase the voter turnout."
+          },
+          {
+            "q_id": 24,
+            "answer_level": 1,
+            "answer": "As a university, TUM has a responsibility towards its students. Since the federal government's help for students who got into an emergency situation through Corona is not adequate, it is now up to TUM to fill this gap. An emergency fund sponsored by the TUM Foundation would be an example of how TUM could help students in need."
+          }
+        ]
+      },
+      {
+        "name": "UPTUM",
+        "website": "https://www.instagram.com/uptum2020/",
+        "program": "tbd",
+        "answers":[
+          {
+            "q_id": 0,
+            "answer_level": 1,
+            "answer": "Since the duration of study at TUM is limited in any case, we do not see the problem that students need longer to study. On the contrary, it gives you the opportunity to use your time sensibly for areas that you have not yet internalized well and thus not only achieve better examination results, but also a better understanding of the subject. In addition, many students are currently crossing out their exams if they feel that things are not going well. This slows down their progress and also increases the number of exam registrations. So nobody actually wins."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "Credit hurdles have also other effects (in contrast to a maximum study duration). First of all, credit hurdles act as motivation throughout the entire degree and thus effectively prevent an bad awakening in the last semester. Also it is easier to detect problematic cases at an early stage and support them with advice. Especially in courses with a high number of students, lifting the credit hurdles would lead to tighter admission criteria."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 0,
+            "answer": "This question can hardly be answered comprehensively in general. On the one hand, greater freedom of choice is certainly desirable in some places, on the other hand, the technical depth and quality of basic training, which is a Bachelor in many cases, should not be restricted by too many options. It is also very important how interdisciplinary the bachelor should be and where the focus is. The consecutive Masters should definitely still be able to be successfully studied with the training in the Bachelor. But it would also be good to see that excellence has more than one facet."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "Many seminar rooms at TUM are used only sporadically and are empty for most of the day. The use of such spaces as learning spaces would equalize the lack of space at TUM. However, many chairs are very cautious at this point because they see the state of the public learning rooms (littering, vandalism) and would like to avoid such situations on their premises."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "Tuition fees, in particular for students from low-income households, represent an additional burden on the cost of studying. In our view, universities in Germany should not be financed by their students.Education should be provided free of charge for equal opportunities and equitable distribution of resources."
+          },
+          {
+            "q_id": 5,
+            "answer_level": 1,
+            "answer": "In the course of the '68 movement, the student representative bodies in Bavaria were deprived of their general political mandate, as well as that of a constituted student body.Whether you want to or should position yourself as a student representative in general politics depends heavily on the topic. However, it is worrying that this right is no longer granted. Rights shouldn't be privileges. Furthermore, this right exists in all other federal states. Therefore, we demand this right for general political statements back, but not to make regular or excessive use of it."
+          },
+          {
+            "q_id": 6,
+            "answer_level": -1,
+            "answer": "The student representation is committed to the interests of students at TUM, which in many places requires close cooperation with the university board. Nevertheless, the student representation can and must be able to express its opinion freely and without consultation with the Presidium in order to perform its tasks appropriately and to represent the students without external interference."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "The student representatives already communicate their work in many places and on many topics relevant to all students. Just think of the semester ticket or the students' houses. As work in some university committees (such as the Senate) is not public, it is often difficult to communicate specific content here. Nevertheless, information about their own work should be provided in as many places as possible as transparently as possible. Unfortunately, in some cases, even the internal communication is not good enough. Transparency and communication are the most important premises of political representation."
+          },
+          {
+            "q_id": 8,
+            "answer_level": -1,
+            "answer": "A topic-related and solution-oriented work is really important, especially in university politics. Most of the changes that have been initiated will not go into effect until two years later, which makes communication and collaboration so essential. A directly elected parliament would certainly be desirable in terms of democratic theory, but approaches to university policy issues are not incredibly heterogeneous, since it is often very clear that something like a StudiTUM house, for example, or the semester ticket is a good thing for most students. However, a direct election through lists would lead to factions and a kind of party politics, which leads to less substantive work. In addition, the student council has created an indirectly elected parliament, which through the participation of all student councils ensures that every faculty and every location is well represented."
+          },
+          {
+            "q_id": 9,
+            "answer_level": 1,
+            "answer": "In the course of the '68 movement, the student representative bodies in Bavaria were deprived of their general political mandate, as well as that of a constituted student body. The constituted student body makes you legally a lot more independent, since a student representation is legally located in the organizational chart under the University Presidium. This reinforces the already existing David against Goliath position, especially when it comes, for example, to the expenses of the study grants, which are actually earmarked and should serve to improve teaching. TUM has enough money not to pay for construction work from this pot. Rights should not be privileges, which is why it would be important to reintroduce the constituted student body. Above all, to emancipate yourself from the university board and to be able to represent the students independently. There are also constituted student bodies in all other federal states of Germany."
+          },
+          {
+            "q_id": 10,
+            "answer_level": 0,
+            "answer": "Student life makes up a lot of studying, and the festivals are planned to be self-financing. No other university has such large, well-planned festivals thanks to its student representation. Our event technology department also supports the LMU Summer Festival every year. In terms of time, most people are more involved either in the area of university policy or in the area of events. This is easy to explain with inclination and interest, so they are not resources that you could or would otherwise involve. Events from our environmental department or the department for diversity and queer are sometimes also co-financed by the festival's income."
+          },
+          {
+            "q_id": 11,
+            "answer_level": 1,
+            "answer": "The amount of time involved in volunteering is enormous. In particular, students from low-income households who have a part-time job to finance their studies cannot do this without an allowance (similar situations exist in sports clubs or other voluntary organizations, for example). Accordingly, we are committed to a transparently communicated expense allowance. You have to be able to afford volunteering at the moment, which is a shame and also denies access to many who would like to get involved."
+          },
+          {
+            "q_id": 12,
+            "answer_level": 1,
+            "answer": "Fridays for Future, like many other university groups, has been accredited and also works with our environmental department. It would be great if it resulted in profitable, great initiatives. The student council also supported the 'Radentscheid', for example, and the student representative body actively collected signatures for it. The cooperation should be subject-related, because there are still two different areas and Fridays for Future are not elected by the students, so it is important to always recognize the students' right of representation as the most important obligation."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 1,
+            "answer": "In any case, this falls within the representation task and is also a very important sub-area."
+          },
+          {
+            "q_id": 14,
+            "answer_level": 1,
+            "answer": "A university is an environment composed of very heterogeneous individuals. It is also important to depict these different realities of life in the area of nutrition, in addition there are intolerances etc.In addition, we also have the claim of sustainability, meat is cheaper for the mensa in the purchase than vegetables, which is not a condition worth supporting per se. It is also known that meat production is also a major contributing factor for climate change and the environment.The MSC label is also not a verifiable sustainability label and the oceans are heavily overfished. It is all the more important that we at least offer alternatives."
+          },
+          {
+            "q_id": 15,
+            "answer_level": 1,
+            "answer": "A sustainable university, as well as the transition to renewable energy as a major topic for the future, are of great importance for many students and for our society in general. We are committed to ensuring that TUM also fulfills its pioneering role in these areas. Solar panels on every university building would make a valuable contribution here. As a technical university in particular, you should be aware of your pioneering role in terms of innovation and sustainability."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 0,
+            "answer": "On the one hand, funding from the business community is of course desirable, just to raise sufficient funds for more expensive research and teaching projects. On the other hand, business-funded projects always pose a threat to the independence of university research. We are committed to ensuring that business-funded projects can only take place with the disclosure of all contractual agreements and full transparency."
+          },
+          {
+            "q_id": 17,
+            "answer_level": -1,
+            "answer": "Procotorio intervenes deeply in the test subjects' privacy by interfering with people's systems and, for example, through camera surveillance also providing insight into the private living space of the students. For us, Proctorio is under no circumstances an alternative, even the transfer of personal data of the students to an external service provider is intolerable for us, as well as the permissions, that the required Chrome plug-in requires, such as access to the browser history or the data protection settings."
+          },
+          {
+            "q_id": 18,
+            "answer_level": -1,
+            "answer": "We don't agree with that. Students who do not want to take an exam due to data protection concerns must be offered an alternative in the same semester, if possible at the same time. Everything else is neither GDPR-compliant, nor does it correspond to our idea of equal treatment for all students."
+          },
+          {
+            "q_id": 19,
+            "answer_level": -1,
+            "answer": "After the TUM deliberately ignored all efforts regarding digitalization of teaching over the years and has only adorned itself with individual lighthouse projects for digitization, TUM was not prepared for the effects of the Corona crisis, as expected. Under these circumstances, the fastest and simplest solution was Zoom. Nevertheless, we do not consider it justified to use a solution that is more than questionable regarding data protection due to self-inflicted failures under pressure. Especially since the math, computer science, and physics departments are making ends meet equally well with a self-hosted solution. Further expansion of self -hosted solutions would have been equally possible."
+          },
+          {
+            "q_id": 20,
+            "answer_level": -1,
+            "answer": "As already explained above, we consider Zoom to be an extremely sub-optimal solution, which is better replaced by a self-hosted system without an external service provider yesterday than today. So NO, the TUM should under no circumstances adhere to it, but expand its own solutions. In the name of its own excellence!"
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "The possibility of online lectures and internships as an alternative (and only as such) to face-to-face events should be retained in suitable formats. A programming internship can e.g. take place well online, but not an exercise in the laboratory."
+          },
+          {
+            "q_id": 22,
+            "answer_level": 1,
+            "answer": "Online exams should continue to take place as long as formats are privacy-friendly and appropriate to the learning objectives even after corona. (like the moodle tests)"
+          },
+          {
+            "q_id": 23,
+            "answer_level": -1,
+            "answer": "This semester, it would have made more sense to hold the entire election as a postal vote due to the infection process. However, requests to do so fell on deaf ears ... In a normal semester, we consider the option of postal voting to be sufficient."
+          },
+          {
+            "q_id": 24,
+            "answer_level": 1,
+            "answer": "For many TUM students, Corona represents an extraordinary burden that the university could at least partially cushion. We advocate for more student jobs to be advertised and currently employed students to remain employed. In our perception, the TUM is already accommodating these situations well."
+          }
+        ]
       }
+
 
     ],
     "questions":[

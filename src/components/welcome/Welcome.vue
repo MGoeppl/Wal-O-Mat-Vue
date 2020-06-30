@@ -22,6 +22,7 @@
         <bottom-bar
             :year_list="year_list"
             :set_year="set_year"
+            :year="year"
         />
     </b-jumbotron>
 </template>

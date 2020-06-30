@@ -22,8 +22,8 @@
     "next": "Next",
     "done": "Done",
     "show_results": "Results",
-    "change_answers": "Change Answers",
-    "change_weight": "Change Weighting"
+    "change_answers": "✎ Answers",
+    "change_weight": "✎ Weighting"
   },
   "badge": {
     "you": "You",
@@ -42,18 +42,18 @@
   },
   "results":{
     "title": "Results",
-    "recommendation": "We find that you have similar opinions to {party}! TODO: Check this string",
+    "recommendation": "We find that you have similar opinions to {party}!",
     "party_website": "Tap here to go to {party}'s Website",
     "tab":{
       "party":{
         "title": "By Party",
         "explanation_title": "Explanation (By Party)",
-        "explanation":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you "
+        "explanation": "In this view, we list each party's answers to the questions. Questions you deemed important are marked with a star. The color coding is as follows: Green is when your in agreement, Yellow is when you slightly disagree (disagree/agree vs neutral), and Red is for when you clearly disagree (disagree vs agree)"
       },
       "question":{
         "explanation_title": "Explanation (By Question)",
         "title": "By Question",
-        "explanation":" If you want to find out more about each party and why they may agree, or disagree with you, you can tap on the question and it will give you the parties explanation. Oh and the star means the question was important for you"
+        "explanation": "In this view, we list each question and show what each party voted for. Questions you deemed important are marked with a star."
       }
 
     },

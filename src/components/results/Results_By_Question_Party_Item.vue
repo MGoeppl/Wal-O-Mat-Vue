@@ -8,7 +8,7 @@
 
         <div id = "title" class = "d-flex justify-content-left align-items-stretch align-content-stretch">
 
-            <div class = "flex-grow-1" style="text-align:justify">
+            <div class = "flex-grow-1" style="text-align:left">
                 <h5>{{party.name}}</h5>
             </div>
 

@@ -35,7 +35,7 @@
 
     methods:{
       getJSON(){
-        console.log("Locale: "+this.$i18n.locale)
+        // console.log("Locale: "+this.$i18n.locale)
         switch(this.$i18n.locale){
           case "de": return de
           case "en": return en

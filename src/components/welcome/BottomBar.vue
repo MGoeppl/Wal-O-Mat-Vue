@@ -10,9 +10,9 @@
 <!--        </b-container>-->
         <modal></modal>
     <b-button-group class="mx-1">
-        <b-button v-b-modal.datenschutz>Datenschutz</b-button>
-        <b-button v-b-modal.impressum>Impressum</b-button>
-        <Set_Year_Dropdown :set_year="set_year" :year_list="year_list"/>
+        <b-button @click="goTo('https://www.sv.tum.de/fp-sv/datenschutz/')">Datenschutz</b-button>
+        <b-button @click="goTo('https://www.sv.tum.de/fp-sv/impressum/')">Impressum</b-button>
+        <Set_Year_Dropdown :set_year="set_year" :year_list="year_list" :year="year"/>
     </b-button-group>
 
 
@@ -30,6 +30,13 @@
 
             year_list: Array,
             set_year: Function,
+            year: Number,
+        },
+        methods:{
+            goTo(url){
+                // window.location.href=url
+                window.open(url, "_blank", "noreferrer noopener")
+            }
         }
     }
 </script>

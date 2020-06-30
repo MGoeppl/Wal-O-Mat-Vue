@@ -17,7 +17,7 @@
         methods:{
             answered(){
                 let x= this.user_results.filter(x=>!(x===null||x===undefined)).length;
-                console.log(x);
+                // console.log(x);
                 return x;
             }
         }

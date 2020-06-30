@@ -7,11 +7,8 @@
             <template v-slot:lead>
 
                 {{$t('results.recommendation', {party: party2string(partyArray(stripped_results, year_data.parties))})}}
-                <!--                We Believe that {{partyArray(stripped_results, year_data.parties)[0].party}} is the best choice for you!-->
             </template>
 
-<!--            <p id = "Debug">{{partyArray(stripped_results, year_data.parties)}}</p>-->
-<!--            <p id = "Debug">{{year_data.party}}</p>-->
             <div id=buttons>
                 <b-button @click="set_scene('question')">{{$t('button.change_answers')}}</b-button>
                 <b-button @click="set_scene('star')">{{$t('button.change_weight')}}</b-button>
@@ -20,32 +17,13 @@
             <b-card no-body>
                 <div id="Tabular">
                     <b-tabs content-class="mt-3" >
-                        <b-tab v-bind:title="$t('results.tab.party.title')" active>
-                            <b-alert show variant="info" dismissible>
-                                <h4 class="alert-heading">{{$t("results.tab.party.explanation_title")}}</h4>
-                                <hr>
-                                {{$t("results.tab.party.explanation")}}
-                            </b-alert>
-
-                            <div v-for="party in year_data.parties" v-bind:key="party.q_id">
-                                <Results_By_Party
-                                        :results="stripped_results"
-                                        :party="party"
-                                        :questions="year_data.questions"
-                                        :answers="answers"
-                                        :star_array="star_array"
-                                />
-                            </div>
-                        </b-tab>
-                        <b-tab v-bind:title="$t('results.tab.question.title')">
+                        <b-tab v-bind:title="$t('results.tab.question.title')" active>
                             <b-alert show variant="info" dismissible>
                                 <h4 class="alert-heading">
                                     {{$t("results.tab.question.explanation_title")}}</h4>
                                 <hr>
                                 {{$t("results.tab.question.explanation")}}
                             </b-alert>
-
-
                             <div v-for="question in year_data.questions" v-bind:key="question.q_id">
                                 <Results_By_Question
                                         :results="stripped_results"
@@ -54,10 +32,29 @@
                                         :answers="answers"
                                         :star_array="star_array"/>
                             </div>
+
+
+
+                        </b-tab>
+                        <b-tab v-bind:title="$t('results.tab.party.title')">
+                            <b-alert show variant="info" dismissible>
+                                <h4 class="alert-heading">{{$t("results.tab.party.explanation_title")}}</h4>
+                                <hr>
+                                {{$t("results.tab.party.explanation")}}
+                            </b-alert>
+
+                            <div v-bind:id="party.party" v-for="party in partyArray(stripped_results, year_data.parties)" v-bind:key="party.party">
+                                <Results_By_Party
+                                        :results="stripped_results"
+                                        :party="getParty(party.party)"
+                                        :questions="year_data.questions"
+                                        :answers="answers"
+                                        :star_array="star_array"
+                                />
+                            </div>
                         </b-tab>
                     </b-tabs>
                 </div>
-
             </b-card>
         </b-jumbotron>
     </div>
@@ -101,7 +98,7 @@
             partyPoints: function(results, party){
                 let points = 0;
                 console.log(party.name)
-                console.log("[User, Party, Important, Points]")
+                // console.log("[User, Party, Important, Points]")
                 for(let i = 0; i<results.length; i++){
                     let party_response = party.answers[i].answer_level;
                     let user_response = results[i];
@@ -153,12 +150,21 @@
 
                     points+=l_points
                 }
+                console.log("Total Points"+points)
                 return points
+            },
+            getParty(party_name){
+                for(let i = 0; i<this.year_data.parties.length;i++){
+                    if(this.year_data.parties[i].name===party_name){
+                        return this.year_data.parties[i]
+                    }
+                }
+                return {}
             },
             partyArray: function(results, parties){
                 // console.log("Does this trigger?")
                 let ret = [];
-                console.log(this.stripped_results)
+                // console.log(this.stripped_results)
                 for(let i = 0; i<parties.length; i++) {
                     ret[i] = {
                         party: parties[i].name,

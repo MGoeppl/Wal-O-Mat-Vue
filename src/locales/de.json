@@ -22,8 +22,8 @@
     "next": "Weiter",
     "done": "Fertig",
     "show_results": "Ergebnisse",
-    "change_answers": "Antwort ändern",
-    "change_weight": "Gewichtung ändern"
+    "change_answers": "✎ Antwort",
+    "change_weight": "✎ Gewichtung"
   },
   "badge": {
     "you": "Du:",
@@ -49,12 +49,12 @@
       "party": {
         "title": "Nach Liste",
         "explanation_title": "Begründung (sortiert nach Liste)",
-        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Ah, und der Stern bedeutet, dass diese Frage dir wichtig war."
+        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Der Stern bedeutet, dass diese Frage dir wichtig war."
       },
       "question": {
         "title": "Nach Frage",
         "explanation_title": "Begründung (sortiert nach Frage)",
-        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Ah, und der Stern bedeutet, dass diese Frage dir wichtig war."
+        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Der Stern bedeutet, dass diese Frage dir wichtig war."
       }
     }
   },

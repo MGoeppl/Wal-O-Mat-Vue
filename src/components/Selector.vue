@@ -85,15 +85,15 @@
             },
             set_star_array_length(i){
                 this.star_array = new Array(i).fill()
-                console.log("Set to length "+this.questions.length)
+                // console.log("Set to length "+this.questions.length)
                 for(let i = 0;i<this.star_array.length;i++){
-                    console.log("Iteration "+i)
+                    // console.log("Iteration "+i)
                     this.star_array[i]=false
                 }
             },
             get_date(year){
                 for(const c in this.json){
-                    console.log(this.json[c])
+                    // console.log(this.json[c])
                     if(this.json[c].year===year){
                         return this.json[c].date
                     }
@@ -138,5 +138,4 @@
 </script>
 
 <style scoped>
-
 </style>

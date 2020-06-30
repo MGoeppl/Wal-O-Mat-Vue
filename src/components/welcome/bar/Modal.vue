@@ -1,6 +1,11 @@
 <template>
     <div>
         <b-modal id="impressum" scrollable title="Impressum">
+            <b-embed
+                    type="iframe"
+                    src="https://www.sv.tum.de/fp-sv/datenschutz/"
+            ></b-embed>
+
 
             <h4 class="hx">
                 Herausgeber</h4>

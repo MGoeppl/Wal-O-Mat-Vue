@@ -81,6 +81,13 @@
 
             </b-alert>
             <User_Has_Skipped_Question_Alert :results="results"/>
+
+
+            <b-button @click="set_scene('question')" >{{$t('button.back')}}</b-button>
+            <b-button @click="set_scene('result')">{{$t('button.show_results')}}</b-button>
+            <hr>
+
+
             <b-list-group>
                 <b-list-group-item
                         v-for="q in questions"
@@ -121,7 +128,7 @@
         },
         methods:{
             star(i){
-                console.log("click")
+                // console.log("click")
                 this.flip_star(i)
             }
         },
@@ -187,6 +194,6 @@
     .btn {
         margin-left: 10px;
         margin-right: 10px;
-        width: 100px;
+        width: 120px;
     }
 </style>
