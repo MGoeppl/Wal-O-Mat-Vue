@@ -2,7 +2,7 @@
   "welcome":{
     "title": "Wal-O-Mat",
     "description": "Welcome to the Walomat! We can help you inform yourself regarding the upcoming university elections.",
-    "date": "The next university election shall take place on the {date}",
+    "date": "The next university election will take place on the {date}",
     "dateunknown": "We don't know when the next university election is taking place :(",
     "lang": "Change Language",
     "archive": "Archived Years",

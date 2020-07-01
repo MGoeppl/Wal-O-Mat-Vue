@@ -416,19 +416,19 @@
 
       {"q_id": 10, "question":"The Student Council should use a large part of its resources for the organisation of festivals like the TU/GARNIX."},
       {"q_id": 11, "question":"The student representatives in the senate and AStA should receive an expense allowance for their voluntary work."},
-      {"q_id": 12, "question":"The Mensa must offer at least one vegetarian and one vegan dish each day."},
-      {"q_id": 13, "question":"Solar panels are to be installed on all university buildings."},
-      {"q_id": 14, "question":"The Student Council should support Fridays For Future."},
-      {"q_id": 15, "question":"The Student Council should support the interests of student assistants and tutors."},
+      {"q_id": 12, "question":"The Student Council should support Fridays For Future."},
+      {"q_id": 13, "question":"The Student Council should support the interests of student assistants and tutors."},
+      {"q_id": 14, "question":"The Mensa must offer at least one vegetarian and one vegan dish each day."},
+      {"q_id": 15, "question":"Solar panels are to be installed on all university buildings."},
       {"q_id": 16, "question":"Research at the TUM may be financed by business partners."},
       {"q_id": 17, "question":"Proctorio is an acceptable tool for holding online exams."},
-      {"q_id": 18, "question":"A student is disadvantaged, if he/she does not wish to partake in a potentially privacy-violating examination format, as he/she is only able to retake the examination in a further semester alternatively."},
+      {"q_id": 18, "question":"If a student does not wish to partake in a particular examination format due to data privacy concerns, an examination in a later semester is considered an acceptable alternative."},
       {"q_id": 19, "question":"The fast introduction of Zoom at the TUM was justified despite data protection concerns."},
 
       {"q_id": 20, "question":"TUM should continue to use Zoom and should NOT switch to self-hosted services (e.g. BigBlueButton or Jitsi)."},
       {"q_id": 21, "question":"Even after Corona, it should be possible to hold lectures/practical courses online exclusively."},
       {"q_id": 22, "question":"There should also be the possibility for digital exams even after Corona."},
-      {"q_id": 23, "question":"Voting in university elections should be exclusively done via postal votes."},
+      {"q_id": 23, "question":"Voting in university elections should always be exclusively done via postal votes."},
       {"q_id": 24, "question":"TUM should actively support students, who have financial or health problems due to Corona."}
     ]
   }
