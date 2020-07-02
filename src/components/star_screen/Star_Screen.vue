@@ -4,7 +4,7 @@
             <template v-slot:lead>
                 {{$t('star.description')}}
             </template>
-                <hr>
+<!--                <hr>-->
 
             <User_Has_Skipped_Question_Alert :results="results"/>
 
@@ -120,6 +120,7 @@
     .btn {
         margin-left: 10px;
         margin-right: 10px;
+        margin-top: 20px;
         width: 120px;
     }
 </style>

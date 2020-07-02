@@ -43,7 +43,7 @@
   "results":{
     "title": "Results",
     "recommendation": "We find that you have similar opinions to {party}!",
-    "party_website": "Tap here to go to {party}'s Website",
+    "party_website": "Tap here to go to the Website of {party}",
     "tab":{
       "party":{
         "title": "By Party",

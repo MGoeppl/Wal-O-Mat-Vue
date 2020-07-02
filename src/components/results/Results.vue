@@ -5,8 +5,7 @@
         <b-jumbotron v-bind:header="$t('results.title')" header-level="3">
 
             <template v-slot:lead>
-
-                {{$t('results.recommendation', {party: party2string(partyArray(stripped_results, year_data.parties))})}}
+                {{$t('results.recommendation', {party: party2string(process)})}}
             </template>
 
             <div id=buttons>
@@ -24,6 +23,7 @@
                                 <hr>
                                 {{$t("results.tab.question.explanation")}}
                             </b-alert>
+
                             <div v-for="question in year_data.questions" v-bind:key="question.q_id">
                                 <Results_By_Question
                                         :results="stripped_results"
@@ -43,7 +43,7 @@
                                 {{$t("results.tab.party.explanation")}}
                             </b-alert>
 
-                            <div v-bind:id="party.party" v-for="party in partyArray(stripped_results, year_data.parties)" v-bind:key="party.party">
+                            <div v-bind:id="party.party" v-for="party in process" v-bind:key="party.party">
                                 <Results_By_Party
                                         :results="stripped_results"
                                         :party="getParty(party.party)"
@@ -77,6 +77,9 @@
         computed:{
             stripped_results(){
                 return this.results.map(x=>x===undefined?0:x)
+            },
+            process(){
+                return this.partyArray(this.stripped_results, this.year_data.parties)
             }
         },
 
@@ -97,7 +100,7 @@
              */
             partyPoints: function(results, party){
                 let points = 0;
-                console.log(party.name)
+                // console.log(party.name)
                 // console.log("[User, Party, Important, Points]")
                 for(let i = 0; i<results.length; i++){
                     let party_response = party.answers[i].answer_level;
@@ -123,7 +126,7 @@
                             if(party_response=== 0) l_points = -1
                             if(party_response=== 1) l_points =  2
                         }
-                        console.log("["+user_response+","+party_response+","+true+","+l_points+"]")
+                        // console.log("["+user_response+","+party_response+","+true+","+l_points+"]")
                     }
                     else{
                         if(user_response === 0){
@@ -144,13 +147,13 @@
                             if(party_response=== 0) l_points =   0
                             if(party_response=== 1) l_points =   1
                         }
-                        console.log("["+user_response+","+party_response+","+false+","+l_points+"]")
+                        // console.log("["+user_response+","+party_response+","+false+","+l_points+"]")
                     }
 
 
                     points+=l_points
                 }
-                console.log("Total Points"+points)
+                // console.log("Total Points"+points)
                 return points
             },
             getParty(party_name){
