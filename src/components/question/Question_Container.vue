@@ -19,7 +19,6 @@
                 />
             </template>
 
-            <hr class="my-4"/>
             <b-list-group>
                 <b-list-group-item
                         v-for="answer in answers"
@@ -32,14 +31,21 @@
                 </b-list-group-item>
             </b-list-group>
 
-            <hr>
-            <!--                Back Button -->
-            <b-button v-if="index===0" disabled>{{$t('button.back')}}</b-button>
-            <b-button v-else @click="back">{{$t('button.back')}}</b-button>
-            <!--                Forward Button-->
-            <b-button v-if="questions.length-1===index" @click="set_scene('star')" >{{$t('button.done')}}</b-button>
-            <b-button v-else @click="next">{{$t('button.next')}}</b-button>
+<!--            <hr>-->
+<!--            &lt;!&ndash;                Back Button &ndash;&gt;-->
+<!--            <b-button class="regular" v-if="index===0" disabled>{{$t('button.back')}}</b-button>-->
+<!--            <b-button class="regular" v-else @click="back">{{$t('button.back')}}</b-button>-->
+<!--            &lt;!&ndash;                Forward Button&ndash;&gt;-->
+<!--            <b-button class="regular" v-if="questions.length-1===index" @click="set_scene('star')" >{{$t('button.done')}}</b-button>-->
+<!--            <b-button class="regular" v-else @click="next">{{$t('button.next')}}</b-button>-->
 
+            <b-button-group style="display: flex">
+                                        <b-button style="flex-grow: initial; width: 50px" @click="set_scene('welcome')">&laquo;</b-button>
+                                        <b-button style="flex-grow: initial; width: 50px" v-bind:disabled="index===0" @click="back()">&lsaquo;</b-button>
+                                        <b-button class="notabutton" style="width: unset" disabled>{{index+1}}/{{questions.length}}</b-button>
+                                        <b-button style="flex-grow: initial; width: 50px" v-bind:disabled="index===questions.length-1" @click="next()">&rsaquo;</b-button>
+                                        <b-button style="flex-grow: initial; width: 50px" @click="set_scene('star')">&raquo;</b-button>
+            </b-button-group>
 
 <!--            <div>-->
 <!--                <b-button-toolbar key-nav aria-label="Toolbar with button groups">-->
@@ -52,8 +58,6 @@
 
 <!--                    </b-button-group>-->
 <!--                    <b-button-group class="mx-1">-->
-<!--                        <b-button>&rsaquo;</b-button>-->
-<!--                        <b-button>&raquo;</b-button>-->
 <!--                    </b-button-group>-->
 <!--                </b-button-toolbar>-->
 <!--            </div>-->
@@ -112,22 +116,19 @@
 
 <style scoped>
     .list-group {
-        margin-bottom: 15px;
-    }
-    .btn {
-        margin-left: 10px;
-        margin-right: 10px;
-        width: 100px;
+        margin: 20px 0px;
     }
     .list-group-item:hover:not(.active) {
         background: lightgrey;
         cursor: pointer;
     }
     .vertical-center {
-        /*min-height: 100%;  !* Fallback for browsers do NOT support vh unit *!*/
-        min-height: 8rem; /* These two lines are counted as one :-)       */
+        min-height: 8rem;
 
         display: flex;
         align-items: center;
+    }
+    .btn.notabutton{
+        cursor: default;
     }
 </style>

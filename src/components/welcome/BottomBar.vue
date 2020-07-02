@@ -21,10 +21,9 @@
 
 <script>
     import Set_Year_Dropdown from "@/components/archive/Set_Year_Dropdown";
-    import Modal from "@/components/welcome/bar/Modal";
     export default {
         name: "BottomBar",
-        components: {Modal, Set_Year_Dropdown},
+        components: {Set_Year_Dropdown},
         props:{
 
             year_list: Array,

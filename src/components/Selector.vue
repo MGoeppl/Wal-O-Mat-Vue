@@ -102,6 +102,11 @@
             },
             set_scene(scene){
                 this.current_scene=scene
+                window.scrollTo({
+                    top: 1,
+                    left: 1,
+                    behavior: 'smooth'
+                });
             },
             update_results: function (index, value) {
                 //Need to use Vue Set instead of user_results[index] = val, or else array does not update
