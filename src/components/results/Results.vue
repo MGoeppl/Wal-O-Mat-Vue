@@ -8,6 +8,14 @@
                 {{$t('results.recommendation', {party: party2string(process)})}}
             </template>
 
+
+            <b-alert dismissible show variant="warning">
+                <h4 class="alert-heading">Disclaimer</h4>
+                <p>
+                    {{$t('results.disclaimer')}}
+                </p>
+            </b-alert>
+
             <div id=buttons>
                 <b-button @click="set_scene('question')">{{$t('button.change_answers')}}</b-button>
                 <b-button @click="set_scene('star')">{{$t('button.change_weight')}}</b-button>
@@ -50,6 +58,7 @@
                                         :questions="year_data.questions"
                                         :answers="answers"
                                         :star_array="star_array"
+                                        :set_screen="set_scene"
                                 />
                             </div>
                         </b-tab>
@@ -203,4 +212,5 @@
     .alert{
         margin: 1rem 1rem
     }
+
 </style>

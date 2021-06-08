@@ -4,138 +4,6 @@
     "date": "2020-07-28",
     "parties": [
       {
-        "name": "RCDS-TUM",
-        "website": "https://rcds-tum.de",
-        "program": "https://rcds-bayern.de/tu-muenchen/hochschulwahl",
-        "answers":[
-          {
-            "q_id": 0,
-            "answer_level": 1,
-            "answer": "We want to give students the unique opportunity to improve and learn from possible mistakes on their first passed attempt. The willingness to deal with the module again should be rewarded."
-          },
-          {
-            "q_id": 1,
-            "answer_level": 1,
-            "answer": "The maximum duration of studies should continue to be limited in order to keep degrees comparable within the meaning of the Bologna Agreement."
-          },
-          {
-            "q_id": 2,
-            "answer_level": 1,
-            "answer": "A greater freedom of choice in the main study period (from the 4th semester) enables students to specialise more and to deepen their own interests. Thus, interdisciplinary courses of study can also be improved. Freedom of choice should remain restricted in the basic study period, as this is where the foundations for further education are laid."
-          },
-          {
-            "q_id": 3,
-            "answer_level": 1,
-            "answer": "With growing student numbers and dwindling library space, it is absolutely essential to expand the number of places available for learning. Additional learning rooms for groups can be created at short notice."
-          },
-          {
-            "q_id": 4,
-            "answer_level": -1,
-            "answer": "We remain committed to ensuring that studying at the TUM is free of tuition fees and thus possible for everyone."
-          },
-          {
-            "q_id": 5,
-            "answer_level": -1,
-            "answer": "The Student Council should continue to work only on student issues and not on general policy. The main task of the Student Council is and will remain the commitment to the interests of the students and the improvement of study conditions."
-          },
-          {
-            "q_id": 6,
-            "answer_level": 0,
-            "answer": "The RCDS-TUM is of the opinion that coordination with the university management is not generally necessary, but often makes sense in order to achieve common goals."
-          },
-          {
-            "q_id": 7,
-            "answer_level": 1,
-            "answer": "It is important that students are informed about university policy issues. Only in this way can they be given the opportunity to participate constructively in the opinion-forming process."
-          },
-          {
-            "q_id": 8,
-            "answer_level": 1,
-            "answer": "In our view, a student parliament is a better model than the student council, since students are represented more directly and transparently. Because currently, the representatives in the student council are only indirectly elected via the respective student representatives."
-          },
-          {
-            "q_id": 9,
-            "answer_level": -1,
-            "answer": "We are particularly critical of the general political mandate of the constituted student body. Student representatives should only advocate for student concerns. In addition, a nationwide representation of interests through the Landes ASten Konferenz is already in place."
-          },
-          {
-            "q_id": 10,
-            "answer_level": 1,
-            "answer": "Student festivals and parties are part of student life at the TUM and should be maintained. They are an important component for many students. However, this should not be at the expense of university policy."
-          },
-          {
-            "q_id": 11,
-            "answer_level": -1,
-            "answer": "We believe that voluntary work should also remain unpaid. We do not see any improvement for the students if the student representatives receive an expense allowance."
-          },
-          {
-            "q_id": 12,
-            "answer_level": -1,
-            "answer": "We are generally against a general political commitment of the student council. This includes movements such as Fridays For Future etc."
-          },
-          {
-            "q_id": 13,
-            "answer_level": 1,
-            "answer": "Student assistants are also students for the applies. Are not represented in contrast to other employees. In order to be able to include their interests in opinion-forming processes, it is necessary to consider the interests of the student representatives. In the long term, this will lead to a sustainable increase in the quality of teaching."
-          },
-          {
-            "q_id": 14,
-            "answer_level": -1,
-            "answer": "Currently there is always at least one vegetarian or vegan dish. The Studentenwerk should decide on the basis of demand which dishes are offered to avoid food waste."
-          },
-          {
-            "q_id": 15,
-            "answer_level": 1,
-            "answer": "We support this proposal as a contribution to energy system transformation. Nevertheless, it should be considered on which buildings an installation is reasonable and structurally possible."
-          },
-          {
-            "q_id": 16,
-            "answer_level": 1,
-            "answer": "Currently, a large part of TUM's funds already comes from business partners. These funds enable excellent research and also teaching, which could not be financed by state funds. It also promotes the exchange between research and industry."
-          },
-          {
-            "q_id": 17,
-            "answer_level": -1,
-            "answer": "For reasons of data protection, we reject the use of Proctorio as a exam tool. A combination of TUMExam and monitoring with BigBlueButton already offers a good alternative. In addition, it would also save costs. In general we prefer an examination in presence."
-          },
-          {
-            "q_id": 18,
-            "answer_level": -1,
-            "answer": "The legal department of the TUM has already arranged that an exam in presence has to take place parallel to online exams."
-          },
-          {
-            "q_id": 19,
-            "answer_level": 1,
-            "answer": "In our opinion, this step was necessary to ensure a punctual start of the semester. However, self-hosted open-source alternatives should be set up for the future. One example is BigBlueButton."
-          },
-          {
-            "q_id": 20,
-            "answer_level": -1,
-            "answer": "Due to data protection concerns, self-hosted open-source alternatives should be established for the future. One example is BigBlueButton."
-          },
-          {
-            "q_id": 21,
-            "answer_level": 1,
-            "answer": "In general, the RCDS-TUM takes a positive view of this, e.g. to avoid relocation. However, we reject a pure online lecture."
-          },
-          {
-            "q_id": 22,
-            "answer_level": -1,
-            "answer": "The RCDS-TUM sees digital exams as an emergency solution rather than a permanent solution."
-          },
-          {
-            "q_id": 23,
-            "answer_level": 1,
-            "answer": "For reasons of infection, this year's university elections were to be conducted by postal vote. The voting documents should be sent out automatically in order to reach as many students as possible. In general, the RCDS-TUM supports online elections."
-          },
-          {
-            "q_id": 24,
-            "answer_level": 1,
-            "answer": "We see the TUM here in the duty to provide access to information concerning financial and health aid programs, especially multilingual."
-          }
-        ]
-      },
-      {
         "name": "Liste eurer Fachschaften (LitFaS)",
         "website": "https://www.litfas.fs.tum.de/",
         "program": "https://www.litfas.fs.tum.de/wahlprogramm/",
@@ -264,6 +132,139 @@
             "q_id": 24,
             "answer_level": 1,
             "answer": "As a university, TUM has a responsibility towards its students. Since the federal government's help for students who got into an emergency situation through Corona is not adequate, it is now up to TUM to fill this gap. An emergency fund sponsored by the TUM Foundation would be an example of how TUM could help students in need."
+          }
+        ]
+      },
+
+      {
+        "name": "Campus University@TUM",
+        "website": "cutum.de",
+        "program": "cutum.de",
+        "answers": [
+          {
+            "q_id": 0,
+            "answer_level": 0,
+            "answer": "Although this option makes sense from a student perspective, it is important to consider individually for each exam whether this does not distort results for students who are preparing intensively."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 0,
+            "answer": "Although this possibility is to be regarded as interesting, such a process of change would have to be discussed and dealt in over-university European bodies than the TUM Senate and would have to overcome many hurdles."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 0,
+            "answer": "While greater freedom of choice is to be considered useful, it should not neglect the basics that exist in each subject, which would possibily be voted out."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "A step long overdue. Closing learning spaces is no longer appropriate for an Excellence University in the 21st century."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "Going it alone as a university on such issues is no longer up to date and feasible. In addition: Without concrete applications for the money this is not to be considered as meaningful."
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "A student representation represents the students' interests against the university and not the general public. Although university policy is politics, it is not general policy. Neutrality should be maintained here. "
+          },
+          {
+            "q_id": 6,
+            "answer_level": 0,
+            "answer": "Agreements can often help, but they are also not a panacea for good university policy. Own positions must be represented."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "Without information there is no insight for students. Higher education policy needs good communication, internally and externally."
+          },
+          {
+            "q_id": 8,
+            "answer_level": 0,
+            "answer": "No matter which form of parliament one chooses, good university policy consists of lively exchange and discussion and should be project- and topic-based, with or without a direct candidate."
+          },
+          {
+            "q_id": 9,
+            "answer_level": 0,
+            "answer": "Although such a structure offers advantages, disadvantages cannot be dismissed, as the potential for abuse increases significantly."
+          },
+          {
+            "q_id": 10,
+            "answer_level": -1,
+            "answer": "The main task of the student representation is and remains university policy."
+          },
+          {
+            "q_id": 11,
+            "answer_level": 1,
+            "answer": "Volunteering should and must remain unpaid, but time and effort must be put in relation to each other to at least provide compensation."
+          },
+          {
+            "q_id": 12,
+            "answer_level": 0,
+            "answer": "Even if climate protection is extremely important: The main task of the student representation is and remains university policy. Why no concrete projects at the TUM."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 0,
+            "answer": "Although students with any kind of problems have to be taken care of, it is not possible to talk into working relationships between TU and private persons. The student council is not a trade union."
+          },
+          {
+            "q_id": 14,
+            "answer_level": 1,
+            "answer": "Why not?"
+          },
+          {
+            "q_id": 15,
+            "answer_level": 0,
+            "answer": "Environmental technology certainly makes sense, but also economically? Perhaps existing TU open spaces are more effective ..."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 0,
+            "answer": "Before you don't have any money, better have money from business partners. However, the independence of research must be guaranteed, and therefore individual considerations must be made."
+          },
+          {
+            "q_id": 17,
+            "answer_level": -1,
+            "answer": "The data protection regulations are not acceptable."
+          },
+          {
+            "q_id": 18,
+            "answer_level": -1,
+            "answer": "Time in the sense of the later possible graduation is a big disadvantage."
+          },
+          {
+            "q_id": 19,
+            "answer_level": 0,
+            "answer": "Quick solutions were needed, but with such ignorance of data protection issues?"
+          },
+          {
+            "q_id": 20,
+            "answer_level": 0,
+            "answer": "Why not both? The possibility of improving data protection at Zoom exists. The quality of the product cannot be denied."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "A university in the 21st century also needs digital teaching content."
+          },
+          {
+            "q_id": 22,
+            "answer_level": 1,
+            "answer": "If data protection and legal issues are right, why not?"
+          },
+          {
+            "q_id": 23,
+            "answer_level": 0,
+            "answer": "Yes, but does it make sense to send so many paper letters? Why not online?"
+          },
+          {
+            "q_id": 24,
+            "answer_level": 1,
+            "answer": "All parties in the university community are important. And they must be taken care of."
           }
         ]
       },
@@ -398,9 +399,139 @@
             "answer": "For many TUM students, Corona represents an extraordinary burden that the university could at least partially cushion. We advocate for more student jobs to be advertised and currently employed students to remain employed. In our perception, the TUM is already accommodating these situations well."
           }
         ]
+      },
+      {
+        "name": "RCDS-TUM",
+        "website": "https://www.rcds-bayern.de/tu-muenchen/",
+        "program": "https://rcds-bayern.de/tu-muenchen/hochschulwahl",
+        "answers":[
+          {
+            "q_id": 0,
+            "answer_level": 1,
+            "answer": "We want to give students the unique opportunity to improve and learn from possible mistakes on their first passed attempt. The willingness to deal with the module again should be rewarded."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "The maximum duration of studies should continue to be limited in order to keep degrees comparable within the meaning of the Bologna Agreement."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 1,
+            "answer": "A greater freedom of choice in the main study period (from the 4th semester) enables students to specialise more and to deepen their own interests. Thus, interdisciplinary courses of study can also be improved. Freedom of choice should remain restricted in the basic study period, as this is where the foundations for further education are laid."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "With growing student numbers and dwindling library space, it is absolutely essential to expand the number of places available for learning. Additional learning rooms for groups can be created at short notice."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "We remain committed to ensuring that studying at the TUM is free of tuition fees and thus possible for everyone."
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "The Student Council should continue to work only on student issues and not on general policy. The main task of the Student Council is and will remain the commitment to the interests of the students and the improvement of study conditions."
+          },
+          {
+            "q_id": 6,
+            "answer_level": 0,
+            "answer": "The RCDS-TUM is of the opinion that coordination with the university management is not generally necessary, but often makes sense in order to achieve common goals."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "It is important that students are informed about university policy issues. Only in this way can they be given the opportunity to participate constructively in the opinion-forming process."
+          },
+          {
+            "q_id": 8,
+            "answer_level": 1,
+            "answer": "In our view, a student parliament is a better model than the student council, since students are represented more directly and transparently. Because currently, the representatives in the student council are only indirectly elected via the respective student representatives."
+          },
+          {
+            "q_id": 9,
+            "answer_level": -1,
+            "answer": "We are particularly critical of the general political mandate of the constituted student body. Student representatives should only advocate for student concerns. In addition, a nationwide representation of interests through the Landes ASten Konferenz is already in place."
+          },
+          {
+            "q_id": 10,
+            "answer_level": 1,
+            "answer": "Student festivals and parties are part of student life at the TUM and should be maintained. They are an important component for many students. However, this should not be at the expense of university policy."
+          },
+          {
+            "q_id": 11,
+            "answer_level": -1,
+            "answer": "We believe that voluntary work should also remain unpaid. We do not see any improvement for the students if the student representatives receive an expense allowance."
+          },
+          {
+            "q_id": 12,
+            "answer_level": -1,
+            "answer": "We are generally against a general political commitment of the student council. This includes movements such as Fridays For Future etc."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 1,
+            "answer": "Student assistants are also students for the applies. Are not represented in contrast to other employees. In order to be able to include their interests in opinion-forming processes, it is necessary to consider the interests of the student representatives. In the long term, this will lead to a sustainable increase in the quality of teaching."
+          },
+          {
+            "q_id": 14,
+            "answer_level": -1,
+            "answer": "Currently there is always at least one vegetarian or vegan dish. The Studentenwerk should decide on the basis of demand which dishes are offered to avoid food waste."
+          },
+          {
+            "q_id": 15,
+            "answer_level": 1,
+            "answer": "We support this proposal as a contribution to energy system transformation. Nevertheless, it should be considered on which buildings an installation is reasonable and structurally possible."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 1,
+            "answer": "Currently, a large part of TUM's funds already comes from business partners. These funds enable excellent research and also teaching, which could not be financed by state funds. It also promotes the exchange between research and industry."
+          },
+          {
+            "q_id": 17,
+            "answer_level": -1,
+            "answer": "For reasons of data protection, we reject the use of Proctorio as a exam tool. A combination of TUMExam and monitoring with BigBlueButton already offers a good alternative. In addition, it would also save costs. In general we prefer an examination in presence."
+          },
+          {
+            "q_id": 18,
+            "answer_level": -1,
+            "answer": "The legal department of the TUM has already arranged that an exam in presence has to take place parallel to online exams."
+          },
+          {
+            "q_id": 19,
+            "answer_level": 1,
+            "answer": "In our opinion, this step was necessary to ensure a punctual start of the semester. However, self-hosted open-source alternatives should be set up for the future. One example is BigBlueButton."
+          },
+          {
+            "q_id": 20,
+            "answer_level": -1,
+            "answer": "Due to data protection concerns, self-hosted open-source alternatives should be established for the future. One example is BigBlueButton."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "In general, the RCDS-TUM takes a positive view of this, e.g. to avoid relocation. However, we reject a pure online lecture."
+          },
+          {
+            "q_id": 22,
+            "answer_level": -1,
+            "answer": "The RCDS-TUM sees digital exams as an emergency solution rather than a permanent solution."
+          },
+          {
+            "q_id": 23,
+            "answer_level": 1,
+            "answer": "For reasons of infection, this year's university elections were to be conducted by postal vote. The voting documents should be sent out automatically in order to reach as many students as possible. In general, the RCDS-TUM supports online elections."
+          },
+          {
+            "q_id": 24,
+            "answer_level": 1,
+            "answer": "We see the TUM here in the duty to provide access to information concerning financial and health aid programs, especially multilingual."
+          }
+        ]
       }
-
-
     ],
     "questions":[
       {"q_id": 0, "question":"It should be possible to voluntarily retake an exam, even after a successful attempt."},

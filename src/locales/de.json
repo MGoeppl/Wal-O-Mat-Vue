@@ -1,6 +1,6 @@
 {
   "welcome":{
-    "title": "Wal-O-Mat",
+    "title": "Wal-O-Mat \uD83D\uDC0B",
     "description": "Herzlich Wilkommen beim Wal-O-Mat! Hier helfen wir Dir, Dich über die kommende Hochschulwahl zu informieren.",
     "date": "Die nächste Hochschulwahl ist am {date}",
     "dateunknown": "Leider wissen wir nicht wann die nächste HSW ist :(",
@@ -45,11 +45,12 @@
     "title": "Resultate",
     "recommendation": "Du hast die höchste Übereinstimmung mit der Liste {party}!",
     "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
+    "disclaimer": "Der Walomat ist keine Wahlempfehlung, sondern ein Informationsangebot für die Hochschulwahl 2020. Es besteht kein Anspruch auf eine vollständige Abdeckung der Themen in den jeweiligen Wahlprogrammen.",
     "tab": {
       "party": {
         "title": "Nach Liste",
         "explanation_title": "Begründung (sortiert nach Liste)",
-        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Der Stern bedeutet, dass diese Frage dir wichtig war."
+        "explanation": "Wenn Du weitere Informationen möchtest, warum eine Liste zustimmt oder nicht, klicke auf die jeweilige Frage, dann siehst du die Begründung der Liste. Das Farbschema ist wie folgt: Grün heißt, dass deine Meinung mit der der Liste übereinstimmt, Gelb bedeutet, dass ihr teilweise übereinstimmt (zustimmen - neutral oder ablehnen - neutral) und bei Rot seid ihr deutlich anderer Meinungen (zustimmen vs. ablehnen). Der Stern bedeutet, dass diese Frage dir wichtig war. "
       },
       "question": {
         "title": "Nach Frage",

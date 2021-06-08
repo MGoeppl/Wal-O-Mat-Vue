@@ -1,6 +1,6 @@
 {
   "welcome":{
-    "title": "Wal-O-Mat",
+    "title": "Wal-O-Mat \uD83D\uDC0B",
     "description": "Welcome to the Walomat! We can help you inform yourself regarding the upcoming university elections.",
     "date": "The next university election will take place on the {date}",
     "dateunknown": "We don't know when the next university election is taking place :(",
@@ -44,11 +44,12 @@
     "title": "Results",
     "recommendation": "We find that you have similar opinions to {party}!",
     "party_website": "Tap here to go to the Website of {party}",
+    "disclaimer": "The Walomat is not an election recommendation, but rather an information offer for the 2020 university election; there is no claim to full coverage of the topics in the respective election programs.",
     "tab":{
       "party":{
         "title": "By Party",
         "explanation_title": "Explanation (By Party)",
-        "explanation": "In this view, we list each party's answers to the questions. Questions you deemed important are marked with a star. The color coding is as follows: Green is when your in agreement, Yellow is when you slightly disagree (disagree/agree vs neutral), and Red is for when you clearly disagree (disagree vs agree)"
+        "explanation": "In this view, we list each party's answers to the questions. Questions you deemed important are marked with a star. The color coding is as follows: Green is when your in agreement, Yellow is when you slightly disagree (disagree - neutral & agree - neutral), and Red is for when you clearly disagree (disagree - agree)"
       },
       "question":{
         "explanation_title": "Explanation (By Question)",

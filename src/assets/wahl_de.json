@@ -3,138 +3,7 @@
     "year": 2020,
     "date": "2020-07-28",
     "parties": [
-      {
-        "name": "RCDS-TUM",
-        "website": "https://rcds-tum.de",
-        "program": "https://rcds-bayern.de/tu-muenchen/hochschulwahl",
-        "answers":[
-          {
-            "q_id": 0,
-            "answer_level": 1,
-            "answer": "Wir wollen den Studenten die einmalige Möglichkeit geben sich zu verbessern und aus möglichen Fehlern beim ersten bestandenen Versuch zu lernen. Die Bereitschaft sich nochmals mit dem Modul auseinander zu setzen soll honoriert werden. "
-          },
-          {
-            "q_id": 1,
-            "answer_level": 1,
-            "answer": "Die Höchststudiendauer sollte weiterhin beschränkt sein, um die Abschlüsse in Sinne der Bologna-Vereinbarung vergleichbar zu halten."
-          },
-          {
-            "q_id": 2,
-            "answer_level": 1,
-            "answer": "Eine größere Wahlfreiheit im Hauptstudium (ab 4.Semester) ermöglicht den Studenten eine besser Spezialisierung und ihre eigenen Interessen zu vertiefen. So können auch interdisziplinäre Ausbildungsrichtungen verbessert werden. Im Grundstudium sollte die Wahlfreiheit weiterhin eingeschränkt bleiben, da hier die Fundamente für die weitere Ausbildung gelegt werden."
-          },
-          {
-            "q_id": 3,
-            "answer_level": 1,
-            "answer": "Bei wachsenden Studentenzahlen und knapper werdenden Plätzen in den Bibliotheken ist eine Ausweitung der Lernplätze unbedingt notwendig. So können auch zusätzliche Lernräume für Gruppen kurzfristig geschaffen werden."
-          },
-          {
-            "q_id": 4,
-            "answer_level": -1,
-            "answer": "Wir setzen uns auch weiterhin dafür ein, dass studieren an der TUM frei von Studiengebühren ist und so für jeden möglich ist."
-          },
-          {
-            "q_id": 5,
-            "answer_level": -1,
-            "answer": "Die Studentische Vertretung soll sich weiterhin nur für studentische Themen einsetzen und keine Allgemeinpolitik betreiben. Hauptaufgabe der Studentische Vertretung ist und bleibt der Einsatz für die Belange der Studenten und Verbesserung der Studienbedingungen."
-          },
-          {
-            "q_id": 6,
-            "answer_level": 0,
-            "answer": "Der RCDS-TUM ist der Meinung, dass eine Abstimmung mit der Hochschulleitung nicht allgemein nötig, aber häufig sinnvoll ist, um gemeinsame Ziele zu erreichen."
-          },
-          {
-            "q_id": 7,
-            "answer_level": 1,
-            "answer": "Es ist wichtig, dass Studenten über die hochschulpolitische Themen informiert werden. Nur so kann ihnen die Möglichkeit gegeben werden konstruktiv am Meinungsbildungsprozess mit zu arbeiten."
-          },
-          {
-            "q_id": 8,
-            "answer_level": 1,
-            "answer": "Ein Studierendenparlament ist aus unserer Sicht ein besseres Modell gegenüber dem Fachschaftenrat, da Studenten hier direkter und transparenter repräsentiert werden. Denn aktuell werden die Vertreter im Fachschaftenrat nur indirekt über die jeweiligen Fachschaftsvertretungen gewählt."
-          },
-          {
-            "q_id": 9,
-            "answer_level": -1,
-            "answer": "Wir sehen insbesondere das allgemeinpolitische Mandat der verfassten Studierendenschaft kritisch.<br>Studentische Vertretungen sollten sich nur für studentische Belange einsetzen. Außerdem ist aktuell eine landesweite Interessenvertretung durch die Landes ASten Konferenz bereits gegeben."
-          },
-          {
-            "q_id": 10,
-            "answer_level": 1,
-            "answer": "Studentisches Festivals und Partys gehören zum studentischen Leben an der TUM und sollten auch weiterhin erhalten bleiben. Sie sind ein wichtiger Bestandteil für viele Studenten. Allerdings darf dies nicht auf Kosten der Hochschulpolitik gehen."
-          },
-          {
-            "q_id": 11,
-            "answer_level": -1,
-            "answer": "Eine ehrenamtliche Tätigkeit sollte unserer Ansicht nach auch unbezahlt bleiben. Wir sehen keine Verbesserung für die Studenten, wenn die studentischen Vertreter eine Aufwandsentschädigung erhalten."
-          },
-          {
-            "q_id": 12,
-            "answer_level": -1,
-            "answer": "Wir sind generell gegen ein allgemeinpolitisches Engagement der Studentische Vertretung. Darunter fallen auch Bewegungen wie z.B. Fridays For Future etc."
-          },
-          {
-            "q_id": 13,
-            "answer_level": 1,
-            "answer": "Studentischer Hilfskräfte sind auch Studenten für des gilt sich einzusetzen. Sind im Gegensatz zu anderen Mitarbeitern nicht repräsentiert. Um auch ihre Interessen bei Meinungsbildungsprozessen einbinden zu können ist es notwendig die Belange seitens der Studententischen Vertretung zu berücksichtigen. Langfristig wird so die Qualität der Lehre nachhaltig gesteigert."
-          },
-          {
-            "q_id": 14,
-            "answer_level": -1,
-            "answer": "Aktuell gibt es bereits immer mindestens ein vegetarisches oder veganes Gericht. Das Studentenwerk sollte Anhand der Nachfrage entscheiden, welche Gerichte angeboten werden, um Lebensmittelverschwendung zu vermeiden."
-          },
-          {
-            "q_id": 15,
-            "answer_level": 1,
-            "answer": "Wir unterstützen diesen Vorschlag als Beitrag zur Energiewende. Trotzdem sollte abgewogen werden auf welchen Gebäuden eine Montage sinnvoll und baulich möglich ist."
-          },
-          {
-            "q_id": 16,
-            "answer_level": 1,
-            "answer": "Aktuell stammt bereits ein großer Teil der Mittel der TUM von Wirtschaftspartnern. Diese Gelder ermöglichen exzellente Forschung und auch Lehre, die aus staatlichen Mitteln nicht finanzierbar wäre. Außerdem fördert es den Austausch zwischen Forschung und Wirtschaft."
-          },
-          {
-            "q_id": 17,
-            "answer_level": -1,
-            "answer": "Aus datenschutzrechtlichen Gründen lehnen wir den Einsatz von Proctorio als Prüfungstool ab. Eine Kombination von TUMExam und Überwachung mit BigBlueButton bietet bereits heute eine gute Alternative. Darüber hinaus würden auch noch Kosten gespart. Generell bevorzugen wir eine Präsenzprüfung."
-          },
-          {
-            "q_id": 18,
-            "answer_level": -1,
-            "answer": "Die Rechtsabteilung der TUM hat bereits veranlasst, dass eine Präsenzprüfung parallel zu Online Klausuren stattfinden muss."
-          },
-          {
-            "q_id": 19,
-            "answer_level": 1,
-            "answer": "Um einen pünktlichen Start des Semesters zu gewährleisten, war dieser Schritt unserer Meinung nach notwendig. Allerdings sollten für die Zukunft selbst gehostete open-source Alternativen eingerichtet werden. Ein Beispiel ist BigBlueButton."
-          },
-          {
-            "q_id": 20,
-            "answer_level": -1,
-            "answer": "Auf Grund der datenschutzrechtlichen Bedenken sollten für die Zukunft selbst gehostete open-source Alternativen eingerichtet werden. Ein Beispiel ist BigBlueButton."
-          },
-          {
-            "q_id": 21,
-            "answer_level": 1,
-            "answer": "Allgemein steht der RCDS-TUM dem positiv gegenüber, z.B. um Standortwechsel zu vermeiden. Eine reine Onlinevorlesung lehnen wir jedoch ab."
-          },
-          {
-            "q_id": 22,
-            "answer_level": -1,
-            "answer": "Der RCDS-TUM sieht digitale Klausuren eher als Notlösung und nicht als dauerhafte Einrichtung."
-          },
-          {
-            "q_id": 23,
-            "answer_level": 1,
-            "answer": "Aus infektionstechnischen Gründen sollte die diesjährige Hoschulwahl als Briefwahl durchgeführt werden. Die Wahlunterlagen sollten automatisch verschickt werden, um möglichst viele Studenten zu erreichen. Generell setzt sich der RCDS-TUM für Online-Wahlen ein."
-          },
-          {
-            "q_id": 24,
-            "answer_level": 1,
-            "answer": "Wir sehen die TUM hier in der Pflicht den Zugang zu Informationen bzgl. finanziellen und gesundheitlichen Hilfsprogrammen, insbesondere mehrsprachig, bereit zu stellen."
-          }
-        ]
-      },
+
       {
         "name": "Liste eurer Fachschaften (LitFaS)",
         "website": "https://www.litfas.fs.tum.de/",
@@ -264,6 +133,139 @@
             "q_id": 24,
             "answer_level": 1,
             "answer": "Die TUM als Universität hat eine Verantwortung gegenüber den Studierenden. Da die Hilfe des Bundes für Studierende, die durch Corona in eine Notsituation geraten sind grandios schlecht sind ist es nun an der TUM diese Lücke zu füllen. Ein Nothilfefond gesponsort von der TUM Stiftung wäre ein Beispiel wie die TUM Studierenden in Not helfen könnte."
+          }
+        ]
+      },
+
+      {
+        "name": "Campus University@TUM",
+        "website": "https://www.cutum.de",
+        "program": "https://www.cutum.de",
+        "answers": [
+          {
+            "q_id": 0,
+            "answer_level": 0,
+            "answer": "Obwohl diese Möglichkeit aus Studentenperspektive als sinnvoll zu erachten ist, gilt es doch individuell bei jeder Klausur abzuwägen, ob das nicht Ergebnisse verzerrt für die Studenten, die sich intensiv vorbereiten."
+          },
+          {
+            "q_id": 1,
+            "answer_level": 0,
+            "answer": "Obwohl diese Möglichkeit als interessant zu erachten ist, müsste ein solcher Veränderungsprozess in überuniversitären europäischen Gremien als dem TUM Senat besprochen und behandelt werden und müsste dafür viele Hürden nehmen."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 0,
+            "answer": "Eine größere Wahlfreiheit ist zwar als sinnvoll zu erachten, sollte aber nicht die Grundlagen, die es in jedem Fach gibt, vernachlässigen, die damit gerne abgewählt werden würden."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "Ein längst überfälliger Schritt. Eine Schließung von Lernräumen ist für eine Exzellenzuniversität im 21. Jahrhundert nicht mehr zeitgemäß."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "Alleingänge als Universität was solche Themen angeht ist heutzutage nicht mehr zeitgemäß und umsetzbar. Zusätzlich: Ohne konkrete Anwendungen für das Geld ist das nicht als sinnvoll zu erachten."
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "Eine Studentische Vertretung vertritt die Interessen der Studierenden gegenüber der Hochschule und nicht gegenüber der Allgemeinheit. Hochschulpolitik ist zwar Politik, aber keine Allgemeinpolitik. Hier sollte Neutralität gewahrt werden.  "
+          },
+          {
+            "q_id": 6,
+            "answer_level": 0,
+            "answer": "Absprachen können oft helfen, sind aber auch kein Allheilmittel für gute Hochschulpolitik. Eigene Positionen müssen vertreten werden."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "Ohne Information gibt es keinen Einblick für Studierende. Hochschulpolitik braucht gute Kommunikation, nach innen und nach außen."
+          },
+          {
+            "q_id": 8,
+            "answer_level": 0,
+            "answer": "Egal welche Parlamentsform man wählt, gute Hochschulpolitik besteht aus lebhaften Austausch und Diskussionen und sollte projekt- und themenbezogen arbeiten, ob mit oder ohne Direktkandidat."
+          },
+          {
+            "q_id": 9,
+            "answer_level": 0,
+            "answer": "Obwohl eine solche Struktur Vorteile bietet, können doch auch Nachteile nicht von der Hand gewiesen werden, da das Missbrauchspotential deutlich steigt."
+          },
+          {
+            "q_id": 10,
+            "answer_level": -1,
+            "answer": "Die Hauptaufgabe der Studentischen Vertretung ist und bleibt Hochschulpolitik."
+          },
+          {
+            "q_id": 11,
+            "answer_level": 1,
+            "answer": "Ehrenamt soll und muss unbezahlt bleiben, aber es muss Zeit und Aufwand in Relation gesetzt um wenigstens Entschädigung zu leisten."
+          },
+          {
+            "q_id": 12,
+            "answer_level": 0,
+            "answer": "Auch wenn Klimaschutz extrem wichtig ist: Die Hauptaufgabe der Studentischen Vertretung ist und bleibt Hochschulpolitik. Warum nicht konkrete Projekte an der TUM."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 0,
+            "answer": "Obwohl sich um Studierenden mit jeglichen Problemen gekümmert werden muss, kann nicht in Arbeitsverhältnisse zwischen TU und Privatpersonen reingequatscht werdene. Die Studentische Vertretung ist keine Gewerkschaft."
+          },
+          {
+            "q_id": 14,
+            "answer_level": 1,
+            "answer": "Why not?"
+          },
+          {
+            "q_id": 15,
+            "answer_level": 0,
+            "answer": "Klimatechnische durchaus sinnvoll, aber auch wirtschaftlich? Vielleicht sind ja bestehende TU Freiflächen effektiver …"
+          },
+          {
+            "q_id": 16,
+            "answer_level": 0,
+            "answer": "Bevor man kein Geld hat, lieber Geld von Wirtschaftspartnern. Die Unabhängigkeit der Forschung muss aber gewährt bleiben, daher muss individuell abgewägt werden."
+          },
+          {
+            "q_id": 17,
+            "answer_level": -1,
+            "answer": "Die Datenschutzbestimmungen sind nicht tragbar."
+          },
+          {
+            "q_id": 18,
+            "answer_level": -1,
+            "answer": "Zeit im Sinne des erst später möglichen Studienabschlusses ist ein großer Nachteil."
+          },
+          {
+            "q_id": 19,
+            "answer_level": 0,
+            "answer": "Schnelle Lösungen waren notwendig, aber mit solch einer Ignoranz der Datenschutzprobleme?"
+          },
+          {
+            "q_id": 20,
+            "answer_level": 0,
+            "answer": "Warum nicht beides? Die Möglichkeit der Verbesserung des Datenschutzes bei Zoom besteht. Die Qualität des Produktes ist nicht von der Hand zu weisen."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "Eine Universität im 21. Jahrhundert benötigt auch die digitale Lehrinhalte."
+          },
+          {
+            "q_id": 22,
+            "answer_level": 1,
+            "answer": "Wenn der Datenschutz und rechtliche Fragen stimmen, why not?"
+          },
+          {
+            "q_id": 23,
+            "answer_level": 0,
+            "answer": "Ja, aber ist das sinnvoll so viele Briefe zu versenden? Warum nicht online?"
+          },
+          {
+            "q_id": 24,
+            "answer_level": 1,
+            "answer": "Alle Parteien der Hochschulgemeinschaft sind wichtig. Und um die muss sich gekümmert werden."
           }
         ]
       },
@@ -398,8 +400,139 @@
             "answer": "Corona stellt für viele Studierende der TUM eine außerordentliche Belastung dar, die die Uni zumindest zum Teil mit abfedern könnte. Unser Anliegen dahingehend ist, dass (wenn möglich) mehr Stellen ausgeschrieben werden, und die Studis, die schon beschäftigt sind, nicht gekündigt werden. Wir nehmen in diesem Bereich ein gutes Entgegenkommen der TUM wahr."
           }
         ]
+      },
+      {
+        "name": "RCDS-TUM",
+        "website": "https://rcds-tum.de",
+        "program": "https://rcds-bayern.de/tu-muenchen/hochschulwahl",
+        "answers":[
+          {
+            "q_id": 0,
+            "answer_level": 1,
+            "answer": "Wir wollen den Studenten die einmalige Möglichkeit geben sich zu verbessern und aus möglichen Fehlern beim ersten bestandenen Versuch zu lernen. Die Bereitschaft sich nochmals mit dem Modul auseinander zu setzen soll honoriert werden. "
+          },
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "Die Höchststudiendauer sollte weiterhin beschränkt sein, um die Abschlüsse in Sinne der Bologna-Vereinbarung vergleichbar zu halten."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 1,
+            "answer": "Eine größere Wahlfreiheit im Hauptstudium (ab 4.Semester) ermöglicht den Studenten eine besser Spezialisierung und ihre eigenen Interessen zu vertiefen. So können auch interdisziplinäre Ausbildungsrichtungen verbessert werden. Im Grundstudium sollte die Wahlfreiheit weiterhin eingeschränkt bleiben, da hier die Fundamente für die weitere Ausbildung gelegt werden."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "Bei wachsenden Studentenzahlen und knapper werdenden Plätzen in den Bibliotheken ist eine Ausweitung der Lernplätze unbedingt notwendig. So können auch zusätzliche Lernräume für Gruppen kurzfristig geschaffen werden."
+          },
+          {
+            "q_id": 4,
+            "answer_level": -1,
+            "answer": "Wir setzen uns auch weiterhin dafür ein, dass studieren an der TUM frei von Studiengebühren ist und so für jeden möglich ist."
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "Die Studentische Vertretung soll sich weiterhin nur für studentische Themen einsetzen und keine Allgemeinpolitik betreiben. Hauptaufgabe der Studentische Vertretung ist und bleibt der Einsatz für die Belange der Studenten und Verbesserung der Studienbedingungen."
+          },
+          {
+            "q_id": 6,
+            "answer_level": 0,
+            "answer": "Der RCDS-TUM ist der Meinung, dass eine Abstimmung mit der Hochschulleitung nicht allgemein nötig, aber häufig sinnvoll ist, um gemeinsame Ziele zu erreichen."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "Es ist wichtig, dass Studenten über die hochschulpolitische Themen informiert werden. Nur so kann ihnen die Möglichkeit gegeben werden konstruktiv am Meinungsbildungsprozess mit zu arbeiten."
+          },
+          {
+            "q_id": 8,
+            "answer_level": 1,
+            "answer": "Ein Studierendenparlament ist aus unserer Sicht ein besseres Modell gegenüber dem Fachschaftenrat, da Studenten hier direkter und transparenter repräsentiert werden. Denn aktuell werden die Vertreter im Fachschaftenrat nur indirekt über die jeweiligen Fachschaftsvertretungen gewählt."
+          },
+          {
+            "q_id": 9,
+            "answer_level": -1,
+            "answer": "Wir sehen insbesondere das allgemeinpolitische Mandat der verfassten Studierendenschaft kritisch.<br>Studentische Vertretungen sollten sich nur für studentische Belange einsetzen. Außerdem ist aktuell eine landesweite Interessenvertretung durch die Landes ASten Konferenz bereits gegeben."
+          },
+          {
+            "q_id": 10,
+            "answer_level": 1,
+            "answer": "Studentisches Festivals und Partys gehören zum studentischen Leben an der TUM und sollten auch weiterhin erhalten bleiben. Sie sind ein wichtiger Bestandteil für viele Studenten. Allerdings darf dies nicht auf Kosten der Hochschulpolitik gehen."
+          },
+          {
+            "q_id": 11,
+            "answer_level": -1,
+            "answer": "Eine ehrenamtliche Tätigkeit sollte unserer Ansicht nach auch unbezahlt bleiben. Wir sehen keine Verbesserung für die Studenten, wenn die studentischen Vertreter eine Aufwandsentschädigung erhalten."
+          },
+          {
+            "q_id": 12,
+            "answer_level": -1,
+            "answer": "Wir sind generell gegen ein allgemeinpolitisches Engagement der Studentische Vertretung. Darunter fallen auch Bewegungen wie z.B. Fridays For Future etc."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 1,
+            "answer": "Studentischer Hilfskräfte sind auch Studenten für des gilt sich einzusetzen. Sind im Gegensatz zu anderen Mitarbeitern nicht repräsentiert. Um auch ihre Interessen bei Meinungsbildungsprozessen einbinden zu können ist es notwendig die Belange seitens der Studententischen Vertretung zu berücksichtigen. Langfristig wird so die Qualität der Lehre nachhaltig gesteigert."
+          },
+          {
+            "q_id": 14,
+            "answer_level": -1,
+            "answer": "Aktuell gibt es bereits immer mindestens ein vegetarisches oder veganes Gericht. Das Studentenwerk sollte Anhand der Nachfrage entscheiden, welche Gerichte angeboten werden, um Lebensmittelverschwendung zu vermeiden."
+          },
+          {
+            "q_id": 15,
+            "answer_level": 1,
+            "answer": "Wir unterstützen diesen Vorschlag als Beitrag zur Energiewende. Trotzdem sollte abgewogen werden auf welchen Gebäuden eine Montage sinnvoll und baulich möglich ist."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 1,
+            "answer": "Aktuell stammt bereits ein großer Teil der Mittel der TUM von Wirtschaftspartnern. Diese Gelder ermöglichen exzellente Forschung und auch Lehre, die aus staatlichen Mitteln nicht finanzierbar wäre. Außerdem fördert es den Austausch zwischen Forschung und Wirtschaft."
+          },
+          {
+            "q_id": 17,
+            "answer_level": -1,
+            "answer": "Aus datenschutzrechtlichen Gründen lehnen wir den Einsatz von Proctorio als Prüfungstool ab. Eine Kombination von TUMExam und Überwachung mit BigBlueButton bietet bereits heute eine gute Alternative. Darüber hinaus würden auch noch Kosten gespart. Generell bevorzugen wir eine Präsenzprüfung."
+          },
+          {
+            "q_id": 18,
+            "answer_level": -1,
+            "answer": "Die Rechtsabteilung der TUM hat bereits veranlasst, dass eine Präsenzprüfung parallel zu Online Klausuren stattfinden muss."
+          },
+          {
+            "q_id": 19,
+            "answer_level": 1,
+            "answer": "Um einen pünktlichen Start des Semesters zu gewährleisten, war dieser Schritt unserer Meinung nach notwendig. Allerdings sollten für die Zukunft selbst gehostete open-source Alternativen eingerichtet werden. Ein Beispiel ist BigBlueButton."
+          },
+          {
+            "q_id": 20,
+            "answer_level": -1,
+            "answer": "Auf Grund der datenschutzrechtlichen Bedenken sollten für die Zukunft selbst gehostete open-source Alternativen eingerichtet werden. Ein Beispiel ist BigBlueButton."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "Allgemein steht der RCDS-TUM dem positiv gegenüber, z.B. um Standortwechsel zu vermeiden. Eine reine Onlinevorlesung lehnen wir jedoch ab."
+          },
+          {
+            "q_id": 22,
+            "answer_level": -1,
+            "answer": "Der RCDS-TUM sieht digitale Klausuren eher als Notlösung und nicht als dauerhafte Einrichtung."
+          },
+          {
+            "q_id": 23,
+            "answer_level": 1,
+            "answer": "Aus infektionstechnischen Gründen sollte die diesjährige Hoschulwahl als Briefwahl durchgeführt werden. Die Wahlunterlagen sollten automatisch verschickt werden, um möglichst viele Studenten zu erreichen. Generell setzt sich der RCDS-TUM für Online-Wahlen ein."
+          },
+          {
+            "q_id": 24,
+            "answer_level": 1,
+            "answer": "Wir sehen die TUM hier in der Pflicht den Zugang zu Informationen bzgl. finanziellen und gesundheitlichen Hilfsprogrammen, insbesondere mehrsprachig, bereit zu stellen."
+          }
+        ]
       }
-
     ],
     "questions":[
       {"q_id": 0, "question":"Es soll möglich sein, jede Klausur auch nach einem erfolgreichen Versuch freiwillig zu wiederholen."},

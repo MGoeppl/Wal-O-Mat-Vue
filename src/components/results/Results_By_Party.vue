@@ -5,10 +5,17 @@
                 <h3>{{party.name}}</h3>
 <!--                <p id = "Debug">{{results}}</p>-->
                 <Results_By_Party_Progress_Bar
+                        style="margin: 15px 0px"
                         :party="party"
                         :results="results"
                 />
 
+                <b-button block @click="goTo(party.website)">{{$t('results.party_website', {party: party.name})}}</b-button>
+
+<!--                <b-button-group style="margin: 15px 0px; width: 100%">-->
+<!--                    <b-button variant="info" style="width: 50%">Party Website</b-button>-->
+<!--                    <b-button variant="info" style="width: 50%">Party Program</b-button>-->
+<!--                </b-button-group>-->
             </b-card-header>
             <b-list-group>
                 <Result_By_Party_Question_Item
@@ -22,10 +29,11 @@
                         :starred="star_array[question.q_id]"
                 />
             </b-list-group>
-            <b-card-footer @click="goTo(party.website)">
-                {{$t('results.party_website', {party: party.name})}}
-<!--                For More Info Regarding the Party, you can visit <a v-bind:href="party.website" rel="noopener noreferrer" target="_blank">{{party.website}}</a>-->
-            </b-card-footer>
+<!--            <b-card-footer @click="set_screen('result')">-->
+<!--                Scroll to Top-->
+<!--&lt;!&ndash;                {{$t('results.party_website', {party: party.name})}}&ndash;&gt;-->
+<!--&lt;!&ndash;                For More Info Regarding the Party, you can visit <a v-bind:href="party.website" rel="noopener noreferrer" target="_blank">{{party.website}}</a>&ndash;&gt;-->
+<!--            </b-card-footer>-->
         </b-card>
     </div>
 </template>
@@ -41,7 +49,8 @@
             results: Array,
             questions: Array,
             answers: Array,
-            star_array: Array
+            star_array: Array,
+            set_screen: Function
         },
         methods:{
             goTo(url){

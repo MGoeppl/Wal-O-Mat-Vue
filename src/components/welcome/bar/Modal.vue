@@ -73,7 +73,7 @@
             </table>
             <p/>
             <h5>Technical Information</h5>
-            <p>This app was written in Vue.JS and is hosted on the servers of the Studentische Vertretung. It does not track your choices. The source code has been uploaded to Github and can be found: https://github.com/Aevyz/Wal-O-Mat-Vue</p>
+            <p>This app was written in Vue.JS and is hosted on the servers of the Studentische Vertretung. It does not track your choices. As such, refreshing the page will restart your progress. The source code has been uploaded to Github and can be found: https://github.com/Aevyz/Wal-O-Mat-Vue</p>
             <h5>Credits</h5>
             <p>A special thank you goes to the following people for helping to develop and test the tool</p>
             <ul>

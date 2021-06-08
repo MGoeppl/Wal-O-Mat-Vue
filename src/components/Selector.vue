@@ -59,7 +59,6 @@
     import Welcome from "@/components/welcome/Welcome";
     import Archive_Banner from "@/components/archive/Archive_Banner";
     import Star_Screen from "@/components/star_screen/Star_Screen";
-
     export default {
         name: "Selector",
         components: {Star_Screen, Archive_Banner, Welcome, Results, Question_Container},

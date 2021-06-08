@@ -1,15 +1,12 @@
 <template>
-    <div>
-<!--        <b-nav tabs>-->
-<!--            <b-nav-item disabled><b>Quiz</b></b-nav-item>-->
-<!--            <b-nav-item disabled>Question: {{index}}</b-nav-item>-->
-<!--        </b-nav>-->
-    </div>
+    <go-top></go-top>
 </template>
 
 <script>
+    import GoTop from "@/components/GoTop";
     export default {
         name: "Header",
+        components: {GoTop},
         props: {
             index: Number,
         },
