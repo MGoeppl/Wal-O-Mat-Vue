@@ -67,7 +67,7 @@
 </script>
 
 <style scoped>
-/*.btn-group{*/
-/*    margin: 15px 0px;*/
-/*}*/
+.btn-group{
+    margin: 15px 0px;
+}
 </style>
