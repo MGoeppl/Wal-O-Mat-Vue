@@ -11,7 +11,7 @@
 
             <Flag style="margin: 10px 20px"/>
 
-            <p v-if="get_date(year)===null">{{$t('welcome.date.unknown') }}</p>
+            <p v-if="get_date(year)===null">{{$t('welcome.date_unknown') }}</p>
             <p v-else>{{$t('welcome.date', { date: get_date(year)})}} </p>
         </template>
 
@@ -67,7 +67,7 @@
 </script>
 
 <style scoped>
-.btn-group{
-    margin: 15px 0px;
-}
+/*.btn-group{*/
+/*    margin: 15px 0px;*/
+/*}*/
 </style>

@@ -3,7 +3,7 @@
     "title": "Wal-O-Mat \uD83D\uDC0B",
     "description": "Welcome to the Walomat! We can help you inform yourself regarding the upcoming university elections.",
     "date": "The next university election will take place on the {date}",
-    "dateunknown": "We don't know when the next university election is taking place :(",
+    "date_unknown": "The Walomat is still being prepared for the upcoming election. We will announce on social media, when it is available. Follow us @sv4tum!",
     "lang": "Change Language",
     "archive": "Archived Years",
     "postal": "You can also vote by post. Applications can be done here."

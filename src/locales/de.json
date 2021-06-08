@@ -3,7 +3,7 @@
     "title": "Wal-O-Mat \uD83D\uDC0B",
     "description": "Herzlich Wilkommen beim Wal-O-Mat! Hier helfen wir Dir, Dich über die kommende Hochschulwahl zu informieren.",
     "date": "Die nächste Hochschulwahl ist am {date}",
-    "dateunknown": "Leider wissen wir nicht wann die nächste HSW ist :(",
+    "date_unknown": "Der Walomat wird noch für die anstehende Wahl vorbereitet. Wir werden auf Social Media ankündigen, wenn er verfügbar ist. Folgen Sie uns @sv4tum!",
     "lang": "Sprache ändern",
     "archive": "Archive",
     "postal": "Es gibt die Möglichkeit per Briefwahl zu wählen. Infos dazu findest du hier."
