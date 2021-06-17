@@ -3,17 +3,17 @@
     "title": "Wal-O-Mat \uD83D\uDC0B",
     "description": "Herzlich Wilkommen beim Wal-O-Mat! Hier helfen wir Dir, Dich über die kommende Hochschulwahl zu informieren.",
     "date": "Die nächste Hochschulwahl ist am {date}",
-    "date_unknown": "Der Walomat wird noch für die anstehende Wahl vorbereitet. Wir werden auf Social Media ankündigen, wenn er verfügbar ist. Folgen Sie uns @sv4tum!",
+    "date_unknown": "Der Walomat wird noch für die anstehende Wahl vorbereitet. Wir werden auf Social Media ankündigen, wenn er verfügbar ist. Folge uns unter @sv4tum!",
     "lang": "Sprache ändern",
-    "archive": "Archive",
-    "postal": "Es gibt die Möglichkeit per Briefwahl zu wählen. Infos dazu findest du hier."
+    "archive": "Archiv",
+    "postal": "Es gibt die Möglichkeit, per Briefwahl zu wählen. Infos dazu findest du hier."
   },
   "questions":{
     "title": "Fragen",
     "bar":{
       "answered": "Beantwortet",
       "unanswered": "Unbeantwortet",
-      "weight": "Gewichtet"
+      "weight": "Gewichtung"
     }
   },
   "button": {
@@ -33,7 +33,7 @@
   },
   "star":{
     "title": "Wichtige Fragen",
-    "description": "Ist eine Frage besonders wichtig für Dich? Wähle sie aus und sie wird besonders beachtet.",
+    "description": "Ist eine Frage besonders wichtig für Dich? Wähle sie hier aus und sie wird besonders gewichtet.",
     "algorithm": "Falls Dich der Algorithmus interessiert, kannst du hier klicken!.",
     "skip": {
       "title": "Übersprungene Antworten",
@@ -44,8 +44,8 @@
   "results": {
     "title": "Resultate",
     "recommendation": "Du hast die höchste Übereinstimmung mit der Liste {party}!",
-    "party_website": "Für mehr Infos bzgl. {party}, kannst du ihre Webseite besuchen {website}.",
-    "disclaimer": "Der Walomat ist keine Wahlempfehlung, sondern ein Informationsangebot für die Hochschulwahl 2020. Es besteht kein Anspruch auf eine vollständige Abdeckung der Themen in den jeweiligen Wahlprogrammen.",
+    "party_website": "Für mehr Infos bzgl. {party} kannst du ihre Webseite besuchen {website}.",
+    "disclaimer": "Der Walomat ist keine Wahlempfehlung, sondern lediglich ein Informationsangebot für die Hochschulwahl 2020. Es besteht kein Anspruch auf eine vollständige Abdeckung der Themen in den jeweiligen Wahlprogrammen.",
     "tab": {
       "party": {
         "title": "Nach Liste",
