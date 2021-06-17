@@ -3,12 +3,11 @@
     "year": 2020,
     "date": "2020-07-28",
     "parties": [
-
       {
         "name": "Liste eurer Fachschaften (LitFaS)",
         "website": "https://www.litfas.fs.tum.de/",
         "program": "https://www.litfas.fs.tum.de/wahlprogramm/",
-        "answers":[
+        "answers": [
           {
             "q_id": 0,
             "answer_level": 0,
@@ -136,7 +135,6 @@
           }
         ]
       },
-
       {
         "name": "Campus University@TUM",
         "website": "https://www.cutum.de",
@@ -273,7 +271,7 @@
         "name": "UPTUM",
         "website": "https://www.instagram.com/uptum2020/",
         "program": "tbd",
-        "answers":[
+        "answers": [
           {
             "q_id": 0,
             "answer_level": 1,
@@ -405,7 +403,7 @@
         "name": "RCDS-TUM",
         "website": "https://rcds-tum.de",
         "program": "https://rcds-bayern.de/tu-muenchen/hochschulwahl",
-        "answers":[
+        "answers": [
           {
             "q_id": 0,
             "answer_level": 1,
@@ -534,34 +532,507 @@
         ]
       }
     ],
-    "questions":[
-      {"q_id": 0, "question":"Es soll möglich sein, jede Klausur auch nach einem erfolgreichen Versuch freiwillig zu wiederholen."},
-      {"q_id": 1, "question":"Die Höchststudiendauer soll weiterhin durch Credithürden beschränkt sein."},
-      {"q_id": 2, "question":"Die Studierenden sollen in ihrem Bachelor eine größere Wahlfreiheit haben."},
-      {"q_id": 3, "question":"Alle Seminarräume sollen am Wochenende und während der Klausurzeit als Lernräume zur Verfügung stehen."},
-      {"q_id": 4, "question":"An der TUM sollen die Studiengebühren wieder eingeführt werden."},
-      {"q_id": 5, "question":"Die Studentische Vertretung soll sich auch zu Themen äußern, die nicht ausschließlich das Studium und das studentische Leben betreffen."},
-      {"q_id": 6, "question":"Die Studentische Vertretung soll sich bei öffentlichen Äußerungen inhaltlich mit der Hochschulleitung absprechen."},
-      {"q_id": 7, "question":"Die Studentische Vertretung soll öffentlich stärker über ihre hochschulpolitische Arbeit informieren."},
-      {"q_id": 8, "question":"Der Fachschaftenrat soll durch ein direkt gewähltes Studierendenparlament ersetzt werden."},
-      {"q_id": 9, "question":"Die Studentische Vertretung soll sich für eine verfasste Studierendenschaft einsetzen."},
-
-      {"q_id": 10, "question":"Die Studentische Vertretung soll einen Großteil der Ressourcen in die Organisation von Festivals wie dem TU/GARNIX investieren."},
-      {"q_id": 11, "question":"Die studentischen Vertreter*innen im Senat und AStA sollen für ihre ehrenamtliche Tätigkeit eine Aufwandsentschädigung erhalten."},
-      {"q_id": 12, "question":"Die Studentische Vertretung soll Fridays For Future unterstützen."},
-      {"q_id": 13, "question":"Die Studentische Vertretung soll sich für die Belange studentischer Hilfskräfte und Tutor*innen einsetzen."},
-      {"q_id": 14, "question":"In der Mensa muss es jeden Tag mindestens je ein vegetarisches und veganes Gericht geben."},
-      {"q_id": 15, "question":"Auf allen Universitäts-Gebäuden sollen Solarpanels montiert werden."},
-      {"q_id": 16, "question":"Die Forschung an der TUM darf durch Wirtschaftspartner finanziert werden."},
-      {"q_id": 17, "question":"Proctorio ist ein akzeptables Tool, um online Klausuren durchzuführen."},
-      {"q_id": 18, "question":"Es stellt eine tragbare Alternative dar, wenn Studierende, die an datenschutztechnisch fragwürdigen Klausurformaten nicht teilnehmen möchten, diese nur in späteren Semestern nachholen können."},
-      {"q_id": 19, "question":"Die schnelle Einführung von Zoom an der TUM war trotz Datenschutz-Bedenken gerechtfertigt."},
-
-      {"q_id": 20, "question":"Die TUM soll an der Nutzung von Zoom festhalten und NICHT auf selbst gehostete Dienste(bspw. BigBlueButton oder Jitsi) umsteigen."},
-      {"q_id": 21, "question":"Es soll auch nach Corona die Möglichkeit geben, Vorlesungen/Praktika ausschließlich online durchzuführen."},
-      {"q_id": 22, "question":"Es soll auch nach Corona die Möglichkeit für digitale Klausuren geben."},
-      {"q_id": 23, "question":"Die Hochschulwahl sollte verpflichtend als Briefwahl durchgeführt werden."},
-      {"q_id": 24, "question":"Die TUM soll sich aktiv für Studierende einsetzen, die durch Corona finanzielle oder gesundheitliche Probleme haben."}
+    "questions": [
+      {
+        "q_id": 0,
+        "question": "Es soll möglich sein, jede Klausur auch nach einem erfolgreichen Versuch freiwillig zu wiederholen."
+      },
+      {
+        "q_id": 1,
+        "question": "Die Höchststudiendauer soll weiterhin durch Credithürden beschränkt sein."
+      },
+      {
+        "q_id": 2,
+        "question": "Die Studierenden sollen in ihrem Bachelor eine größere Wahlfreiheit haben."
+      },
+      {
+        "q_id": 3,
+        "question": "Alle Seminarräume sollen am Wochenende und während der Klausurzeit als Lernräume zur Verfügung stehen."
+      },
+      {
+        "q_id": 4,
+        "question": "An der TUM sollen die Studiengebühren wieder eingeführt werden."
+      },
+      {
+        "q_id": 5,
+        "question": "Die Studentische Vertretung soll sich auch zu Themen äußern, die nicht ausschließlich das Studium und das studentische Leben betreffen."
+      },
+      {
+        "q_id": 6,
+        "question": "Die Studentische Vertretung soll sich bei öffentlichen Äußerungen inhaltlich mit der Hochschulleitung absprechen."
+      },
+      {
+        "q_id": 7,
+        "question": "Die Studentische Vertretung soll öffentlich stärker über ihre hochschulpolitische Arbeit informieren."
+      },
+      {
+        "q_id": 8,
+        "question": "Der Fachschaftenrat soll durch ein direkt gewähltes Studierendenparlament ersetzt werden."
+      },
+      {
+        "q_id": 9,
+        "question": "Die Studentische Vertretung soll sich für eine verfasste Studierendenschaft einsetzen."
+      },
+      {
+        "q_id": 10,
+        "question": "Die Studentische Vertretung soll einen Großteil der Ressourcen in die Organisation von Festivals wie dem TU/GARNIX investieren."
+      },
+      {
+        "q_id": 11,
+        "question": "Die studentischen Vertreter*innen im Senat und AStA sollen für ihre ehrenamtliche Tätigkeit eine Aufwandsentschädigung erhalten."
+      },
+      {
+        "q_id": 12,
+        "question": "Die Studentische Vertretung soll Fridays For Future unterstützen."
+      },
+      {
+        "q_id": 13,
+        "question": "Die Studentische Vertretung soll sich für die Belange studentischer Hilfskräfte und Tutor*innen einsetzen."
+      },
+      {
+        "q_id": 14,
+        "question": "In der Mensa muss es jeden Tag mindestens je ein vegetarisches und veganes Gericht geben."
+      },
+      {
+        "q_id": 15,
+        "question": "Auf allen Universitäts-Gebäuden sollen Solarpanels montiert werden."
+      },
+      {
+        "q_id": 16,
+        "question": "Die Forschung an der TUM darf durch Wirtschaftspartner finanziert werden."
+      },
+      {
+        "q_id": 17,
+        "question": "Proctorio ist ein akzeptables Tool, um online Klausuren durchzuführen."
+      },
+      {
+        "q_id": 18,
+        "question": "Es stellt eine tragbare Alternative dar, wenn Studierende, die an datenschutztechnisch fragwürdigen Klausurformaten nicht teilnehmen möchten, diese nur in späteren Semestern nachholen können."
+      },
+      {
+        "q_id": 19,
+        "question": "Die schnelle Einführung von Zoom an der TUM war trotz Datenschutz-Bedenken gerechtfertigt."
+      },
+      {
+        "q_id": 20,
+        "question": "Die TUM soll an der Nutzung von Zoom festhalten und NICHT auf selbst gehostete Dienste(bspw. BigBlueButton oder Jitsi) umsteigen."
+      },
+      {
+        "q_id": 21,
+        "question": "Es soll auch nach Corona die Möglichkeit geben, Vorlesungen/Praktika ausschließlich online durchzuführen."
+      },
+      {
+        "q_id": 22,
+        "question": "Es soll auch nach Corona die Möglichkeit für digitale Klausuren geben."
+      },
+      {
+        "q_id": 23,
+        "question": "Die Hochschulwahl sollte verpflichtend als Briefwahl durchgeführt werden."
+      },
+      {
+        "q_id": 24,
+        "question": "Die TUM soll sich aktiv für Studierende einsetzen, die durch Corona finanzielle oder gesundheitliche Probleme haben."
+      }
+    ]
+  },
+  {
+    "year": 2021,
+    "date": "2021-07-06",
+    "questions": [
+      {
+        "q_id": 0,
+        "question": "Es soll möglich sein, jede Klausur auch nach einem erfolgreichen Versuch freiwillig zu wiederholen."
+      },
+      {
+        "q_id": 1,
+        "question": "Die Höchststudiendauer soll weiterhin durch Credithürden beschränkt sein."
+      },
+      {
+        "q_id": 2,
+        "question": "Die Studierenden sollen in ihrem Bachelor eine größere Wahlfreiheit haben."
+      },
+      {
+        "q_id": 3,
+        "question": "Alle Seminarräume sollen am Wochenende und während der Klausurzeit als Lernräume zur Verfügung stehen."
+      },
+      {
+        "q_id": 4,
+        "question": "An der TUM sollen die Studiengebühren wieder eingeführt werden."
+      },
+      {
+        "q_id": 5,
+        "question": "Studierende aus dem nicht EU Ausland sollten extra Gebühren bezahlen um an der TUM studieren zu können."
+      },
+      {
+        "q_id": 6,
+        "question": "Das Kaskadenmodell ist ein sinnvoller Weg um die Gleichstellung der Geschlechter auf allen ebenen zu erreichen."
+      },
+      {
+        "q_id": 7,
+        "question": "Die Studentische Vertretung soll sich auch zu Themen äußern, die nicht ausschließlich das Studium und das studentische Leben betreffen."
+      },
+      {
+        "q_id": 8,
+        "question": "Die Studentische Vertretung soll sich bei öffentlichen Äußerungen inhaltlich mit der Hochschulleitung absprechen."
+      },
+      {
+        "q_id": 9,
+        "question": "Die Studentische Vertretung soll öffentlich stärker über ihre hochschulpolitische Arbeit informieren."
+      },
+      {
+        "q_id": 10,
+        "question": "Der Fachschaftenrat soll durch ein direkt gewähltes Studierendenparlament ersetzt werden."
+      },
+      {
+        "q_id": 11,
+        "question": "Die Studentische Vertretung soll sich für eine verfasste Studierendenschaft einsetzen."
+      },
+      {
+        "q_id": 12,
+        "question": "Die Umstrukturierung von Fakultäten zu Schools ist ein für Studierende Gewinn bringender Prozess."
+      },
+      {
+        "q_id": 13,
+        "question": "Die studentischen Vertreter*innen im Senat und AStA sollen für ihre ehrenamtliche Tätigkeit eine Aufwandsentschädigung erhalten."
+      },
+      {
+        "q_id": 14,
+        "question": "Die Studentische Vertretung soll Fridays For Future unterstützen."
+      },
+      {
+        "q_id": 15,
+        "question": "Die Studentische Vertretung soll sich für die Belange studentischer Hilfskräfte und Tutor*innen einsetzen."
+      },
+      {
+        "q_id": 16,
+        "question": "Die TUM soll bis spätestens 2030 Klimaneutral werden."
+      },
+      {
+        "q_id": 17,
+        "question": "Die Forschung an der TUM darf durch Wirtschaftspartner finanziert werden."
+      },
+      {
+        "q_id": 18,
+        "question": "Forschungsstarke Professor:innen sollten weniger Lehre betreiben als forschungsschwache und dafür mehr forschen."
+      },
+      {
+        "q_id": 19,
+        "question": "Proctorio ist ein akzeptables Tool, um online Klausuren durchzuführen."
+      },
+      {
+        "q_id": 20,
+        "question": "Es stellt eine tragbare Alternative dar, wenn Studierende, die an datenschutztechnisch fragwürdigen Klausurformaten nicht teilnehmen möchten, diese nur in späteren Semestern nachholen können."
+      },
+      {
+        "q_id": 21,
+        "question": "Die Wieder-Einführung von Zoom an der TUM war trotz Datenschutz-Bedenken gerechtfertigt."
+      },
+      {
+        "q_id": 22,
+        "question": "Die TUM soll an der Nutzung von Zoom festhalten und NICHT auf selbst gehostete Dienste (bspw. BigBlueButton oder Jitsi) umsteigen."
+      },
+      {
+        "q_id": 23,
+        "question": "Es soll auch nach Corona die Möglichkeit geben, Vorlesungen/Praktika ausschließlich online durchzuführen."
+      },
+      {
+        "q_id": 24,
+        "question": "Es soll auch nach Corona die Möglichkeit für digitale Klausuren geben."
+      },
+      {
+        "q_id": 25,
+        "question": "Die Hochschulwahl sollte verpflichtend als Briefwahl durchgeführt werden."
+      },
+      {
+        "q_id": 26,
+        "question": "Bei Hochschulwahlen können zu Gunsten von Onlinewahlen Wahlrechtsgrundsätze, wie bspw. die Nachvollziehbarkeit der Stimmauswerung, vernachlässigt werden."
+      }
+    ],
+    "parties": [
+      {
+        "name": "Simon Hafner",
+        "program": "https://www.rcds-bayern.de/tu-muenchen/hochschulwahl/",
+        "website": "www.rcds-tum.de",
+        "answers": [
+          {
+            "q_id": 1,
+            "answer_level": 1,
+            "answer": "Wir wollen den Studenten die einmalige Möglichkeit geben sich zu verbessern und aus möglichen Fehlern beim ersten bestandenen Versuch zu lernen. \r\nDie Bereitschaft sich nochmals mit dem Modul auseinander zu setzen soll honoriert werden."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 1,
+            "answer": "Die Höchststudiendauer sollte weiterhin beschränkt sein, um die Abschlüsse in Sinne der Bologna-Vereinbarung vergleichbar zu halten."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 1,
+            "answer": "Eine größere Wahlfreiheit im Hauptstudium (ab 4.Semester) ermöglicht den Studenten eine besser Spezialisierung und ihre eigenen Interessen zu vertiefen. So können auch interdisziplinäre Ausbildungsrichtungen verbessert werden.\r\nIm Grundstudium sollte die Wahlfreiheit weiterhin eingeschränkt bleiben, da hier die Fundamente für die weitere Ausbildung gelegt werden."
+          },
+          {
+            "q_id": 4,
+            "answer_level": 1,
+            "answer": "Bei wachsenden Studentenzahlen und knapper werdenden Plätzen in den Bibliotheken ist eine Ausweitung der Lernplätze unbedingt notwendig. \r\nSo können auch zusätzliche Lernräume für Gruppen kurzfristig geschaffen werden"
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "Eine generelle Wiedereinführung der Studiengebühren sehen wir kritisch. In bestimmten Ausnahmen können wir uns allerdings Gebühren vorstellen (z.B. MBAs, Nicht-EU-Ausländer)."
+          },
+          {
+            "q_id": 6,
+            "answer_level": 1,
+            "answer": "Im jetzigen globalen Wettbewerb halten wir Studiengebühren für nicht-EU-Ausländer für sinnvoll, sofern EU-Bürger im Herkunftsland nicht gebührenfrei studieren können. Wenn der Absolvent aber nach dem Studium in Deutschland arbeitet, könnten die Gebühren durch Steuerminderungen zurückbezahlt werden. Sozial schwache Studenten sollten durch gezielte Stipendienprogramme oder Gebührenerlässe gefördert werden."
+          },
+          {
+            "q_id": 7,
+            "answer_level": -1,
+            "answer": "Das Ziel, der Chancengerechtigkeit von Frauen und Männern bei der Berufung von Professorinnen und Professoren, halten wir für wichtig. Die grundsätzliche Idee des Kaskadenmodells, die Ursachen einer eventuellen Unterrepräsentation einer Gruppe zu untersuchen ist ebenso unterstützenswert. Jedoch lehnen wir Quoten als Mittel zur Beseitigung hierzu ab, da sie nicht Ursachenorientiert sind und uns wichtig ist, dass die Leistung im Vordergrund der Entscheidung steht."
+          },
+          {
+            "q_id": 8,
+            "answer_level": -1,
+            "answer": "Die Studentische Vertretung soll sich weiterhin nur für studentische Themen einsetzen und keine Allgemeinpolitik betreiben. \r\nHauptaufgabe der Studentische Vertretung ist und bleibt der Einsatz für die Belange der Studenten und Verbesserung der Studienbedingungen."
+          },
+          {
+            "q_id": 9,
+            "answer_level": 0,
+            "answer": "Der RCDS-TUM ist der Meinung, dass eine Abstimmung mit der Hochschulleitung nicht allgemein nötig, aber häufig sinnvoll ist, um gemeinsame Ziele zu erreichen."
+          },
+          {
+            "q_id": 10,
+            "answer_level": 1,
+            "answer": "Es ist wichtig, dass Studenten über die hochschulpolitischen Themen informiert werden. Nur so kann ihnen die Möglichkeit gegeben werden konstruktiv am Meinungsbildungsprozess mitzuarbeiten"
+          },
+          {
+            "q_id": 11,
+            "answer_level": 1,
+            "answer": "Ein Studierendenparlament ist aus unserer Sicht ein besseres Modell gegenüber dem Fachschaftenrat, da Studenten hier direkter und transparenter repräsentiert werden. \r\nDenn aktuell werden die Vertreter im Fachschaftenrat nur indirekt über die jeweiligen Fachschaftsvertretungen gewählt."
+          },
+          {
+            "q_id": 12,
+            "answer_level": -1,
+            "answer": "Wir sehen insbesondere das allgemeinpolitische Mandat der verfassten Studierendenschaft kritisch. Studentische Vertretungen sollten sich grundsätzlich für studentische Belange einsetzen. Durch die so kleine Wahlbeteiligung zweifeln wir die demokratische Legitimität eins allgemeinpolitischen Mandats eines studentischen Gremiums an. Belange, die sich über das studentische hinaus erstrecken sollen, demokratisch auf kommunaler oder Landesebene entschieden werden."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 0,
+            "answer": "Grundsätzlich ist ein Verlangen nach Interdisziplinarität und erhöhter Effizienz unterstützenswert. Einen sinnvollen und mit allen Seiten abgesprochenen Prozess ist jedoch notwendig, um bestehendes „Know-how“ nicht durch zu schneller Umstrukturierung zu gefährden. Auch darf bei der School-Reform nicht an den Services und er Betreuung der Studenten gekürzt werden. Auch lehnen wir die Zusammenlegung von Grundstudiumskursen ab."
+          },
+          {
+            "q_id": 14,
+            "answer_level": -1,
+            "answer": "Eine ehrenamtliche Tätigkeit sollte unserer Ansicht nach auch unbezahlt bleiben. Wir sehen keine Verbesserung für die Studenten, wenn die studentischen Vertreter eine Aufwandsentschädigung erhalten."
+          },
+          {
+            "q_id": 15,
+            "answer_level": -1,
+            "answer": "Wir sind generell gegen ein allgemeinpolitisches Engagement der Studentische Vertretung. Darunter fallen auch Bewegungen wie z.B. Fridays For Future etc."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 1,
+            "answer": "Studentischer Hilfskräfte sind auch Studenten für des gilt sich einzusetzen. Sind im Gegensatz zu anderen Mitarbeitern nicht repräsentiert. Um auch ihre Interessen bei Meinungsbildungsprozessen einbinden zu können ist es notwendig die Belange seitens der Studententischen Vertretung zu berücksichtigen.\r\nLangfristig wird so die Qualität der Lehre nachhaltig gesteigert."
+          },
+          {
+            "q_id": 17,
+            "answer_level": 1,
+            "answer": "Der Freistaat Bayern, als Mitglied der „Allianz für Entwicklung und Klima“, hat sich zu einer klimaneutralen Staatsverwaltung bis 2030 verpflichtet. Unserer Auffassung nach schließt das die Universitäten ein."
+          },
+          {
+            "q_id": 18,
+            "answer_level": 1,
+            "answer": "Aktuell stammt bereits ein großer Teil der Mittel der TUM von Wirtschaftspartnern. Diese Gelder ermöglichen exzellente Forschung und auch Lehre, die aus staatlichen Mitteln nicht finanzierbar wäre.\r\nAußerdem fördert es den Austausch zwischen Forschung und Wirtschaft."
+          },
+          {
+            "q_id": 19,
+            "answer_level": 0,
+            "answer": "Eine generelle Reduktion der Lehre auch bei forschungsstarken Professoren lehnen wir ab. Allerdings sind wir für eine Flexibilisierung des Lehrdeputats, sodass Professoren, die gerne mehr Lehre betreiben wollen dies auch können und Professoren, die temporär mehr Zeit der Forschung widmen wollen, etwas weniger Lehre betreiben müssen. Wichtig ist, dass die gesamt angebotene Lehrmenge in jedem Fachgebiet dadurch nicht reduziert wird."
+          },
+          {
+            "q_id": 20,
+            "answer_level": -1,
+            "answer": "Aus datenschutzrechtlichen Gründen lehnen wir den Einsatz von Proctorio als Prüfungstool ab. Eine Kombination von TUMExam und Überwachung mit BigBlueButton/Zoom bietet bereits heute eine gute Alternative, ebenso wie die sonstigen (un-)beaufsichtigten von ProLehre vorgeschlagenen Fernprüfungsformate. Darüber hinaus würden auch noch Kosten gespart. Generell bevorzugen wir eine Präsenzprüfung."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "Die Rechtsabteilung der TUM hat bereits veranlasst, dass eine Präsenzprüfung parallel zu überwachten Online Klausuren stattfinden muss."
+          },
+          {
+            "q_id": 22,
+            "answer_level": 1,
+            "answer": "Grundsätzlich bevorzugen wir selbstgehostete, Open-Source Lösungen, jedoch hat sich schnell gezeigt, dass die Serverkapazitäten des LRZ und der RBG für einen vollen Fernbetrieb nicht ausreichend sind. Wir begrüßen die strengeren Datenschutzbestimmungen des Zoom-betriebenen TUM-Conf-Service. Bei der Rückkehr zur weitgehenden Präsenzlehre kann auf selbst gehostete Dienste umgestiegen werden."
+          },
+          {
+            "q_id": 23,
+            "answer_level": 0,
+            "answer": "Grundsätzlich bevorzugen wir selbstgehostete, Open-Source Lösungen, jedoch, und solange die Wahlfreiheit für die Studenten gewährleistet ist, sehen wir kein Problem bei einem langfristigen Zoom-Angebot der TUM. Wir begrüßen die strengeren Datenschutzbestimmungen des Zoom-betriebenen TUM-Conf-Service."
+          },
+          {
+            "q_id": 24,
+            "answer_level": -1,
+            "answer": "Die TUM ist eine reine Präsenzuniversität. Die ergänzende Nutzung jeglicher digitaler Lehr- und Forschungsmethoden ist natürlich positiv, jedoch muss die Präsenzlehre gewährleistet sein. Der persönliche Austausch ist speziell in Praktika von großer Bedeutung. Es ist erstrebenswert möglichst viele Präsenzvorlesungen aufzuzeichnen und dann zusätzlich auch online anzubieten."
+          },
+          {
+            "q_id": 25,
+            "answer_level": -1,
+            "answer": "Um faire, und vor allem gleiche Prüfungsbedingungen für alle Studenten zu garantieren halten wir Präsenzklausuren für die beste Lösung. Die Qualität digitaler Prüfungsformate ist vergleichsweise sehr abhängig von den konkreten Lebensbedingungen der Teilnehmer."
+          },
+          {
+            "q_id": 26,
+            "answer_level": 1,
+            "answer": "Auf Grund der aktuellen Situation mit nahezu keinen Studenten am Campus, hätten wir uns eine automatische Briefwahl sehr gewünscht. Dies wäre eine potenzielle Methode, um die Wahlbeteiligung zu erhöhen. Vereinfachter Zugang zur Wahl ist immer begrüßenswert."
+          },
+          {
+            "q_id": 27,
+            "answer_level": -1,
+            "answer": "Wahlrechtsgrundsätze dürfen nicht vernachlässigt werden, um trotzdem eine faire und geheime Wahl zu garantieren. Wenn jedoch alle gewährleistet sind, spricht grundsätzlich nichts gegen eine reine Onlinewahl."
+          }
+        ]
+      },
+      {
+        "name": "Henry Winner",
+        "program": "litfas.fs.tum.de/programm",
+        "website": "litfas.fs.tum.de",
+        "answers": [
+          {
+            "q_id": 1,
+            "answer_level": 0,
+            "answer": "Wenn man jede Klausur freiwillig wiederholen kann um die Note zu verbessern führt das in eine Richtung, in der nur mehr der Fleiß zählt. Wiederhole ich eine Klausur fünf Mal um am Ende mit einer 1,0 dazustehen oder habe ich vielleicht nicht die Zeit oder Motivation und bleibe bei meiner 3,3? Ebenso fällt die Vergleichbarkeit der Noten weg. Es muss hier also sichergestellt werden, dass alle Studierenden die gleichen Chancen haben eine gute Note in einer Klausur zu erreichen."
+          },
+          {
+            "q_id": 2,
+            "answer_level": 1,
+            "answer": "Die Höchststudiendauer ist bereits soweit gelockert, dass jede*r Student*in sein*ihr Studium darin schaffen kann. Für unvorhergesehene Umstände oder besondere Härtefälle gibt es mit den Urlaubssemestern und den Mitteln der Prüfungsausschüsse bereits eine breite Handlungsbasis für Ausnahmefälle. Die Credithürden sind damit eine um einiges flexiblere Lösung als eine begrenzte Anzahl von Versuchen pro Prüfung bei allen Prüfungen."
+          },
+          {
+            "q_id": 3,
+            "answer_level": 0,
+            "answer": "Alle Studierenden sollten im Bachelor die Grundlagen ihres jeweiligen Faches kennenlernen und darüber hinaus die Möglichkeit bekommen sich in einer Spezialisierung zu vertiefen. Diese Thematik muss allerdings sehr studiengangsspezifisch und fakultätsspezifisch angegangen werden, da nicht alle Studiengänge und Fakultäten mit einer generellen Regelung abgedeckt werden können."
+          },
+          {
+            "q_id": 4,
+            "answer_level": 1,
+            "answer": "Solange die Lehrstühle die Seminarräume nicht anderweitig für Forschung und Lehre nutzen, sollten diese als Lernräume den Studierenden zugänglich gemacht werden. Allerdings muss hierbei ein besonderes Augenmerk auf der angemessenen Nutzung der Räume liegen. Sie sollten als Lernräume genutzt werden, nicht aber als Lebensort oder Partylocation."
+          },
+          {
+            "q_id": 5,
+            "answer_level": -1,
+            "answer": "Wir setzen uns dafür ein, dass ein Studium an der TUM für Menschen mit allen sozialen und wirtschaftlichen Hintergründen möglich ist. Studiengebühren sind ein großer Stein im Weg vieler Studierender, gerade wenn sie Erstakademiker sind. Ebenso sprechen wir uns explizit gegen Studiengebühren aus, die nur ein Teil der Studierenden zahlen müssen. Das hier oft favorisierte Konzept der Studiengebühren für Nicht-EU-Ausländer lehnen wir entschieden ab."
+          },
+          {
+            "q_id": 6,
+            "answer_level": -1,
+            "answer": "Die TUM rühmt sich damit eine internationale Universität zu sein und die Immatrikulationszahlen von Studierenden aus dem EU und Nicht-EU Ausland geben dieser Aussage recht. Damit wir auch weiterhin international bleiben und die schlausten Köpfe der ganzen Welt niederschwellig zu uns an die TUM holen können dürfen wir keine zusätzlichen Barrieren aufbauen. Die Einführung solcher Gebühren in \r\nBaden-Württemberg zeigt außerdem, dass ein Großteil der Gebühren durch die dadurch entstandene Bürokratie bereits aufgefressen wird."
+          },
+          {
+            "q_id": 7,
+            "answer_level": 1,
+            "answer": "Das Kaskadenmodell ist eine fachspezifisch passende Lösung um die Gleichstellung aller Geschlechter zu erreichen. Es ist ein anpassungsfähiges, realisierbares und vor allem realistisches Modell, dass Gleichstellung fördert. Allerdings muss das Kaskadenmodell auch geschlechterunspezifisch eingesetzt werden und nicht nur in männerdominierten Fächern zur Erhöhung des Frauenanteils eingesetzt werden.  Dabei bildet die Geschlechterverteilung der Absolvent*innen die Basisebene. Gleichzeitig darf aber nicht außer Acht gelassen werden, dass auch auf der Ebene der Studieninteressierten geworben werden muss, um die Zahl der unterrepräsentierten Studierenden und Absolvent*innen zu erhöhen, wenn eine Disziplin besonders von einem Geschlecht dominiert wird."
+          },
+          {
+            "q_id": 8,
+            "answer_level": 1,
+            "answer": "Die Studentische Vertretung vertritt die fachlichen, wirtschaftlichen und sozialen Belange, fördert geistige, musische, kulturelle und sportliche Interessen und pflegt die Beziehung zwischen deutschen und internationalen Studierenden. Dieser rechtlichen Rahmen ist so im BayHSchG gegeben. Die Studentische Vertretung sollte sich die Option offen halten sich bei jedem Thema äußern zu können. Ob die Studentische Vertretung sich am Ende äußert muss immer eine themenbezogene Entscheidung sein und kann nicht generell beantwortet werden."
+          },
+          {
+            "q_id": 9,
+            "answer_level": -1,
+            "answer": "Es gibt viele Thematiken und Gebiete die die Studentische Vertretung ohne Einfluss der Hochschulleitung bearbeiten darf und soll. Hierbei sind inhaltliche Absprachen mit der Hochschulleitung sinnfrei. Insbesondere wenn in einer öffentlichen Äußerung eine Position gegen die Hochschulleitung eingenommen wird kann eine Rücksprache zur Veröffentlichung sogar kontraproduktiv sein. Wenn die Studentische Vertretung allerdings gemeinsam mit der Hochschulleitung Positionen erarbeitet und veröffentlicht, ist eine Absprache notwendig und sinnvoll."
+          },
+          {
+            "q_id": 10,
+            "answer_level": 1,
+            "answer": "Die Studentische Vertretung informiert bereits öffentlich über ihre hochschulpolitische Arbeit. Weitere Bemühungen in dieser Richtung sind sehr zu begrüßen."
+          },
+          {
+            "q_id": 11,
+            "answer_level": -1,
+            "answer": "Der Fachschaftenrat ist eine Form der repräsentativen Demokratie. Aufgrund der Größe der TUM und den gegebenen Strukturen würde ein StuPa in gewisser Weise eine Doppelstruktur zu den gewählten Fachschaften darstellen und mit diesen konkurrieren."
+          },
+          {
+            "q_id": 12,
+            "answer_level": 1,
+            "answer": "Eine verfasste Studierendenschaft würde einiges leichter machen. Die ursprüngliche Begründung für die Abschaffung in den 70er Jahren „den linken Sumpf an den Hochschulen trocken zu legen“ ist fadenscheinig. Die demokratisch gewählten Studierendenvertretungen müssen nicht mehrheitlich die Meinung der regierenden Parteien vertreten, um effektiv für die Studiereden zu arbeiten."
+          },
+          {
+            "q_id": 13,
+            "answer_level": 0,
+            "answer": "Die Studierenden betrifft die Umstrukturierung der TUM von Fakultäten zu Schools in einem großen Teil ihres Studienlebens nicht. Es ändern sich weder Studiengänge noch wird die Lehre angepasst. Als einziges ändert sich der Name der Fakultät an denen Studierende studieren und ihren Abschluss bekommen. Ob jedoch der Studiengang Maschinenwesen an der Fakultät Maschinenwesen oder der Studiengang Maschinenwesen an der School of Engineering and Design studiert wird, bringt in unseren Augen weder Vor- noch Nachteil für die Studierenden."
+          },
+          {
+            "q_id": 14,
+            "answer_level": 1,
+            "answer": "Die studentischen Vertreter*innen sollen in einer gewissen Weise entlastet werden. Wenn teilweise über 40h pro Woche in die Arbeit in Senat oder AStA fließen, die dem Wohle aller Studierenden dient sollte es dafür einen gewissen Ausgleich geben. Ob dieser allerdings finanziell sein sollte oder ob nicht eine Verschiebung der Credithürden hilfreicher ist, ist Teil einer laufenden Diskussion mit der Hochschulleitung. Die Vertreter*innen der Studierenden in Nordrhein-Westfalen erhalten beispielsweise während ihrer Amtszeit eine Aufwandsentschädigung in Höhe des BAföG Höchstsatz."
+          },
+          {
+            "q_id": 15,
+            "answer_level": 1,
+            "answer": "Die Studentische Vertretung unterstützt die Ziele von Fridays for Future ohne eine Organisation im Speziellen zu unterstützen. Die Ziele der Nachhaltigkeit und des Klimaschutzes sind unglaublich wichtig und werden in der Studentischen Vertretung von einem eigenen Referat für Umwelt verfolgt. Ebenso konnten wir die Einrichtung einer Stabstelle für Nachhaltigkeit an der TUM erreichen."
+          },
+          {
+            "q_id": 16,
+            "answer_level": 1,
+            "answer": "Studentische Hilfskräfte und Tutor*innen sind in erster Linie ebenfalls Studierende. Da die Studentische Vertretung, laut BayHSchG, die Studierenden unter anderem in ihren wirtschaftlichen Belangen unterstützt ist diese Forderung elementar. Besonders gegenüber der TUM als Arbeitgeber kann die Studentische Vertretung sich sinnvoll einbringen."
+          },
+          {
+            "q_id": 17,
+            "answer_level": 1,
+            "answer": "Klimaneutralität ist ein ge­samt­ge­sell­schaft­liches Thema. Eine so große technische Universität wie die TUM hat einen Vorbildcharakter für den Rest der Gesellschaft. Sie betreibt an vielen Lehrstühlen Forschung in den verschiedensten Gebieten der Nachhaltigkeit und arbeitet kaum mit Prozessen die nicht in einem Zeitraum von zehn Jahren umstellbar sind. Unsere Forderungen nach Green Offices und einer Stabsstelle für Nachhaltigkeit ist die TUM bereits nachgekommen. Jetzt müssen diese mit ihrer Arbeit das wichtige Ziel der Klimaneutralität möglichst zeitnah erreichen."
+          },
+          {
+            "q_id": 18,
+            "answer_level": 1,
+            "answer": "Die TUM profitiert enorm davon der Wirtschaft den zündenden Funken der Wissenschaft zu liefern. Mit den Geldern aus der Wirtschaft wird mehr und tiefergehende Forschung ermöglicht, die rein mit Staatsmitteln nicht möglich wäre. Allerdings wollen wir auch deutlich machen, dass nicht jeder Geldgeber ein guter Geldgeber ist. Wir fordern daher eine Einführung von Spielregeln im Bereich Finanzierung durch die Wirtschaft. Hier ist ein besonderes Augenmerk auf die Transparenz und Unabhängigkeit der Forschung von der Finanzierung zu legen."
+          },
+          {
+            "q_id": 19,
+            "answer_level": -1,
+            "answer": "Wir vertreten das Ideal, dass Professor*innen nicht nur Forschung oder Lehre machen sollten. Starke Forscher sind wichtig für das Ansehen einer Universität, aber sie dürfen nicht auf Kosten der Lehrqualität an die TUM geholt werden. Für uns gehört zu einer Spitzenuniversität die Spitzenforschung betreibt, dass die Forschenden ihre Forschung und Motivation an die Studierenden weitergeben. Wenn sie allerdings keine Lehre halten müssen ist dieser wichtige Wissenstransfer nicht gegeben."
+          },
+          {
+            "q_id": 20,
+            "answer_level": -1,
+            "answer": "Proctorio ist nicht nur eine amerikanische Firma sondern steht als Mittel der Prüfungsüberwachung stark in der Kritik, weil es in das Grundrecht auf Unverletzlichkeit der Wohnung eingreift. Es gibt einige TUM-interne Tools die geeigneter sind um eine Klausur online durchzuführen. Außerdem muss für jede online angebotene Klausur zeitgleich eine Präsenzklausur angeboten werden, wenn Studierende, aus welchen Gründen auch immer, nicht an der mit Proctorio durchgeführten Klausur teilnehmen möchten."
+          },
+          {
+            "q_id": 21,
+            "answer_level": 1,
+            "answer": "Die einzige tragbare Alternative für Studierende, die nicht an datenschutztechnisch fragewürdigen Klausuren teilnehmen wollen, ist eine zeitgleich stattfindende Präsenzklausur. In jeder anderen Lösung müssen Studierende ihre datenschutzrechtliche Bedenken gegen ECTS und den Studienfortschritt abwägen, was nicht passieren darf."
+          },
+          {
+            "q_id": 22,
+            "answer_level": 0,
+            "answer": "Der TUM ist anzurechnen, dass in den vergangen Semestern überhaupt Lehre stattgefunden hat. Ohne die schnelle und einfache Lösung Zoom wäre das nicht möglich gewesen. Trotzdem muss die TUM schnellstmöglich auf selbstgehostete Dienste umsteigen um eine datenschutzrechtlich sinnvollere Alternative zu Zoom zu bieten. Obwohl wir uns im letzten Jahr dafür eingesetzt haben und erreichen konnten, dass die TUM sich mit Alternativen beschäftigt, hat die Überzeugungsarbeit nicht gereicht um von etwas sicher funktionierendem auf etwas Ungewisses umzusteigen."
+          },
+          {
+            "q_id": 23,
+            "answer_level": -1,
+            "answer": "Die TUM sollte schnellstmöglich auf selbstgehostete Dienste umsteigen. Besonders wichtig ist dies um nicht noch ein Semester Studierende mit Datenschutzbedenken gegenüber Zoom von der Teilnahme an der Lehre auszuschließen."
+          },
+          {
+            "q_id": 24,
+            "answer_level": 0,
+            "answer": "Wir begrüßen es, dass Studierende die Wahl haben sollen ob sie eine Veranstaltung online oder vor Ort besuchen.\r\nEs gibt hierbei jedoch große Unterschiede zwischen Praktika und Vorlesungen. Gerade Praktika benötigen in den allermeisten Fällen zwingend eine Form von Präsenzlehre und können online nur sehr schlecht abgebildet werden. Keinenfalls darf zu Lasten der Studierenden auf reine Blockpraktika umgestiegen werden.\r\nAllerdings gab es bereits vor Corona Vorlesungen die komplett online stattgefunden haben und ein didaktisch sinnvolles Konzept dafür entwickelt haben. Diese soll es selbstverständlich auch weiterhin geben dürfen! Ebenso sollen weiterhin Aufzeichnungen von Präsenzlehre ermöglicht und gefördert werden."
+          },
+          {
+            "q_id": 25,
+            "answer_level": 1,
+            "answer": "Wir finde, dass digitale Klausuren durchaus Potential haben und das Lehrportfolio erweitern können. Wir fordern aber explizit, dass Klausuren nicht mit Proctorio oder einem ähnlichen Videosystem zur Erkennung von Unterschleif überwacht werden. Dabei sind digitale Klausuren allerdings in unseren Augen nur sinnvoll vor Ort im Hörsaal oder PC-Lab durchführbar. Elektronische Fernprüfungen sind ein gänzlich anderes Thema und anders zu bewerten.\r\nJe nach Format ergibt eine digitale Klausur mehr oder weniger Sinn. Programmieraufgaben und Multiple Choice Prüfungen lassen sich wahrscheinlich sehr gut abbilden, einige andere Formate sind auf Papier besser zu bearbeiten."
+          },
+          {
+            "q_id": 26,
+            "answer_level": 1,
+            "answer": "Wir finden es unter den gegeben Umständen nicht vertretbar, dass alle Studierenden vor Ort in der Universität wählen sollen. Die Alternative dafür einen extra Antrag zur Briefwahl stellen zu müssen ist müßig und aufwändig. Wir würden begrüßen, wenn die TUM ähnlich ihrer Konkurrenzuniversität in München allen Wahlberechtigten automatisch Briefwahlunterlagen zusenden würde."
+          },
+          {
+            "q_id": 27,
+            "answer_level": -1,
+            "answer": "Hochschulwahlen sind ebenso demokratische, valide und wichtige Wahlen wie Kommunalwahlen, Landtagswahlen oder Bundestagswahlen. Wir sprechen uns stark gegen die Vernachlässigung von Wahlrechtsgrundsätze aus, auch wenn es \"nur\" um Hochschulwahlen geht. Wir wissen, dass digitale Hochschulwahlen in einigen Kreisen als Versuchsobjekt für die Einführung elektronischer Wahlen auf beispielsweise Landesebene genutzt werden. Diese Vernachlässigung von Wahlrechtsgrundsätzen ist auf Ebene der Hochschulen schon untragbar, eine Übernahme in weitaus wichtigere Wahlen wäre katastrophal."
+          }
+        ]
+      }
     ]
   }
 ]

@@ -16,7 +16,7 @@ const fs = require('fs')
 const deWahl = require('../src/assets/wahl_de.json');
 const enWahl = require('../src/assets/wahl_en.json');
 const confluenceJSON = require('./confluence_export.json')
-console.log(deWahl)
+// console.log(deWahl)
 // console.log(confluenceJSON)
 
 
@@ -111,11 +111,11 @@ function questions2JSON(filepath){
     var questions = {}
     questions.de = []
     questions.en = []
-    for(var i = 0; i<questionNumber; i++){
+    for(let i = 0; i<questionNumber; i++){
         questions.de.push({q_id: i, question: questionArray[i]})
     }
 
-    for(var i = 0; i<questionNumber; i++){
+    for(let i = 0; i<questionNumber; i++){
         questions.en.push({q_id: i, question: questionArray[i+questionNumber]})
     }
 
@@ -150,12 +150,12 @@ function answers(date_election, questionList){
         var partyEntryDE = {}
         Object.keys(obj).length
 
-        partyEntryEN.name = entry.fields.name
+        partyEntryEN.name = entry.fields.nameListe
         partyEntryEN.program = entry.fields.wahlprogramm
         partyEntryEN.website = entry.fields.homepage
         partyEntryEN.answers=[]
 
-        partyEntryDE.name = entry.fields.name
+        partyEntryDE.name = entry.fields.nameListe
         partyEntryDE.program = entry.fields.wahlprogramm
         partyEntryDE.website = entry.fields.homepage
         partyEntryDE.answers=[]
